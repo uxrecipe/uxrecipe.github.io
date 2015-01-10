@@ -23,6 +23,8 @@ input.labelauty + label
 	display: table;
 	font-size: 11px;
 	padding: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background-color: #efefef;
 	color: #b3b3b3;
 	cursor: pointer;
