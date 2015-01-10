@@ -58,7 +58,7 @@ input.labelauty + label > span.labelauty-checked
 input.labelauty + label > span.labelauty-unchecked-image,
 input.labelauty + label > span.labelauty-checked-image
 {
-/*	display: inline-block;
+	display: inline-block;
 	width: 16px;
 	height: 16px;
 	vertical-align: bottom;
@@ -68,7 +68,7 @@ input.labelauty + label > span.labelauty-checked-image
 	transition: background-image 0.5s linear;
 	-moz-transition: background-image 0.5s linear;
 	-webkit-transition: background-image 0.5s linear;
-	-o-transition: background-image 0.5s linear;*/
+	-o-transition: background-image 0.5s linear;
 }
 
 /* When there's a label, add a little margin to the left */
@@ -132,7 +132,7 @@ input.labelauty[disabled] + label
 }
 
 /* Add a background to (un)checked images */
-/*input.labelauty + label > span.labelauty-unchecked-image
+input.labelauty + label > span.labelauty-unchecked-image
 {
 	background-image: url( images/input-unchecked.png );
 }
@@ -140,4 +140,4 @@ input.labelauty[disabled] + label
 input.labelauty + label > span.labelauty-checked-image
 {
 	background-image: url( images/input-checked.png );
-}*/
+}
