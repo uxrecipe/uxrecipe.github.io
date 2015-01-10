@@ -8,8 +8,8 @@
 	font-weight: 300;
 }
 
-label, .labelauty-unchecked {
-	width: 100%;
+label, .labelauty-unchecked, .labeluaty-checked {
+	width: 100% !important;
 }
 
 
@@ -31,4 +31,8 @@ label, .labelauty-unchecked {
 
 h3, h6, p {
 	color: #727272;
+}
+
+.table {
+	border-color: #f5f5f5;
 }

@@ -163,9 +163,9 @@
 				var checked_width = label_object.find( "span.labelauty-checked" ).width();
 
 				if( unchecked_width > checked_width )
-					label_object.find( "span.labelauty-checked" ).width( unchecked_width );
+					label_object.find( "span.labelauty-checked" ); //.width( unchecked_width )
 				else
-					label_object.find( "span.labelauty-unchecked" ).width( checked_width );
+					label_object.find( "span.labelauty-unchecked" ); // .width( checked_width )
 			}
 		});
 	};
