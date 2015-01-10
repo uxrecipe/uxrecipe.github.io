@@ -58,6 +58,7 @@ input.labelauty + label > span.labelauty-checked
 input.labelauty + label > span.labelauty-unchecked-image,
 input.labelauty + label > span.labelauty-checked-image
 {
+
 /*	display: inline-block;
 	width: 16px;
 	height: 16px;
