@@ -9,5 +9,8 @@ $(document).ready(function(){
         if($(this).attr("value")=="Expert"){
             $(".result").toggle();
         }
+        if($(this).attr("value")=="Expert2"){
+            $(".result2").toggle();
+        }
     });
 });
