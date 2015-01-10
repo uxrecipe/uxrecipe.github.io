@@ -23,3 +23,12 @@ label, .labelauty-unchecked {
 	margin-left: 3px;
 	padding-left: 3px;
 }
+
+
+.row .col-md-8 .col-md-3{
+	margin-top: 10px;
+}
+
+h3, h6, p {
+	color: #727272;
+}
