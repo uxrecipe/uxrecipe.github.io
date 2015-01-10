@@ -18,5 +18,8 @@ label, .labelauty-unchecked {
 	display: none;
 }
 
-.container-fluid {
+
+.coin {
+	margin-left: 5px;
+	padding-left: 5px;
 }
