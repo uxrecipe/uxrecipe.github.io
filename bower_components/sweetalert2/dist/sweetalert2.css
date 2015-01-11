@@ -13,7 +13,7 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-radius: 5px;
   box-sizing: border-box;
-  text-align: center;
+  text-align: left;
   position: absolute;
   left: 50%;
   top: 100px;
@@ -28,7 +28,7 @@
     position: relative;
     margin: 0;
     padding: 0;
-    line-height: 60px;
+    line-height: 36px;
     display: block; }
   .sweet-alert p {
     font-size: 16px;
@@ -48,6 +48,7 @@
     border-radius: 5px;
     padding: 10px 32px;
     margin: 26px 5px 0;
+    margin:0 auto;
     cursor: pointer; }
     .sweet-alert button:focus {
       outline: none; }
