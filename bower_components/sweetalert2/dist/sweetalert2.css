@@ -13,14 +13,9 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   box-sizing: border-box;
   text-align: left;
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  width: 100%;
-  margin-top: -150px;
-  min-height:180px;
-  max-height: 100%;
-  overflow-y: scroll;
+  position: absolute;
+  left:50%;
+  top: 10%;
   display: none;
   z-index: 2000; 
 }
