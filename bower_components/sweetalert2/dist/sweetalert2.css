@@ -540,7 +540,7 @@
 
 
 @media (max-width: 767px) {
-  .sweetalert {
+  .sweet-alert {
     top: 5%;
   }
 }
