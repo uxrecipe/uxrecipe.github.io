@@ -1,4 +1,4 @@
-/*.sweet-overlay {
+.sweet-overlay {
   background-color: rgba(0, 0, 0, 0.4);
   position: fixed;
   left: 0;
@@ -6,7 +6,7 @@
   top: 0;
   bottom: 0;
   display: none;
-  z-index: 1000; }*/
+  z-index: 1000; }
 
 .sweet-alert {
   background-color: #fff;
@@ -19,7 +19,6 @@
   z-index: 2000; 
 }
   
-
   .sweet-alert h2 {
     color: #575757;
     font-size: 30px;
