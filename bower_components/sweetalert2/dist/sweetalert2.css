@@ -14,10 +14,10 @@
   border-radius: 5px;
   box-sizing: border-box;
   text-align: left;
-  position: absolute;
+  position: fixed;
   left: 50%;
-  top: 10%;
-  margin-top: 100px;
+  top: 50%;
+  margin-top: -150px;
   height: auto;
   overflow: hidden;
   display: none;
@@ -39,7 +39,7 @@
     display: block; }
   .sweet-alert p {
     font-size: 14px;
-    text-align: center;
+    text-align: left;
     font-weight: 300;
     position: relative;
     float: none;
