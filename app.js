@@ -88,7 +88,7 @@ $(document).ready(function(){
 document.getElementById('planning').onclick = function(){
 	swal({
   title: 'Planning',
-  width: 800,
+  width: 600,
   html:
     'You can use <b>bold text</b>, ' +
     ' <a href="//github.com">links</a> ' +
@@ -100,7 +100,7 @@ document.getElementById('planning').onclick = function(){
 document.getElementById('research').onclick = function(){
 	swal({
   title: 'Research',
-  width: 800,
+  width: 600,
   html:
     'You can use <b>bold text</b>, ' +
     ' <a href="//github.com">links</a> ' +
@@ -111,7 +111,7 @@ document.getElementById('research').onclick = function(){
 document.getElementById('exploration').onclick = function(){
 	swal({
   title: 'Exploration',
-  width: 800,
+  width: 600,
   html:
     'You can use <b>bold text</b>, ' +
     ' <a href="//github.com">links</a> ' +
@@ -123,7 +123,7 @@ document.getElementById('exploration').onclick = function(){
 document.getElementById('testing').onclick = function(){
 	swal({
   title: 'Testing',
-  width: 800,
+  width: 600,
   html:
     'You can use <b>bold text</b>, ' +
     ' <a href="//github.com">links</a> ' +
@@ -134,7 +134,7 @@ document.getElementById('testing').onclick = function(){
 document.getElementById('design').onclick = function(){
 	swal({
   title: 'Design',
-  width: 800,
+  width: 600,
   html:
     'You can use <b>bold text</b>, ' +
     ' <a href="//github.com">links</a> ' +
@@ -145,7 +145,7 @@ document.getElementById('design').onclick = function(){
 document.getElementById('information').onclick = function(){
 	swal({
   title: 'Information Architecture',
-  width: 800,
+  width: 600,
   html:
     'You can use <b>bold text</b>, ' +
     ' <a href="//github.com">links</a> ' +
