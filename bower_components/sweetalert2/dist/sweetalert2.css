@@ -17,6 +17,7 @@
   position: absolute;
   left: 50%;
   top: 10%;
+  margin-top: 100px;
   height: auto;
   overflow: hidden;
   display: none;
