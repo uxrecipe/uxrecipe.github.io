@@ -16,10 +16,10 @@
   text-align: left;
   position: fixed;
   left: 50%;
-  top: 50%;
+  top: 40%;
   margin-top: -150px;
   min-height:180px;
-  max-height: 450px;
+  max-height: 100%;
   overflow: hidden;
   overflow-y: scroll;
   display: none;
