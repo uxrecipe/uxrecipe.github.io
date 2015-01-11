@@ -14,7 +14,7 @@
   text-align: left;
   position: absolute;
   left:50%;
-  top: 10%;
+  top: 50%;
   display: none;
   z-index: 2000; 
 }
