@@ -16,7 +16,6 @@
   text-align: left;
   position: absolute;
   left: 50%;
-  top: 100px;
   display: none;
   z-index: 2000; }
   .sweet-alert h2 {
