@@ -14,10 +14,10 @@
   border-radius: 5px;
   box-sizing: border-box;
   text-align: left;
-  position: fixed;
+  position: absolute;
+  overflow: visible;
   left: 50%;
-  top: 300px;
-  min-height: 10%;
+  top: 15%;
   display: none;
   z-index: 2000; }
   .sweet-alert h2 {
