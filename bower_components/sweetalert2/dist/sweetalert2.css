@@ -14,9 +14,9 @@
   border-radius: 5px;
   box-sizing: border-box;
   text-align: center;
-  position: fixed;
+  position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   margin-top: -200px;
   overflow: hidden;
   display: none;
