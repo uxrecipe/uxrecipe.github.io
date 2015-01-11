@@ -48,3 +48,8 @@ h5 em {
 	padding-right: 5px;
 }
 
+
+html, .container-fluid{
+	background: #F2F4F6;
+}
+

@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="bower_components/labelauty/source/jquery-labelauty.css">
-  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/sweetalert2/dist/sweetalert2.css">
+  <link rel="stylesheet" type="text/css" href="app.css">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         <h3> Select the ingredients of your UX baking process </h3>
 
         <div class="row titleRow">
-            <div class="col-md-12"><h5>Preparation is the key. <em>#planning</em></h5></div>
+            <div class="col-md-12"><h5>Preparation is the key. <a href="#" id="planning"><em>#planning</em></a></h5></div>
         </div>
 
         <div class="row">
@@ -39,7 +40,7 @@
 
 
         <div class="row titleRow">
-            <div class="col-md-12"><h5>Study the recipes. <em>#research</em></h5></div>
+            <div class="col-md-12"><h5>Study the recipes. <a href="#" id="research"><em>#research</em></a></h5></div>
         </div>
 
 
@@ -60,7 +61,7 @@
 
 
         <div class="row titleRow">
-            <div class="col-md-12"><h5>Know your hungry people. <em>#exploration</em></h5></div>
+            <div class="col-md-12"><h5>Know your hungry people. <a href="#" id="exploration"><em>#exploration</em></a></h5></div>
         </div>
 
 
@@ -81,7 +82,7 @@
 
 
        <div class="row titleRow">
-            <div class="col-md-12"><h5>Taste before serving. <em>#testing</em></h5></div>
+            <div class="col-md-12"><h5>Taste before serving. <a href="#" id="testing"><em>#testing</em></a></h5></div>
         </div>
 
 
@@ -101,7 +102,7 @@
         </div>
 
        <div class="row titleRow">
-            <div class="col-md-12"><h5>If you bake it, they will come. <em>#design</em></h5></div>
+            <div class="col-md-12"><h5>If you bake it, they will come. <a href="#" id="design"><em>#design</em></a></h5></div>
         </div>
 
         <div class="row">
@@ -120,8 +121,9 @@
         </div>
 
 
+
        <div class="row titleRow">
-            <div class="col-md-12"><h5>There's order even in a messy kitchen. <em>#information architecture</em></h5></div>
+            <div class="col-md-12"><h5>There's order even in a messy kitchen. <a href="#" id="information"><em>#information architecture</em></a></h5></div>
         </div>
 
 
@@ -198,10 +200,12 @@
   </div>
 
 
+
   <!-- scripts -->
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/labelauty/source/jquery-labelauty.js"></script>
+  <script src="bower_components/sweetalert2/dist/sweetalert2.min.js"></script>
   <script src="app.js"></script> 
 </body>
 </html>
