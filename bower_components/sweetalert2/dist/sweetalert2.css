@@ -16,7 +16,7 @@
   text-align: left;
   position: fixed;
   left: 50%;
-  top: 40%;
+  top: 45%;
   margin-top: -150px;
   min-height:180px;
   max-height: 100%;
@@ -40,7 +40,7 @@
     line-height: 32px;
     display: block; }
   .sweet-alert p {
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
     font-weight: 300;
     position: relative;
@@ -60,7 +60,7 @@
     cursor: pointer; 
     margin-left:10px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
     .sweet-alert button:focus {
       outline: none; }
