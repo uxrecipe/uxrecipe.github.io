@@ -16,9 +16,10 @@
   text-align: left;
   position: absolute;
   left: 50%;
-  top: 0px;
+  top: 0;
   overflow: hidden;
   display: none;
+
   z-index: 2000; 
 }
   
