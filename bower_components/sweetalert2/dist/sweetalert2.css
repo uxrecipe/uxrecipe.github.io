@@ -29,16 +29,17 @@
     margin: 0;
     padding: 0;
     line-height: 36px;
-    display: block; }
+    display: block; 
+    margin-bottom: 10px;}
   .sweet-alert p {
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     font-weight: 300;
     position: relative;
     float: none;
     margin: 0;
     padding: 0;
-    line-height: normal; }
+    line-height: 16px; }
   .sweet-alert button {
     color: #fff;
     border: 0;
@@ -49,7 +50,9 @@
     padding: 10px 32px;
     margin: 26px 5px 0;
     margin:0 auto;
-    cursor: pointer; }
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10px; }
     .sweet-alert button:focus {
       outline: none; }
     .sweet-alert button[disabled] {
