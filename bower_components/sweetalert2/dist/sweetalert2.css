@@ -18,8 +18,10 @@
   left: 50%;
   top: 50%;
   margin-top: -150px;
-  height: auto;
+  min-height:180px;
+  max-height: 450px;
   overflow: hidden;
+  overflow-y: scroll;
   display: none;
   z-index: 2000; 
 }
@@ -58,6 +60,7 @@
     cursor: pointer; 
     margin-left:10px;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
     .sweet-alert button:focus {
       outline: none; }
