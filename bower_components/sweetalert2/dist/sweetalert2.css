@@ -16,10 +16,9 @@
   text-align: left;
   position: absolute;
   left: 50%;
-  top: 0;
+  top: 100px;
   overflow: hidden;
   display: none;
-
   z-index: 2000; 
 }
   
