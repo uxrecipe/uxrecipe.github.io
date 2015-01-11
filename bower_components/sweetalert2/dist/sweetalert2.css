@@ -11,17 +11,15 @@
 .sweet-alert {
   background-color: #fff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  border-radius: 5px;
   box-sizing: border-box;
   text-align: left;
   position: fixed;
   left: 50%;
   top: 50%;
+  width: 100%;
   margin-top: -150px;
   min-height:180px;
   max-height: 100%;
-  overflow: hidden;
-  overflow-y: scroll;
   display: none;
   z-index: 2000; 
 }
