@@ -13,11 +13,12 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-radius: 5px;
   box-sizing: border-box;
-  text-align: left;
-  position: absolute;
-  overflow: visible;
+  text-align: center;
+  position: fixed;
   left: 50%;
-  top: 15%;
+  top: 50%;
+  margin-top: -200px;
+  overflow: hidden;
   display: none;
   z-index: 2000; }
   .sweet-alert h2 {
@@ -29,18 +30,17 @@
     position: relative;
     margin: 0;
     padding: 0;
-    line-height: 36px;
-    display: block; 
-    margin-bottom: 10px;}
+    line-height: 60px;
+    display: block; }
   .sweet-alert p {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     font-weight: 300;
     position: relative;
     float: none;
     margin: 0;
     padding: 0;
-    line-height: 16px; }
+    line-height: normal; }
   .sweet-alert button {
     color: #fff;
     border: 0;
@@ -50,10 +50,7 @@
     border-radius: 5px;
     padding: 10px 32px;
     margin: 26px 5px 0;
-    margin:0 auto;
-    cursor: pointer;
-    margin-top: 20px;
-    margin-left: 10px; }
+    cursor: pointer; }
     .sweet-alert button:focus {
       outline: none; }
     .sweet-alert button[disabled] {
@@ -535,12 +532,3 @@
 .pulse-warning-ins {
   -webkit-animation: pulse-warning-ins 0.75s infinite alternate;
           animation: pulse-warning-ins 0.75s infinite alternate; }
-
-
-
-
-@media (max-width: 767px) {
-  .sweet-alert {
-    top: 55%;
-  }
-}
