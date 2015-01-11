@@ -535,3 +535,12 @@
 .pulse-warning-ins {
   -webkit-animation: pulse-warning-ins 0.75s infinite alternate;
           animation: pulse-warning-ins 0.75s infinite alternate; }
+
+
+
+
+@media (max-width: 767px) {
+  .sweetalert {
+    top: 5%;
+  }
+}
