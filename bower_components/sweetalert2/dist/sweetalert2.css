@@ -16,10 +16,10 @@
   text-align: left;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 10%;
   height: auto;
   overflow: hidden;
-  margin-top: -200px;
+  margin-top: 100px;
   display: none;
   z-index: 2000; 
 }
