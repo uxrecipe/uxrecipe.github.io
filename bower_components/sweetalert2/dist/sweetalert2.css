@@ -14,9 +14,11 @@
   border-radius: 5px;
   box-sizing: border-box;
   text-align: left;
-  position: absolute;
+  position: fixed;
   left: 50%;
-  top: 25%;
+  top: 50%;
+  margin-top: -200px;
+  overflow: hidden;
   display: none;
   z-index: 2000; 
 }
@@ -30,6 +32,7 @@
     text-transform: none;
     position: relative;
     margin: 0;
+    margin-bottom: 20px;
     padding: 0;
     line-height: 26px;
     display: block; }
