@@ -35,11 +35,11 @@ h3, h6, p {
 
 .titleRow div {
 	display: block;
-	margin-top: 10px;
+	margin-top: 8px;
 	margin-bottom: -15px;
 }
 
-h6 em {
+h5 em {
 	font-weight: 100;
 	background: #FDFDFD;
 	margin-left: 10px;
