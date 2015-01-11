@@ -1,9 +1,11 @@
+
+// launch labeluaty
 $(document).ready(function(){
     $(":checkbox").labelauty();
 });
 
 
-
+// show/hide table
 $(document).ready(function(){
     $('input[type="checkbox"]').click(function(){
         if($(this).attr("value")=="Expert"){
@@ -16,6 +18,7 @@ $(document).ready(function(){
 });
 
 
+// create the hashtag modals
 document.getElementById('planning').onclick = function(){
 	swal({
   title: 'Planning',

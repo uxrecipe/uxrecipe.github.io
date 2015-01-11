@@ -1,44 +1,52 @@
+
+/*modifying the icon size*/
 .fa {
 	font-size: 16px;
 	margin-right: 10px;
 }
 
+/*modifying the checkbox label*/
 .labelautyLabel {
 	font-size: 14px;
 	font-weight: 300;
 }
 
+/*fixing checkbox width bug*/
 label, .labelauty-unchecked, .labeluaty-checked {
 	width: 100% !important;
 }
 
 
-
+/*hiding the table*/
 .toggled-off {
 	display: none;
 }
 
-
+/*arranging the coin radio bullets*/
 .coin {
 	margin-left: 3px;
 	padding-left: 3px;
 }
 
-
+/*separating the checkbox blocks*/
 .row .col-md-8 .col-md-3{
 	margin-top: 15px;
 }
 
+/*modifying text color*/
 h3, h6, p {
 	color: #727272;
 }
 
+
+/*separating the title blocks*/
 .titleRow div {
 	display: block;
 	margin-top: 8px;
 	margin-bottom: -15px;
 }
 
+/*modifying the tags*/
 h5 em {
 	font-weight: 300;
 	/*background: #EAF4FF;*/
@@ -49,6 +57,7 @@ h5 em {
 }
 
 
+/*setting up the background*/
 html, .container-fluid{
 	background: #F2F4F6;
 }
