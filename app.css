@@ -42,8 +42,15 @@ h3, h6, p {
 /*separating the title blocks*/
 .titleRow div {
 	display: block;
-	margin-top: 8px;
+	margin-top: 30px;
 	margin-bottom: -15px;
+}
+
+
+/*spacing the second new row*/
+.titleRow2 .col-md-3 {
+	display: block;
+	margin-top: 5px !important;
 }
 
 /*modifying the tags*/
