@@ -69,3 +69,9 @@ html, .container-fluid{
 	background: #F2F4F6;
 }
 
+/*center logo*/
+#logo img{
+	margin: 0 auto;
+	width: 25%;
+}
+
