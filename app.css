@@ -34,7 +34,7 @@ label, .labelauty-unchecked, .labeluaty-checked {
 }
 
 /*modifying text color*/
-h3, h6, p {
+h3, h4, h6, p {
 	color: #727272;
 }
 
@@ -74,9 +74,13 @@ html, .container-fluid{
 	margin: 0 auto;
 }
 
-@media screen and (min-width: 900px) {
-#logo img{
-	width: 30%;
+#logo h3, h4, p {
+	text-align: center;
 }
 
+/*responsive logo fix*/
+@media screen and (min-width: 900px) {
+	#logo img{
+		width: 30%;
+	}
 } 
