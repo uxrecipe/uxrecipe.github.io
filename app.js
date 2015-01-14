@@ -5,6 +5,15 @@ $(document).ready(function(){
 });
 
 
+// smooth scroll
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
+
+
 // show/hide table
 $(document).ready(function(){
     $('input[type="checkbox"]').click(function(){
