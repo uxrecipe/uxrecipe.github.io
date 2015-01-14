@@ -72,6 +72,8 @@ html, .container-fluid{
 /*center logo*/
 #uxlogo img{
 	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 #uxlogo h3, h4, p {
