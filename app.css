@@ -26,7 +26,7 @@ label, .labelauty-unchecked, .labeluaty-checked {
 
 /*arranging the coin radio bullets*/
 .coin {
-	margin-right: 10px;
+	margin-right: 5px;
 	padding-left: 3px;
 }
 
@@ -157,7 +157,7 @@ input[type=number] {
 
 /*customize radio input */
 th .labelauty-checked, th .labelauty-unchecked {
-	padding: 5px;
+	padding: 3px;
 	border-radius: 0px !important;
 }
 
