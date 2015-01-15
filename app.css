@@ -161,3 +161,15 @@ th .labelauty-checked, th .labelauty-unchecked {
 	border-radius: 0px !important;
 }
 
+th .labelauty-unchecked {
+	background: white;
+	color: #727272;
+}
+th input.labelauty:checked + label {
+	background-color: #4F3C48;
+	border-radius: 0px;
+}
+
+th input.labelauty:checked:not([disabled]) + label:hover {
+	background-color: #72686F;
+}
