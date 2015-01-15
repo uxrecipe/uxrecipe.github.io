@@ -173,3 +173,18 @@ th input.labelauty:checked + label {
 th input.labelauty:checked:not([disabled]) + label:hover {
 	background-color: #72686F;
 }
+
+
+/*customizing hashtag links*/
+
+h5 a {
+	color: #FF443A;
+		   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+h5 a:hover {
+	color: #FF443A;
+	opacity: .7;
+}
