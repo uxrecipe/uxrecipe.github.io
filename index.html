@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>UX Recipe - a tool by Alecsandru Grigoriu</title>
+  <title>UX Recipe - discover, choose and estimate your next ux project tools & techniques</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -109,7 +109,7 @@
 
 
        <div class="row titleRow">
-            <div class="col-md-12"><h5>If you bake it, they will come. <a href="#" id="design"><em>#design</em></a></h5></div>
+            <div class="col-md-12"><h5>If you bake it, they will come <a href="#" id="design"><em>#design</em></a></h5></div>
         </div>
 
         <div class="row">
@@ -172,10 +172,17 @@
               <h6>Days</h6>
             </th>
             <th class="col-md-4">
-              <h6>Cost 
-              <span class="coin"><input type="radio" name="coin" checked> &#36;</span>
-              <span class="coin"><input type="radio" name="coin"> &#128;</span>
-              </h6>
+              <table>
+                <tr>
+                  <th>
+                    <h6 class="coin">Cost</h6>
+                  </th>
+                  <th><input class="to-labelauty-icon labelauty labelicon" type="radio" name="coin" data-labelauty="EUR" checked=""> 
+              </th>
+                  <th><input class="to-labelauty-icon labelauty labelicon" data-labelauty="USD" type="radio" name="coin">
+              </th>
+                </tr>
+              </table>
             </th>
           </tr>
           <tr class="toggled-off result">
@@ -515,6 +522,8 @@
             </td>
           </tr>
         </table>
+
+        <a class="btn btn-primary btn-ux"> Generate my recipe</a>
 
       </div>
     </div>

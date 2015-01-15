@@ -35,11 +35,11 @@
 
 			// Default Checked Message
 			// This message will be visible when input is checked
-			checked_label: "Checked",
+			checked_label: "",
 
 			// Default UnChecked Message
 			// This message will be visible when input is unchecked
-			unchecked_label: "Unchecked",
+			unchecked_label: "",
 
 			// Minimum Label Width
 			// This value will be used to apply a minimum width to the text labels

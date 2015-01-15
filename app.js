@@ -4,6 +4,10 @@ $(document).ready(function(){
     $(":checkbox").labelauty();
 });
 
+$(document).ready(function(){
+    $(":radio").labelauty();
+});
+
 
 // smooth scroll
 $('a').click(function(){

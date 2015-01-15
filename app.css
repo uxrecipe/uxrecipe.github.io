@@ -26,7 +26,7 @@ label, .labelauty-unchecked, .labeluaty-checked {
 
 /*arranging the coin radio bullets*/
 .coin {
-	margin-left: 3px;
+	margin-right: 10px;
 	padding-left: 3px;
 }
 
@@ -88,6 +88,7 @@ html, .container-fluid{
 	text-align: center;
 }
 
+/*customize buttons*/
 #uxlogo a {
 	text-align: center;
 	margin-top: 20px;
@@ -97,14 +98,40 @@ html, .container-fluid{
 	border-radius: 3px;
 	font-size: 16px;
 	background: #4F3C48;
+	color: rgba(255,255,255, .9);
+	   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.btn-ux {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	font-size: 12px;
+	background: #B3B3B3;
 	color: #ffffff;
+	margin-left: 5px;
+	   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 }
 
 #uxlogo h3, h4 {
 	line-height: 30px;
 }
 
-#uxlogo a:hover {
+#uxlogo a:hover{
+	background: #4F3C48;
+	color: #fff;
+	opacity: .8;
+}
+
+a.btn-ux:hover {
+	background: #72686F;
 	opacity: .8;
 }
 
@@ -114,3 +141,23 @@ html, .container-fluid{
 		width: 30%;
 	}
 } 
+
+
+/*no spin buttons on number inputs*/
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+
+/*customize radio input */
+th .labelauty-checked, th .labelauty-unchecked {
+	padding: 5px;
+	border-radius: 0px !important;
+}
+
