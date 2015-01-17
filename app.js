@@ -176,7 +176,7 @@ document.getElementById('information').onclick = function(){
     ln = document.getElementById("n2").value; 
     mn = document.getElementById("n3").value; 
     
-		result =  (parseFloat(fn)+parseFloat(ln)+parseFloat(mn)); 
+		result =  parseInt(parseFloat(fn)+parseFloat(ln)+parseFloat(mn)) || 0; 
 
     document.getElementById("conclusion").innerHTML = result; 
 }
