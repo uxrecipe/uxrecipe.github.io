@@ -550,18 +550,19 @@
               <h6>Remote Testing</h6>
             </td>
             <td>
-              <input type="number" class="col-md-2 form-control">
+              <input type="number" id="n1" value="0" class="col-md-2 form-control">
             </td>
             <td>
-              <input type="number" class="col-md-2 form-control">
+              <input type="number" id="n2" value="0" class="col-md-2 form-control">
             </td>
             <td>
-              <input type="number" class="col-md-4 form-control">
+              <input type="number" id="n3" value="0" class="col-md-4 form-control">
             </td>
           </tr>
         </table>
 
-        <a class="btn btn-primary btn-ux"> Generate my recipe</a>
+        <a class="btn btn-primary btn-ux" onclick="sum()"> Generate my recipe</a>
+        <p id="conclusion"> </p>
 
       </div>
     </div>

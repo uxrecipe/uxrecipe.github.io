@@ -169,16 +169,17 @@ document.getElementById('information').onclick = function(){
 
 
 
-//  function sum() 
-// { 
-//     var fn, ln; 
-//     fn = document.getElementById("n1").value; 
-//     ln = document.getElementById("n2").value; 
+ function sum() 
+{ 
+    var fn, ln; 
+    fn = document.getElementById("n1").value; 
+    ln = document.getElementById("n2").value; 
+    mn = document.getElementById("n3").value; 
     
-// 		result =  (parseFloat(fn)+parseFloat(ln)); 
+		result =  (parseFloat(fn)+parseFloat(ln)+parseFloat(mn)); 
 
-//     document.getElementById("demo2").innerHTML = result; 
-// }
+    document.getElementById("conclusion").innerHTML = result; 
+}
 
 
 
