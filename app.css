@@ -106,7 +106,7 @@ html, .container-fluid{
 
 #uxlogo p {
 	margin-top: -50px;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 .btn-ux {
@@ -120,9 +120,9 @@ html, .container-fluid{
 	background: #B3B3B3;
 	color: #ffffff;
 	margin-left: 5px;
-	   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 }
 p small {
 	font-size: 10px;
@@ -135,7 +135,7 @@ p small {
 
 #uxlogo h4 {
 	line-height: 28px;
-	margin-bottom: -10px;
+	margin-bottom: 0px;
 }
 
 #uxlogo a:hover{
