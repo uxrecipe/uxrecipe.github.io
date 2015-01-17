@@ -111,7 +111,7 @@ html, .container-fluid{
 
 .btn-ux {
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 50px;
 	padding: 10px;
 	border: none;
@@ -134,7 +134,8 @@ p small {
 }
 
 #uxlogo h4 {
-	line-height: 30px;
+	line-height: 28px;
+	margin-bottom: -10px;
 }
 
 #uxlogo a:hover{
