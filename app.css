@@ -129,8 +129,12 @@ p small {
 	margin-top: -30px;
 }
 
-#uxlogo h3, h4 {
+#uxlogo h3{
 	line-height: 35px;
+}
+
+#uxlogo h4 {
+	line-height: 30px;
 }
 
 #uxlogo a:hover{
