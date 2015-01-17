@@ -168,3 +168,17 @@ document.getElementById('information').onclick = function(){
 
 
 
+
+//  function sum() 
+// { 
+//     var fn, ln; 
+//     fn = document.getElementById("n1").value; 
+//     ln = document.getElementById("n2").value; 
+    
+// 		result =  (parseFloat(fn)+parseFloat(ln)); 
+
+//     document.getElementById("demo2").innerHTML = result; 
+// }
+
+
+
