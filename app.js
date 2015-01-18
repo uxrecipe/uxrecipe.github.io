@@ -263,9 +263,6 @@ $('input[value="Surveys"]').change(function () {
 
 
 
-
-
-
 //add remove rows
 $('input[value="Personas"]').change(function () {
 
