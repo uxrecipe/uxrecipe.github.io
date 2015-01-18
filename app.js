@@ -967,7 +967,7 @@ $('input[value="Remote"]').change(function () {
 		var c24 = 0;
 		}
 
-    $("#conclusion").fadeToggle( 300, "linear" );
+    $("#conclusion").fadeIn( 300, "linear" );
  
 		//Calculating the sum    
 		resultp =  parseFloat(parseFloat(p1)+parseFloat(p2)+parseFloat(p3)+parseFloat(p4)+parseFloat(p5)+parseFloat(p6)+parseFloat(p7)+parseFloat(p8)+parseFloat(p9)+parseFloat(p10)+parseFloat(p11)+parseFloat(p12)+parseFloat(p13)+parseFloat(p14)+parseFloat(p15)+parseFloat(p16)+parseFloat(p17)+parseFloat(p18)+parseFloat(p19)+parseFloat(p20)+parseFloat(p21)+parseFloat(p22)+parseFloat(p23)+parseFloat(p24)) || 0; 
@@ -975,7 +975,7 @@ $('input[value="Remote"]').change(function () {
 		resultc =  parseFloat(parseFloat(c1)+parseFloat(c2)+parseFloat(c3)+parseFloat(c4)+parseFloat(c5)+parseFloat(c6)+parseFloat(c7)+parseFloat(c8)+parseFloat(c9)+parseFloat(c10)+parseFloat(c11)+parseFloat(c12)+parseFloat(c13)+parseFloat(c14)+parseFloat(c15)+parseFloat(c16)+parseFloat(c17)+parseFloat(c18)+parseFloat(c19)+parseFloat(c20)+parseFloat(c21)+parseFloat(c22)+parseFloat(c23)+parseFloat(c24)) || 0; 
 		
 		
-		document.getElementById("conclusion-content").innerHTML = "You will need <span class='conclusion'>" + resultp + " people</span>, <span class='conclusion'>" + resultd + " days</span> and it will cost <span class='conclusion'>" + resultc + "</span> total in cash.";
+		document.getElementById("conclusion-content").innerHTML = "<span class='heading'>Dear Client</span>, <br/> If you want UX in your project, we will need <span class='conclusion'>" + resultp + " people</span>, <span class='conclusion'>" + resultd + " days</span> and it will cost a total of <span class='conclusion'>" + resultc + "</span>.";
 }
 
 

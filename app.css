@@ -265,14 +265,15 @@ h3 em {
 }
 
 #conclusion-content{
+	text-align: left;
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 16px;
 	color: #fff;
 	background: #4CAF50;
 	display: block;
-	padding-bottom: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding:10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .conclusion {
@@ -283,3 +284,6 @@ h3 em {
 
 }
 
+.heading {
+	font-size: 18px;
+}
