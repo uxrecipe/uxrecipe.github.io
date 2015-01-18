@@ -254,3 +254,32 @@ h3 em {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
+
+/*customizing the conclusin*/
+#conclusion {
+	padding: 20px;
+	display: none;
+	margin-top: -40px;
+
+}
+
+#conclusion-content{
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+	background: #4CAF50;
+	display: block;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.conclusion {
+	font-weight: 600;
+	color: #000;
+	display: inline-block;
+	padding-top: 10px;
+
+}
+
