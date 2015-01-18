@@ -138,7 +138,7 @@ p small {
 	margin-bottom: 0px;
 }
 
-#uxlogo a:hover{
+#uxlogo a:hover, #uxlogo a:focus, #uxlogo a:visited{
 	background: #4F3C48;
 	color: #fff;
 	opacity: .8;
