@@ -144,7 +144,7 @@ p small {
 	opacity: .8;
 }
 
-a.btn-ux:hover {
+a.btn-ux:hover, a.btn-ux:visited, a.btn-ux:focus {
 	background: #72686F;
 	opacity: .8;
 }
