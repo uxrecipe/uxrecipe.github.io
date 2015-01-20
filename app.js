@@ -314,7 +314,7 @@ $('input[value="Journey"]').change(function () {
 $('input[value="Sitemap"]').change(function () {
 
     if ($(this).prop('checked')) { 
-        $("#summary-table").append('<tr class="id="result13" result13"> <td class="col-md-4"> <h6>Sitemap</h6> </td> <td> <input type="number" id="p13" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d13" value="0" class="col-md-2 form-control"> </td> <td> <input type="number" id="c13" value="0" class="col-md-4 form-control"> </td> </tr>');
+        $("#summary-table").append('<tr id="result13" class="result13"> <td class="col-md-4"> <h6>Sitemap</h6> </td> <td> <input type="number" id="p13" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d13" value="0" class="col-md-2 form-control"> </td> <td> <input type="number" id="c13" value="0" class="col-md-4 form-control"> </td> </tr>');
     } else {
         $('#result13').remove();
     }
