@@ -288,3 +288,38 @@ h3 em {
 	font-size: 18px;
 	line-height: 32px;
 }
+
+.acknow {
+	background: #fff;
+	min-height: 180px;
+}
+
+.acknow p{
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.acknow img{
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.acknow h3 {
+	padding-top: 20px;
+}
+
+#acknowledgementspart1 {
+	background: #fff;
+	margin-top: 50px;
+}
+
+#acknowledgementspart2 {
+	background: #fff;
+}
+
+#acknowledgementspart2 .col-md-12{
+	padding-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+}
