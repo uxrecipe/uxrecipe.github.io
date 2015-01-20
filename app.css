@@ -289,6 +289,8 @@ h3 em {
 	line-height: 32px;
 }
 
+
+/* Customizing the footer notes */
 .acknow {
 	background: #fff;
 	min-height: 180px;
@@ -337,4 +339,21 @@ ul li:before {
     font-size: 16px;
     color: #E67872;
     padding-right: 0.5em;
+}
+
+a > .label {
+	display: inline-block;
+	background: #B3B3B3;
+	border-radius: 3px;
+	font-weight: 400;
+	font-size: 14px;
+	margin-bottom: 10px;
+	padding: 10px;
+	  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+a:hover > .label {
+	opacity: .7;
 }
