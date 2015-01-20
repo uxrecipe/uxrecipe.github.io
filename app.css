@@ -36,7 +36,7 @@ label, .labelauty-unchecked, .labeluaty-checked {
 }
 
 /*modifying text color*/
-h2, h3, h4, h5, h6, p, label {
+h2, h3, h4, h5, h6, p, label, li {
 	color: #727272;
 	font-family: Roboto;
 }
@@ -322,4 +322,19 @@ h3 em {
 	padding-top: 10px;
 	margin-bottom: 10px;
 	padding-bottom: 20px;
+}
+
+ul li {
+    /* Text color */
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+ul li:before {
+    /* Unicode bullet symbol */
+    content: '\2022 ';
+    /* Bullet color */
+    font-size: 16px;
+    color: #E67872;
+    padding-right: 0.5em;
 }
