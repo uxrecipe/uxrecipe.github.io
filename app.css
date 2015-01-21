@@ -216,6 +216,14 @@ h3 em {
 	background-color: #1976D2;
 }
 
+.tealColored input.labelauty:checked:not([disabled]) + label:hover {
+	background-color: #009688;
+}
+
+.tealColored input.labelauty:checked + label {
+	background-color: #00796B;
+}
+
 .greenColored input.labelauty:checked:not([disabled]) + label:hover {
 	background-color: #4CAF50;
 }
@@ -356,4 +364,17 @@ a > .label {
 
 a:hover > .label {
 	opacity: .7;
+}
+
+#hint {
+	color: #727272;
+	font-family: Roboto;
+	display: block;
+	margin-top: 10px;
+	padding: 10px;
+	background: #fff;
+}
+
+.estimate {
+	margin-top: 20px;
 }

@@ -167,7 +167,16 @@ document.getElementById('information').onclick = function(){
 };
 
 
-
+document.getElementById('prototyping').onclick = function(){
+	swal({
+  title: 'Prototyping',
+  width: 700,
+  html:
+    'You can use <b>bold text</b>, ' +
+    ' <a href="//github.com">links</a> ' +
+    'and other HTML tag.'
+});
+};
 
 
 
@@ -445,6 +454,50 @@ $('input[value="Remote"]').change(function () {
 });
 
 
+$('input[value="Paper"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result25" class="result25"> <td class="col-md-4"> <h6>Paper Prototyping</h6> </td> <td> <input type="number" id="p25" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d25" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c25" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result25').remove();
+    }
+
+});
+
+$('input[value="HTML"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result26" class="result26"> <td class="col-md-4"> <h6>HTML Demo</h6> </td> <td> <input type="number" id="p26" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d26" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c26" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result26').remove();
+    }
+
+});
+
+$('input[value="Interactive"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result27" class="result27"> <td class="col-md-4"> <h6>Interactive Design</h6> </td> <td> <input type="number" id="p27" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d27" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c27" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result27').remove();
+    }
+
+});
+
+$('input[value="Showcase"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result28" class="result28"> <td class="col-md-4"> <h6>Mobile Showcase</h6> </td> <td> <input type="number" id="p28" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d28" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c28" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result28').remove();
+    }
+
+});
+
 
 
 
@@ -623,6 +676,34 @@ $('input[value="Remote"]').change(function () {
 		var p24 = 0;
 		}
 
+		if (document.getElementById('p25') != null) {
+		var p25 = document.getElementById("p25").value;
+		}
+		else {
+		var p25 = 0;
+		}
+
+    if (document.getElementById('p26') != null) {
+		var p26 = document.getElementById("p26").value;
+		}
+		else {
+		var p26 = 0;
+		}
+
+    if (document.getElementById('p27') != null) {
+		var p27 = document.getElementById("p27").value;
+		}
+		else {
+		var p27 = 0;
+		}
+
+    if (document.getElementById('p28') != null) {
+		var p28 = document.getElementById("p28").value;
+		}
+		else {
+		var p28 = 0;
+		}
+
 
     //These are 
     //the days
@@ -793,6 +874,34 @@ $('input[value="Remote"]').change(function () {
 		}
 		else {
 		var d24 = 0;
+		}
+
+    if (document.getElementById('d25') != null) {
+		var d25 = document.getElementById("d25").value;
+		}
+		else {
+		var d25 = 0;
+		}
+
+    if (document.getElementById('d26') != null) {
+		var d26 = document.getElementById("d26").value;
+		}
+		else {
+		var d26 = 0;
+		}
+
+    if (document.getElementById('d27') != null) {
+		var d27 = document.getElementById("d27").value;
+		}
+		else {
+		var d27 = 0;
+		}
+
+    if (document.getElementById('d28') != null) {
+		var d28 = document.getElementById("d28").value;
+		}
+		else {
+		var d28 = 0;
 		}
 
 
@@ -967,12 +1076,43 @@ $('input[value="Remote"]').change(function () {
 		var c24 = 0;
 		}
 
+
+    if (document.getElementById('c25') != null) {
+		var c25 = document.getElementById("c25").value;
+		}
+		else {
+		var c25 = 0;
+		}
+
+    if (document.getElementById('c26') != null) {
+		var c26 = document.getElementById("c26").value;
+		}
+		else {
+		var c26 = 0;
+		}
+
+    if (document.getElementById('c27') != null) {
+		var c27 = document.getElementById("c27").value;
+		}
+		else {
+		var c27 = 0;
+		}
+
+    if (document.getElementById('c28') != null) {
+		var c28 = document.getElementById("c28").value;
+		}
+		else {
+		var c28 = 0;
+		}
+
+
+
     $("#conclusion").fadeIn( 300, "linear" );
  
 		//Calculating the sum    
-		resultp =  parseFloat(parseFloat(p1)+parseFloat(p2)+parseFloat(p3)+parseFloat(p4)+parseFloat(p5)+parseFloat(p6)+parseFloat(p7)+parseFloat(p8)+parseFloat(p9)+parseFloat(p10)+parseFloat(p11)+parseFloat(p12)+parseFloat(p13)+parseFloat(p14)+parseFloat(p15)+parseFloat(p16)+parseFloat(p17)+parseFloat(p18)+parseFloat(p19)+parseFloat(p20)+parseFloat(p21)+parseFloat(p22)+parseFloat(p23)+parseFloat(p24)) || 0; 
-		resultd =  parseFloat(parseFloat(d1)+parseFloat(d2)+parseFloat(d3)+parseFloat(d4)+parseFloat(d5)+parseFloat(d6)+parseFloat(d7)+parseFloat(d8)+parseFloat(d9)+parseFloat(d10)+parseFloat(d11)+parseFloat(d12)+parseFloat(d13)+parseFloat(d14)+parseFloat(d15)+parseFloat(d16)+parseFloat(d17)+parseFloat(d18)+parseFloat(d19)+parseFloat(d20)+parseFloat(d21)+parseFloat(d22)+parseFloat(d23)+parseFloat(d24)) || 0; 
-		resultc =  parseFloat(parseFloat(c1)+parseFloat(c2)+parseFloat(c3)+parseFloat(c4)+parseFloat(c5)+parseFloat(c6)+parseFloat(c7)+parseFloat(c8)+parseFloat(c9)+parseFloat(c10)+parseFloat(c11)+parseFloat(c12)+parseFloat(c13)+parseFloat(c14)+parseFloat(c15)+parseFloat(c16)+parseFloat(c17)+parseFloat(c18)+parseFloat(c19)+parseFloat(c20)+parseFloat(c21)+parseFloat(c22)+parseFloat(c23)+parseFloat(c24)) || 0; 
+		resultp =  parseFloat(parseFloat(p1)+parseFloat(p2)+parseFloat(p3)+parseFloat(p4)+parseFloat(p5)+parseFloat(p6)+parseFloat(p7)+parseFloat(p8)+parseFloat(p9)+parseFloat(p10)+parseFloat(p11)+parseFloat(p12)+parseFloat(p13)+parseFloat(p14)+parseFloat(p15)+parseFloat(p16)+parseFloat(p17)+parseFloat(p18)+parseFloat(p19)+parseFloat(p20)+parseFloat(p21)+parseFloat(p22)+parseFloat(p23)+parseFloat(p24)+parseFloat(p25)+parseFloat(p26)+parseFloat(p27)+parseFloat(p28)) || 0; 
+		resultd =  parseFloat(parseFloat(d1)+parseFloat(d2)+parseFloat(d3)+parseFloat(d4)+parseFloat(d5)+parseFloat(d6)+parseFloat(d7)+parseFloat(d8)+parseFloat(d9)+parseFloat(d10)+parseFloat(d11)+parseFloat(d12)+parseFloat(d13)+parseFloat(d14)+parseFloat(d15)+parseFloat(d16)+parseFloat(d17)+parseFloat(d18)+parseFloat(d19)+parseFloat(d20)+parseFloat(d21)+parseFloat(d22)+parseFloat(d23)+parseFloat(d24)+parseFloat(d25)+parseFloat(d26)+parseFloat(d27)+parseFloat(d28)) || 0; 
+		resultc =  parseFloat(parseFloat(c1)+parseFloat(c2)+parseFloat(c3)+parseFloat(c4)+parseFloat(c5)+parseFloat(c6)+parseFloat(c7)+parseFloat(c8)+parseFloat(c9)+parseFloat(c10)+parseFloat(c11)+parseFloat(c12)+parseFloat(c13)+parseFloat(c14)+parseFloat(c15)+parseFloat(c16)+parseFloat(c17)+parseFloat(c18)+parseFloat(c19)+parseFloat(c20)+parseFloat(c21)+parseFloat(c22)+parseFloat(c23)+parseFloat(c24)+parseFloat(c25)+parseFloat(c26)+parseFloat(c27)+parseFloat(c28)) || 0; 
 		
 		
 		document.getElementById("conclusion-content").innerHTML = "<span class='heading'>Dear Client</span>, <br/> If you want UX for the project, it will take the hard work of <span class='conclusion'>" + resultp + " people</span>," +  " a full " +" <span class='conclusion'>" + resultd + " days</span> and it will cost a total of <span class='conclusion'>" + resultc + "</span>.";
