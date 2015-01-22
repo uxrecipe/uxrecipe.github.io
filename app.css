@@ -154,6 +154,12 @@ a.btn-ux:hover, a.btn-ux:visited, a.btn-ux:focus {
 	#logo img{
 		width: 30%;
 	}
+
+	.titleRow2 .col-md-3 {
+		display: block;
+		margin-top: 0px !important;
+	}
+
 } 
 
 
