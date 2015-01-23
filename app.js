@@ -195,7 +195,7 @@ $('input[value="Expert"]').change(function () {
 $('input[value="Client"]').change(function () {
 
     if ($(this).prop('checked')) { 
-        $("#summary-table").append('<tr id="result2" class="result2"> <td class="col-md-4"> <h6>Client Workshop</h6> </td> <td> <input  id="p2" type="number"  value="0" class="col-md-2 form-control"> </td> <td> <input  id="d2" type="number"  value="0" class="col-md-2 form-control"> </td> <td> <input  id="c2" type="number"  value="0" class="col-md-4 form-control"> </td> </tr>');
+        $("#summary-table").append('<tr id="result2" class="result2"> <td class="col-md-4"> <h6>Stakeholder Workshop</h6> </td> <td> <input  id="p2" type="number"  value="0" class="col-md-2 form-control"> </td> <td> <input  id="d2" type="number"  value="0" class="col-md-2 form-control"> </td> <td> <input  id="c2" type="number"  value="0" class="col-md-4 form-control"> </td> </tr>');
 
     } else {
         $('#result2').remove();
@@ -253,7 +253,7 @@ $('input[value="Mobile"]').change(function () {
 $('input[value="Contextual"]').change(function () {
 
     if ($(this).prop('checked')) { 
-        $("#summary-table").append('<tr id="result7" class="result7"> <td class="col-md-4"> <h6>Contextual Research</h6> </td> <td> <input type="number"  id="p7" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"  id="d7" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"  id="c7" value="0" class="col-md-4 form-control"> </td> </tr>');
+        $("#summary-table").append('<tr id="result7" class="result7"> <td class="col-md-4"> <h6>Observational Research</h6> </td> <td> <input type="number"  id="p7" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"  id="d7" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"  id="c7" value="0" class="col-md-4 form-control"> </td> </tr>');
     } else {
         $('#result7').remove();
     }
@@ -276,7 +276,7 @@ $('input[value="Surveys"]').change(function () {
 $('input[value="Personas"]').change(function () {
 
     if ($(this).prop('checked')) { 
-        $("#summary-table").append('<tr id="result9" class="result9"> <td class="col-md-4"> <h6>Personas</h6> </td> <td> <input type="number" id="p9" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d9" value="0" class="col-md-2 form-control"> </td> <td> <input type="number" id="c9" value="0" class="col-md-4 form-control"> </td> </tr>');
+        $("#summary-table").append('<tr id="result9" class="result9"> <td class="col-md-4"> <h6>Persona</h6> </td> <td> <input type="number" id="p9" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d9" value="0" class="col-md-2 form-control"> </td> <td> <input type="number" id="c9" value="0" class="col-md-4 form-control"> </td> </tr>');
     } else {
         $('#result9').remove();
     }
@@ -500,6 +500,235 @@ $('input[value="Showcase"]').change(function () {
 
 
 
+//
+//The new ones
+$('input[value="Interview"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result29" class="result29"> <td class="col-md-4"> <h6>Stakeholder Interview</h6> </td> <td> <input type="number" id="p29" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d29" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c29" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result29').remove();
+    }
+
+});
+
+$('input[value="Debriefing"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result30" class="result30"> <td class="col-md-4"> <h6>Debriefing</h6> </td> <td> <input type="number" id="p30" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d30" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c30" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result30').remove();
+    }
+
+});
+
+$('input[value="Ethnographic"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result31" class="result31"> <td class="col-md-4"> <h6>Ethnographic Research</h6> </td> <td> <input type="number" id="p31" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d31" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c31" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result31').remove();
+    }
+
+});
+
+$('input[value="Market"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result32" class="result32"> <td class="col-md-4"> <h6>Market Research</h6> </td> <td> <input type="number" id="p32" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d32" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c32" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result32').remove();
+    }
+
+});
+
+
+
+$('input[value="Photo"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result33" class="result33"> <td class="col-md-4"> <h6>Photo Ethnography</h6> </td> <td> <input type="number" id="p33" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d33" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c33" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result33').remove();
+    }
+
+});
+
+$('input[value="Anthropology"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result34" class="result34"> <td class="col-md-4"> <h6>Visual Anthropology</h6> </td> <td> <input type="number" id="p34" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d34" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c34" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result34').remove();
+    }
+
+});
+
+$('input[value="Demographics"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result35" class="result35"> <td class="col-md-4"> <h6>Demographics</h6> </td> <td> <input type="number" id="p35" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d35" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c35" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result35').remove();
+    }
+
+});
+
+$('input[value="Focus"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result36" class="result36"> <td class="col-md-4"> <h6>Focus Groups</h6> </td> <td> <input type="number" id="p36" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d36" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c36" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result36').remove();
+    }
+
+});
+
+
+$('input[value="Psychographics"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result37" class="result37"> <td class="col-md-4"> <h6>Psychographics</h6> </td> <td> <input type="number" id="p37" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d37" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c37" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result37').remove();
+    }
+
+});
+
+$('input[value="Documentation"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result38" class="result38"> <td class="col-md-4"> <h6>Documentation</h6> </td> <td> <input type="number" id="p38" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d38" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c38" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result38').remove();
+    }
+
+});
+
+$('input[value="Stories"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result39" class="result39"> <td class="col-md-4"> <h6>User Stories</h6> </td> <td> <input type="number" id="p39" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d39" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c39" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result39').remove();
+    }
+
+});
+
+$('input[value="Acceptance"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result40" class="result40"> <td class="col-md-4"> <h6>Acceptance Criteria</h6> </td> <td> <input type="number" id="p40" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d40" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c40" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result40').remove();
+    }
+
+});
+
+$('input[value="QOC"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result41" class="result41"> <td class="col-md-4"> <h6>Questions, Options, Criteria</h6> </td> <td> <input type="number" id="p41" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d41" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c41" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result41').remove();
+    }
+
+});
+
+$('input[value="Audit"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result42" class="result42"> <td class="col-md-4"> <h6>Content Audit</h6> </td> <td> <input type="number" id="p42" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d42" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c42" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result42').remove();
+    }
+
+});
+
+
+$('input[value="Inventory"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result43" class="result43"> <td class="col-md-4"> <h6>Content Inventory</h6> </td> <td> <input type="number" id="p43" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d43" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c43" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result43').remove();
+    }
+
+});
+
+$('input[value="Brainstorming"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result44" class="result44"> <td class="col-md-4"> <h6>Brainstorming</h6> </td> <td> <input type="number" id="p44" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d44" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c44" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result44').remove();
+    }
+
+});
+
+
+$('input[value="OrgSchemes"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result45" class="result45"> <td class="col-md-4"> <h6>Organisation Schemes</h6> </td> <td> <input type="number" id="p45" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d45" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c45" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result45').remove();
+    }
+
+});
+
+$('input[value="OrgStructure"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result46" class="result46"> <td class="col-md-4"> <h6>Organisation Structure</h6> </td> <td> <input type="number" id="p46" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d46" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c46" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result46').remove();
+    }
+
+});
+
+
+$('input[value="DoGo"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result47" class="result47"> <td class="col-md-4"> <h6>DoGo Mapping</h6> </td> <td> <input type="number" id="p47" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d47" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c47" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result47').remove();
+    }
+
+});
+
+
+$('input[value="Tiles"]').change(function () {
+
+    if ($(this).prop('checked')) { 
+        $("#summary-table").append('<tr id="result48" class="result48"> <td class="col-md-4"> <h6>Style Tiles</h6> </td> <td> <input type="number" id="p48" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d48" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c48" value="0"  class="col-md-4 form-control"> </td> </tr>');
+
+    } else {
+        $('#result48').remove();
+    }
+
+});
+
 
 //calculate the sum  // PDC
  function sum() 
@@ -705,6 +934,147 @@ $('input[value="Showcase"]').change(function () {
 		}
 
 
+    if (document.getElementById('p29') != null) {
+		var p29 = document.getElementById("p29").value;
+		}
+		else {
+		var p29 = 0;
+		}
+
+    if (document.getElementById('p30') != null) {
+		var p30 = document.getElementById("p30").value;
+		}
+		else {
+		var p30 = 0;
+		}
+
+    if (document.getElementById('p31') != null) {
+		var p31 = document.getElementById("p31").value;
+		}
+		else {
+		var p31 = 0;
+		}
+
+    if (document.getElementById('p32') != null) {
+		var p32 = document.getElementById("p32").value;
+		}
+		else {
+		var p32 = 0;
+		}
+
+    if (document.getElementById('p33') != null) {
+		var p33 = document.getElementById("p33").value;
+		}
+		else {
+		var p33 = 0;
+		}
+
+    if (document.getElementById('p34') != null) {
+		var p34 = document.getElementById("p34").value;
+		}
+		else {
+		var p34 = 0;
+		}
+
+    if (document.getElementById('p35') != null) {
+		var p35 = document.getElementById("p35").value;
+		}
+		else {
+		var p35 = 0;
+		}
+
+    if (document.getElementById('p36') != null) {
+		var p36 = document.getElementById("p36").value;
+		}
+		else {
+		var p36 = 0;
+		}
+
+    if (document.getElementById('p37') != null) {
+		var p37 = document.getElementById("p37").value;
+		}
+		else {
+		var p37 = 0;
+		}
+
+    if (document.getElementById('p38') != null) {
+		var p38 = document.getElementById("p38").value;
+		}
+		else {
+		var p38 = 0;
+		}
+
+    if (document.getElementById('p39') != null) {
+		var p39 = document.getElementById("p39").value;
+		}
+		else {
+		var p39 = 0;
+		}
+
+    if (document.getElementById('p40') != null) {
+		var p40 = document.getElementById("p40").value;
+		}
+		else {
+		var p40 = 0;
+		}
+
+    if (document.getElementById('p41') != null) {
+		var p41 = document.getElementById("p41").value;
+		}
+		else {
+		var p41 = 0;
+		}
+
+    if (document.getElementById('p42') != null) {
+		var p42 = document.getElementById("p42").value;
+		}
+		else {
+		var p42 = 0;
+		}
+
+    if (document.getElementById('p43') != null) {
+		var p43 = document.getElementById("p43").value;
+		}
+		else {
+		var p43 = 0;
+		}
+
+    if (document.getElementById('p44') != null) {
+		var p44 = document.getElementById("p44").value;
+		}
+		else {
+		var p44 = 0;
+		}
+
+    if (document.getElementById('p45') != null) {
+		var p45 = document.getElementById("p45").value;
+		}
+		else {
+		var p45 = 0;
+		}
+
+    if (document.getElementById('p46') != null) {
+		var p46 = document.getElementById("p46").value;
+		}
+		else {
+		var p46 = 0;
+		}
+
+    if (document.getElementById('p47') != null) {
+		var p47 = document.getElementById("p47").value;
+		}
+		else {
+		var p47 = 0;
+		}
+
+    if (document.getElementById('p48') != null) {
+		var p48 = document.getElementById("p48").value;
+		}
+		else {
+		var p48 = 0;
+		}
+
+
     //These are 
     //the days
 
@@ -902,6 +1272,147 @@ $('input[value="Showcase"]').change(function () {
 		}
 		else {
 		var d28 = 0;
+		}
+
+
+    if (document.getElementById('d29') != null) {
+		var d29 = document.getElementById("d29").value;
+		}
+		else {
+		var d29 = 0;
+		}
+
+    if (document.getElementById('d30') != null) {
+		var d30 = document.getElementById("d30").value;
+		}
+		else {
+		var d30 = 0;
+		}
+
+    if (document.getElementById('d31') != null) {
+		var d31 = document.getElementById("d31").value;
+		}
+		else {
+		var d31 = 0;
+		}
+
+    if (document.getElementById('d32') != null) {
+		var d32 = document.getElementById("d32").value;
+		}
+		else {
+		var d32 = 0;
+		}
+
+    if (document.getElementById('d33') != null) {
+		var d33 = document.getElementById("d33").value;
+		}
+		else {
+		var d33 = 0;
+		}
+
+    if (document.getElementById('d34') != null) {
+		var d34 = document.getElementById("d34").value;
+		}
+		else {
+		var d34 = 0;
+		}
+
+    if (document.getElementById('d35') != null) {
+		var d35 = document.getElementById("d35").value;
+		}
+		else {
+		var d35 = 0;
+		}
+
+    if (document.getElementById('d36') != null) {
+		var d36 = document.getElementById("d36").value;
+		}
+		else {
+		var d36 = 0;
+		}
+
+    if (document.getElementById('d37') != null) {
+		var d37 = document.getElementById("d37").value;
+		}
+		else {
+		var d37 = 0;
+		}
+
+    if (document.getElementById('d38') != null) {
+		var d38 = document.getElementById("d38").value;
+		}
+		else {
+		var d38 = 0;
+		}
+
+    if (document.getElementById('d39') != null) {
+		var d39 = document.getElementById("d39").value;
+		}
+		else {
+		var d39 = 0;
+		}
+
+    if (document.getElementById('d40') != null) {
+		var d40 = document.getElementById("d40").value;
+		}
+		else {
+		var d40 = 0;
+		}
+
+    if (document.getElementById('d41') != null) {
+		var d41 = document.getElementById("d41").value;
+		}
+		else {
+		var d41 = 0;
+		}
+
+    if (document.getElementById('d42') != null) {
+		var d42 = document.getElementById("d42").value;
+		}
+		else {
+		var d42 = 0;
+		}
+
+    if (document.getElementById('d43') != null) {
+		var d43 = document.getElementById("d43").value;
+		}
+		else {
+		var d43 = 0;
+		}
+
+    if (document.getElementById('d44') != null) {
+		var d44 = document.getElementById("d44").value;
+		}
+		else {
+		var d44 = 0;
+		}
+
+    if (document.getElementById('d45') != null) {
+		var d45 = document.getElementById("d45").value;
+		}
+		else {
+		var d45 = 0;
+		}
+
+    if (document.getElementById('d46') != null) {
+		var d46 = document.getElementById("d46").value;
+		}
+		else {
+		var d46 = 0;
+		}
+
+    if (document.getElementById('d47') != null) {
+		var d47 = document.getElementById("d47").value;
+		}
+		else {
+		var d47 = 0;
+		}
+
+    if (document.getElementById('d48') != null) {
+		var d48 = document.getElementById("d48").value;
+		}
+		else {
+		var d48 = 0;
 		}
 
 
@@ -1106,13 +1617,140 @@ $('input[value="Showcase"]').change(function () {
 		}
 
 
+    if (document.getElementById('c29') != null) {
+		var c29 = document.getElementById("c29").value;
+		}
+		else {
+		var c29 = 0;
+		}
+
+    if (document.getElementById('c30') != null) {
+		var c30 = document.getElementById("c30").value;
+		}
+		else {
+		var c30 = 0;
+		}
+
+    if (document.getElementById('c31') != null) {
+		var c31 = document.getElementById("c31").value;
+		}
+		else {
+		var c31 = 0;
+		}
+
+    if (document.getElementById('c32') != null) {
+		var c32 = document.getElementById("c32").value;
+		}
+		else {
+		var c32 = 0;
+		}
+
+    if (document.getElementById('c33') != null) {
+		var c33 = document.getElementById("c33").value;
+		}
+		else {
+		var c33 = 0;
+		}
+
+    if (document.getElementById('c34') != null) {
+		var c34 = document.getElementById("c34").value;
+		}
+		else {
+		var c34 = 0;
+		}
+
+    if (document.getElementById('c35') != null) {
+		var c35 = document.getElementById("c35").value;
+		}
+		else {
+		var c35 = 0;
+		}
+
+    if (document.getElementById('c36') != null) {
+		var c36 = document.getElementById("c36").value;
+		}
+		else {
+		var c36 = 0;
+		}
+
+    if (document.getElementById('c37') != null) {
+		var c37 = document.getElementById("c37").value;
+		}
+		else {
+		var c37 = 0;
+		}
+
+    if (document.getElementById('c38') != null) {
+		var c38 = document.getElementById("c38").value;
+		}
+		else {
+		var c38 = 0;
+		}
+
+    if (document.getElementById('c39') != null) {
+		var c39 = document.getElementById("c39").value;
+		}
+		else {
+		var c39 = 0;
+		}
+
+    if (document.getElementById('c40') != null) {
+		var c40 = document.getElementById("c40").value;
+		}
+		else {
+		var c40 = 0;
+		}
+
+    if (document.getElementById('c41') != null) {
+		var c41 = document.getElementById("c41").value;
+		}
+		else {
+		var c41 = 0;
+		}
+
+    if (document.getElementById('c42') != null) {
+		var c42 = document.getElementById("c42").value;
+		}
+		else {
+		var c42 = 0;
+		}
+
+    if (document.getElementById('c43') != null) {
+		var c43 = document.getElementById("c43").value;
+		}
+		else {
+		var c43 = 0;
+		}
+
+    if (document.getElementById('c44') != null) {
+		var c44 = document.getElementById("c44").value;
+		}
+		else {
+		var c44 = 0;
+		}
+
+    if (document.getElementById('c45') != null) {
+		var c45 = document.getElementById("c45").value;
+		}
+		else {
+		var c45 = 0;
+		}
+
+    if (document.getElementById('c46') != null) {
+		var c46 = document.getElementById("c46").value;
+		}
+		else {
+		var c46 = 0;
+		}
+
+
 
     $("#conclusion").fadeIn( 300, "linear" );
  
 		//Calculating the sum    
-		resultp =  parseFloat(parseFloat(p1)+parseFloat(p2)+parseFloat(p3)+parseFloat(p4)+parseFloat(p5)+parseFloat(p6)+parseFloat(p7)+parseFloat(p8)+parseFloat(p9)+parseFloat(p10)+parseFloat(p11)+parseFloat(p12)+parseFloat(p13)+parseFloat(p14)+parseFloat(p15)+parseFloat(p16)+parseFloat(p17)+parseFloat(p18)+parseFloat(p19)+parseFloat(p20)+parseFloat(p21)+parseFloat(p22)+parseFloat(p23)+parseFloat(p24)+parseFloat(p25)+parseFloat(p26)+parseFloat(p27)+parseFloat(p28)) || 0; 
-		resultd =  parseFloat(parseFloat(d1)+parseFloat(d2)+parseFloat(d3)+parseFloat(d4)+parseFloat(d5)+parseFloat(d6)+parseFloat(d7)+parseFloat(d8)+parseFloat(d9)+parseFloat(d10)+parseFloat(d11)+parseFloat(d12)+parseFloat(d13)+parseFloat(d14)+parseFloat(d15)+parseFloat(d16)+parseFloat(d17)+parseFloat(d18)+parseFloat(d19)+parseFloat(d20)+parseFloat(d21)+parseFloat(d22)+parseFloat(d23)+parseFloat(d24)+parseFloat(d25)+parseFloat(d26)+parseFloat(d27)+parseFloat(d28)) || 0; 
-		resultc =  parseFloat(parseFloat(c1)+parseFloat(c2)+parseFloat(c3)+parseFloat(c4)+parseFloat(c5)+parseFloat(c6)+parseFloat(c7)+parseFloat(c8)+parseFloat(c9)+parseFloat(c10)+parseFloat(c11)+parseFloat(c12)+parseFloat(c13)+parseFloat(c14)+parseFloat(c15)+parseFloat(c16)+parseFloat(c17)+parseFloat(c18)+parseFloat(c19)+parseFloat(c20)+parseFloat(c21)+parseFloat(c22)+parseFloat(c23)+parseFloat(c24)+parseFloat(c25)+parseFloat(c26)+parseFloat(c27)+parseFloat(c28)) || 0; 
+		resultp =  parseFloat(parseFloat(p1)+parseFloat(p2)+parseFloat(p3)+parseFloat(p4)+parseFloat(p5)+parseFloat(p6)+parseFloat(p7)+parseFloat(p8)+parseFloat(p9)+parseFloat(p10)+parseFloat(p11)+parseFloat(p12)+parseFloat(p13)+parseFloat(p14)+parseFloat(p15)+parseFloat(p16)+parseFloat(p17)+parseFloat(p18)+parseFloat(p19)+parseFloat(p20)+parseFloat(p21)+parseFloat(p22)+parseFloat(p23)+parseFloat(p24)+parseFloat(p25)+parseFloat(p26)+parseFloat(p27)+parseFloat(p28)+parseFloat(p29)+parseFloat(p30)+parseFloat(p31)+parseFloat(p32)+parseFloat(p33)+parseFloat(p34)+parseFloat(p35)+parseFloat(p36)+parseFloat(p37)+parseFloat(p38)+parseFloat(p39)+parseFloat(p40)+parseFloat(p41)+parseFloat(p42)+parseFloat(p43)+parseFloat(p44)+parseFloat(p45)+parseFloat(p46)+parseFloat(p47)+parseFloat(p48)) || 0; 
+		resultd =  parseFloat(parseFloat(d1)+parseFloat(d2)+parseFloat(d3)+parseFloat(d4)+parseFloat(d5)+parseFloat(d6)+parseFloat(d7)+parseFloat(d8)+parseFloat(d9)+parseFloat(d10)+parseFloat(d11)+parseFloat(d12)+parseFloat(d13)+parseFloat(d14)+parseFloat(d15)+parseFloat(d16)+parseFloat(d17)+parseFloat(d18)+parseFloat(d19)+parseFloat(d20)+parseFloat(d21)+parseFloat(d22)+parseFloat(d23)+parseFloat(d24)+parseFloat(d25)+parseFloat(d26)+parseFloat(d27)+parseFloat(d28)+parseFloat(d29)+parseFloat(d30)+parseFloat(d31)+parseFloat(d32)+parseFloat(d33)+parseFloat(d34)+parseFloat(d35)+parseFloat(d36)+parseFloat(d37)+parseFloat(d38)+parseFloat(d39)+parseFloat(d40)+parseFloat(d41)+parseFloat(d42)+parseFloat(d43)+parseFloat(d44)+parseFloat(d45)+parseFloat(d46)+parseFloat(d47)+parseFloat(d48)) || 0; 
+		resultc =  parseFloat(parseFloat(c1)+parseFloat(c2)+parseFloat(c3)+parseFloat(c4)+parseFloat(c5)+parseFloat(c6)+parseFloat(c7)+parseFloat(c8)+parseFloat(c9)+parseFloat(c10)+parseFloat(c11)+parseFloat(c12)+parseFloat(c13)+parseFloat(c14)+parseFloat(c15)+parseFloat(c16)+parseFloat(c17)+parseFloat(c18)+parseFloat(c19)+parseFloat(c20)+parseFloat(c21)+parseFloat(c22)+parseFloat(c23)+parseFloat(c24)+parseFloat(c25)+parseFloat(c26)+parseFloat(c27)+parseFloat(c28)+parseFloat(c29)+parseFloat(c30)+parseFloat(c31)+parseFloat(c32)+parseFloat(c33)+parseFloat(c34)+parseFloat(c35)+parseFloat(c36)+parseFloat(c37)+parseFloat(c38)+parseFloat(c39)+parseFloat(c40)+parseFloat(c41)+parseFloat(c42)+parseFloat(c43)+parseFloat(c44)+parseFloat(c45)+parseFloat(c46)+parseFloat(c47)+parseFloat(c48)) || 0; 
 		
 		
 		document.getElementById("conclusion-content").innerHTML = "<span class='heading'>Dear Client</span>, <br/> If you want UX for the project, it will take the hard work of <span class='conclusion'>" + resultp + " people</span>," +  " a full " +" <span class='conclusion'>" + resultd + " days</span> and it will cost a total of <span class='conclusion'>" + resultc + "</span>.";
