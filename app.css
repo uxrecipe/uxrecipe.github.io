@@ -385,3 +385,10 @@ a:hover > .label {
 .estimate {
 	margin-top: 20px;
 }
+
+
+
+.overflow { 
+	height: 850px; 
+	overflow-y:scroll; 
+}

@@ -18,85 +18,6 @@ $('a').click(function(){
 });
 
 
-// show/hide table
-// $(document).ready(function(){
-//     $('input[type="checkbox"]').click(function(){
-//         if($(this).attr("value")=="Expert"){
-//             $(".result").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Client"){
-//             $(".result2").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Competitor"){
-//             $(".result3").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Requirements"){
-//             $(".result4").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="SEO"){
-//             $(".result5").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Mobile"){
-//             $(".result6").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Contextual"){
-//             $(".result7").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Surveys"){
-//             $(".result8").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Personas"){
-//             $(".result9").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="User"){
-//             $(".result10").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Storyboards"){
-//             $(".result11").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Journey"){
-//             $(".result12").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Sitemap"){
-//             $(".result13").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Card Sorting"){
-//             $(".result14").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="IA"){
-//             $(".result15").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Sketching"){
-//             $(".result16").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Wireframes"){
-//             $(".result17").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Styleguide"){
-//             $(".result18").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Mockups"){
-//             $(".result19").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Prototyping"){
-//             $(".result20").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="AB"){
-//             $(".result21").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Guerilla"){
-//             $(".result22").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Lab"){
-//             $(".result23").fadeToggle( 300, "linear" );
-//         }
-//         if($(this).attr("value")=="Remote"){
-//             $(".result24").fadeToggle( 300, "linear" );
-//         }
-//     });
-// });
-
-
 // create the hashtag modals
 document.getElementById('planning').onclick = function(){
 	swal({
@@ -1744,19 +1665,14 @@ $('input[value="Tiles"]').change(function () {
 		}
 
 
-
     $("#conclusion").fadeIn( 300, "linear" );
  
 		//Calculating the sum    
-		resultp =  parseFloat(parseFloat(p1)+parseFloat(p2)+parseFloat(p3)+parseFloat(p4)+parseFloat(p5)+parseFloat(p6)+parseFloat(p7)+parseFloat(p8)+parseFloat(p9)+parseFloat(p10)+parseFloat(p11)+parseFloat(p12)+parseFloat(p13)+parseFloat(p14)+parseFloat(p15)+parseFloat(p16)+parseFloat(p17)+parseFloat(p18)+parseFloat(p19)+parseFloat(p20)+parseFloat(p21)+parseFloat(p22)+parseFloat(p23)+parseFloat(p24)+parseFloat(p25)+parseFloat(p26)+parseFloat(p27)+parseFloat(p28)+parseFloat(p29)+parseFloat(p30)+parseFloat(p31)+parseFloat(p32)+parseFloat(p33)+parseFloat(p34)+parseFloat(p35)+parseFloat(p36)+parseFloat(p37)+parseFloat(p38)+parseFloat(p39)+parseFloat(p40)+parseFloat(p41)+parseFloat(p42)+parseFloat(p43)+parseFloat(p44)+parseFloat(p45)+parseFloat(p46)+parseFloat(p47)+parseFloat(p48)) || 0; 
-		resultd =  parseFloat(parseFloat(d1)+parseFloat(d2)+parseFloat(d3)+parseFloat(d4)+parseFloat(d5)+parseFloat(d6)+parseFloat(d7)+parseFloat(d8)+parseFloat(d9)+parseFloat(d10)+parseFloat(d11)+parseFloat(d12)+parseFloat(d13)+parseFloat(d14)+parseFloat(d15)+parseFloat(d16)+parseFloat(d17)+parseFloat(d18)+parseFloat(d19)+parseFloat(d20)+parseFloat(d21)+parseFloat(d22)+parseFloat(d23)+parseFloat(d24)+parseFloat(d25)+parseFloat(d26)+parseFloat(d27)+parseFloat(d28)+parseFloat(d29)+parseFloat(d30)+parseFloat(d31)+parseFloat(d32)+parseFloat(d33)+parseFloat(d34)+parseFloat(d35)+parseFloat(d36)+parseFloat(d37)+parseFloat(d38)+parseFloat(d39)+parseFloat(d40)+parseFloat(d41)+parseFloat(d42)+parseFloat(d43)+parseFloat(d44)+parseFloat(d45)+parseFloat(d46)+parseFloat(d47)+parseFloat(d48)) || 0; 
-		resultc =  parseFloat(parseFloat(c1)+parseFloat(c2)+parseFloat(c3)+parseFloat(c4)+parseFloat(c5)+parseFloat(c6)+parseFloat(c7)+parseFloat(c8)+parseFloat(c9)+parseFloat(c10)+parseFloat(c11)+parseFloat(c12)+parseFloat(c13)+parseFloat(c14)+parseFloat(c15)+parseFloat(c16)+parseFloat(c17)+parseFloat(c18)+parseFloat(c19)+parseFloat(c20)+parseFloat(c21)+parseFloat(c22)+parseFloat(c23)+parseFloat(c24)+parseFloat(c25)+parseFloat(c26)+parseFloat(c27)+parseFloat(c28)+parseFloat(c29)+parseFloat(c30)+parseFloat(c31)+parseFloat(c32)+parseFloat(c33)+parseFloat(c34)+parseFloat(c35)+parseFloat(c36)+parseFloat(c37)+parseFloat(c38)+parseFloat(c39)+parseFloat(c40)+parseFloat(c41)+parseFloat(c42)+parseFloat(c43)+parseFloat(c44)+parseFloat(c45)+parseFloat(c46)+parseFloat(c47)+parseFloat(c48)) || 0; 
+		resultp =  parseFloat(parseFloat(p1)+parseFloat(p2)+parseFloat(p3)+parseFloat(p4)+parseFloat(p5)+parseFloat(p6)+parseFloat(p7)+parseFloat(p8)+parseFloat(p9)+parseFloat(p10)+parseFloat(p11)+parseFloat(p12)+parseFloat(p13)+parseFloat(p14)+parseFloat(p15)+parseFloat(p16)+parseFloat(p17)+parseFloat(p18)+parseFloat(p19)+parseFloat(p20)+parseFloat(p21)+parseFloat(p22)+parseFloat(p23)+parseFloat(p24)+parseFloat(p25)+parseFloat(p26)+parseFloat(p27)+parseFloat(p28)+parseFloat(p29)+parseFloat(p30)+parseFloat(p31)+parseFloat(p32)+parseFloat(p33)+parseFloat(p34)+parseFloat(p35)+parseFloat(p36)+parseFloat(p37)+parseFloat(p38)+parseFloat(p39)+parseFloat(p40)+parseFloat(p41)+parseFloat(p42)+parseFloat(p43)+parseFloat(p44)+parseFloat(p45)+parseFloat(p46)) || 0; 
+		resultd =  parseFloat(parseFloat(d1)+parseFloat(d2)+parseFloat(d3)+parseFloat(d4)+parseFloat(d5)+parseFloat(d6)+parseFloat(d7)+parseFloat(d8)+parseFloat(d9)+parseFloat(d10)+parseFloat(d11)+parseFloat(d12)+parseFloat(d13)+parseFloat(d14)+parseFloat(d15)+parseFloat(d16)+parseFloat(d17)+parseFloat(d18)+parseFloat(d19)+parseFloat(d20)+parseFloat(d21)+parseFloat(d22)+parseFloat(d23)+parseFloat(d24)+parseFloat(d25)+parseFloat(d26)+parseFloat(d27)+parseFloat(d28)+parseFloat(d29)+parseFloat(d30)+parseFloat(d31)+parseFloat(d32)+parseFloat(d33)+parseFloat(d34)+parseFloat(d35)+parseFloat(d36)+parseFloat(d37)+parseFloat(d38)+parseFloat(d39)+parseFloat(d40)+parseFloat(d41)+parseFloat(d42)+parseFloat(d43)+parseFloat(d44)+parseFloat(d45)+parseFloat(d46)) || 0; 
+		resultc =  parseFloat(parseFloat(c1)+parseFloat(c2)+parseFloat(c3)+parseFloat(c4)+parseFloat(c5)+parseFloat(c6)+parseFloat(c7)+parseFloat(c8)+parseFloat(c9)+parseFloat(c10)+parseFloat(c11)+parseFloat(c12)+parseFloat(c13)+parseFloat(c14)+parseFloat(c15)+parseFloat(c16)+parseFloat(c17)+parseFloat(c18)+parseFloat(c19)+parseFloat(c20)+parseFloat(c21)+parseFloat(c22)+parseFloat(c23)+parseFloat(c24)+parseFloat(c25)+parseFloat(c26)+parseFloat(c27)+parseFloat(c28)+parseFloat(c29)+parseFloat(c30)+parseFloat(c31)+parseFloat(c32)+parseFloat(c33)+parseFloat(c34)+parseFloat(c35)+parseFloat(c36)+parseFloat(c37)+parseFloat(c38)+parseFloat(c39)+parseFloat(c40)+parseFloat(c41)+parseFloat(c42)+parseFloat(c43)+parseFloat(c44)+parseFloat(c45)+parseFloat(c46)) || 0; 
 		
 		
 		document.getElementById("conclusion-content").innerHTML = "<span class='heading'>Dear Client</span>, <br/> If you want UX for the project, it will take the hard work of <span class='conclusion'>" + resultp + " people</span>," +  " a full " +" <span class='conclusion'>" + resultd + " days</span> and it will cost a total of <span class='conclusion'>" + resultc + "</span>.";
 }
-
-
-
-
 

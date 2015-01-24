@@ -46,7 +46,6 @@
   <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
   <link rel="apple-touch-icon-precomposed" href="img/touch/uxrecipe-57.png"><!-- 57×57px -->
 
-
 </head>
 
 <body>
@@ -290,31 +289,24 @@
         <h3>II. Estimate the cooking.</h3>
         <h5 class="estimate">Add your own values and calculate the total required.</h5>
         <table id="summary-table" class="table table-hover">
-          <tr>
-            <th class="col-md-4">
-              <h6>Ingredient name</h6>
-            </th>
-            <th class="col-md-2">
-              <h6>People</h6>
-            </th>
-            <th class="col-md-2">
-              <h6>Days</h6>
-            </th>
-            <th class="col-md-4">
-              <table>
-                <tr>
-                  <th>
-                    <h6 class="coin">Cost</h6>
-                  </th>
-                  <!-- <th><input class="to-labelauty-icon labelauty labelicon" type="radio" name="coin" data-labelauty="EUR" checked=""> 
-                  </th>
-                  <th><input class="to-labelauty-icon labelauty labelicon" data-labelauty="USD" type="radio" name="coin">
-                  </th> -->
-                </tr>
-              </table>
-            </th>
-          </tr>
+          <thead>
+            <tr>
+              <th class="col-md-4">
+                <h6>Ingredient name</h6>
+              </th>
+              <th class="col-md-2">
+                <h6>People</h6>
+              </th>
+              <th class="col-md-2">
+                <h6>Days</h6>
+              </th>
+              <th class="col-md-4">
+                <h6 class="coin">Cost</h6>
+              </th>
+            </tr>
+          </thead>
         </table>
+
 
         <a href="#conclusion" class="btn btn-primary btn-ux" onclick="sum()"> Make calculations</a>
         <div class="row">
@@ -414,8 +406,6 @@
 
   </div>
 
-
-
   <!-- Go to www.addthis.com/dashboard to customize your tools -->
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54bebc235792640d" async="async"></script>
 
@@ -425,7 +415,6 @@
   <script src="bower_components/sweetalert2/dist/sweetalert2.min.js"></script>
   <script src="app.js"></script> 
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54bebc235792640d" async="async"></script>
-
 
 
   <!-- analytics -->
@@ -438,6 +427,8 @@
   ga('create', 'UA-58631019-1', 'auto');
   ga('send', 'pageview');
 
-</script>
+  </script>
+
+
 </body>
 </html>
