@@ -40,39 +40,39 @@ document.getElementById('research').onclick = function(){
   confirmButtonText: 'Ok! I found what interests me.',
   html:
     '<h5 style="margin-bottom: -5px;">Ethnographic Research<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">You can tell a lot about a person based on his/her culture and social or group behavior. For example did you know that in Japan, purple is the color of wealth</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Market Research<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Try to gain insight from your potential audience from the early start. You might get it right or be way ahead of your time.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Photo Ethnography<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">A picture is worth a 1000 words and it works very well if you want to understand more about the people and culture they belong to. Sometimes the eye can simply miss subtle details.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Visual Anthropology<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Visual Anthropology gathers more than you first think; it is the study of all visuals and representations (dancing, museums, arts, tattoo, sculptures etc.)</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Demographics<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Age, sex, location and many more, please. Know your user, starting with the basic raw data.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Focus Groups<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Gather around a small group of people and find out their opinions, perceptions, beliefs, feelings and attitudes towards your product. </p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Psychographics<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">You think demographics are enough? You can find much more if you describe the personality/lifestyle/atitude of your average to the power user. </p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Documentation<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Document and store all your work. It might help you spare you some headaches in the future.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">SEO & Analytics<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">It is important to know how the user tracks down your product and how he/she spends their time with it.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Mobile Assesment<h5>' +
@@ -84,7 +84,7 @@ document.getElementById('research').onclick = function(){
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Surveys<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Need to find opinions fast? Make a form, write the questions and share. Then you wait and wait and wait hoping to recieve answers.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' 
 });
@@ -120,8 +120,8 @@ document.getElementById('exploration').onclick = function(){
     '<p style="margin-bottom: 5px; font-size: 14px">Each user story must accomplish a series of criterias in order to be valid.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
-    '<h5 style="margin-bottom: -5px; margin-top:20px;">Expert Review<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Questions, Options, Criteria (QOC)</p>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Questions, Options, Criteria (QOC)<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Need to make a design decision? Start asking questions, write possible options and write the criteria for each one.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>'
 });
