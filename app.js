@@ -23,7 +23,7 @@ document.getElementById('planning').onclick = function(){
 	swal({
   title: 'Planning',
   width: 700,
-  confirmButtonText: 'Ok! I found what I interested me.',
+  confirmButtonText: 'Ok! I found what interested me.',
   html:
     '<h5 style="margin-bottom: -5px;">Expert Review<h5>' +
     '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
