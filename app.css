@@ -156,10 +156,14 @@ a.btn-ux:hover, a.btn-ux:visited, a.btn-ux:focus {
 	}
 } 
 
-@media screen and (max-width: 900px) {}
+@media screen and (max-width: 900px) {
 	.titleRow2 .col-md-3 {
 		display: block;
 		margin-top: 15px !important;
+	}
+
+	.print-me {
+		display: block;
 	}
 }
 
