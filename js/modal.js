@@ -12,7 +12,6 @@ document.getElementById('planning').onclick = function(){
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Workshop<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Organise a meeting with the stakeholders involved. Lock yourself with them in a room and start understanding the product.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Competitor Analysis<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">You are not alone. There are competitors everywhere. Try to learn what makes them tick so you can be one step ahead.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
@@ -20,11 +19,9 @@ document.getElementById('planning').onclick = function(){
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Requirements Analysis<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Do not dare to open Photoshop and start designing. Try to know the product, the client, the user by hand.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Interview<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">As soon as possible try to ask questions and get answers from the major stakeholder involved.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">(De)briefing<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">First disect the brief. If no such thing exists, create one with the client.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
@@ -42,19 +39,15 @@ document.getElementById('research').onclick = function(){
     '<h5 style="margin-bottom: -5px;">Ethnographic Research<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">You can tell a lot about a person based on his/her culture and social or group behavior. For example did you know that in Japan, purple is the color of wealth</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Market Research<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Try to gain insight from your potential audience from the early start. You might get it right or be way ahead of your time.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Photo Ethnography<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">A picture is worth a 1000 words and it works very well if you want to understand more about the people and culture they belong to. Sometimes the eye can simply miss subtle details.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Visual Anthropology<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Visual Anthropology gathers more than you first think; it is the study of all visuals and representations (dancing, museums, arts, tattoo, sculptures etc.)</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Demographics<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Age, sex, location and many more, please. Know your user, starting with the basic raw data.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
@@ -66,15 +59,12 @@ document.getElementById('research').onclick = function(){
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Psychographics<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">You think demographics are enough? You can find much more if you describe the personality/lifestyle/atitude of your average to the power user. </p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Documentation<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Document and store all your work. It might help you spare you some headaches in the future.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">SEO & Analytics<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">It is important to know how the user tracks down your product and how he/she spends their time with it.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Mobile Assesment<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Do you need to keep all desktop features on mobile? Well, choose which one stays and which one goes using this technique.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
@@ -137,7 +127,6 @@ document.getElementById('testing').onclick = function(){
     '<h5 style="margin-bottom: -5px;">A/B Testing<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">This is the client favorite especially when they do not know what to choose. </p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Guerilla Testing<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Grab your design, head over to a coffee shop and test your product there. Don`t forget to buy them a drink. </p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
@@ -148,8 +137,7 @@ document.getElementById('testing').onclick = function(){
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Remote testing<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Let other do the job jor you. Test your designs or prototypes using remote tools.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>'
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'
 });
 };
 
@@ -162,19 +150,16 @@ document.getElementById('design').onclick = function(){
 		'<h5 style="margin-bottom: -5px;">Sketching<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Grab a pencil. Grab a piece of paper. Start doodling and no "I cannot draw" excuses. </p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<small>UX Recipe Template: ' + '<a href="http://pxdotpt.com/blog/2014/11/16/freebie-2-smartwatch-templates" target="_blank"> Try out my Moto360 and Apple Watch smart watch sketching templates</a>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Wireframes<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Go beyond sketches and start creating the skeleton of your product. Stay away as much as possible from `coloring` it. That is for another step.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Styleguide<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Dress your site/product appropriately. In order to keep a proper level of consistency each asset/corner/stone must be designed.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Mockups<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Create a visual representation of your product that it is close to the real thing.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Style Tiles<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Organise your product`s visual style into tiles. Focus on the main things that need to be styled (colors, typography, controls etc.).</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
@@ -188,14 +173,13 @@ document.getElementById('information').onclick = function(){
   width: 600,
   confirmButtonText: 'Ok! I found what interests me.',
   html:
-		'<h5 style="margin-bottom: -5px;">Sitemap<h5>' +
+	'<h5 style="margin-bottom: -5px;">Sitemap<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Sitemaps show the structure of your product/app/website. They can be represented both visual (diagrams) or text based (often using spreadsheets).</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Card Sorting<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Organise your information using cards. Grouped them in order to achieve the right structure. </p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Content Audit<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Check all the information and evaluate it. It helps answer the following question: Is the current content any good?</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
@@ -211,11 +195,9 @@ document.getElementById('information').onclick = function(){
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Organization Schemes<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Organize your content, but also create relationships between each solid piece. /p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Organization Structure<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">It takes two to tango. It takes more to organize. Structures help define how the content relationship is defined: hierarchical, sequential or matrix. </p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">DoGo Mapping<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">A more different approach from the classic map. To keep it short: DO something that makes you GO somewhere else.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
@@ -237,11 +219,9 @@ document.getElementById('prototyping').onclick = function(){
     '<h5 style="margin-bottom: -5px; margin-top:20px;">HTML Demo<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Use your HTML/CSS skills to create something `tangible`. Link pages and present a flow. Add CSS3 animations/transitions and you are Man/Woman of the Day.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Interactive Design<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Bring your designs to life and create digital prototypes. Say goodbye to static approaches. </p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
-    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px;">Mobile Showcase<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Either responsive or a standalone app, your product deserved to be the highlight of the day. Make it come alive.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
