@@ -97,27 +97,27 @@ document.getElementById('exploration').onclick = function(){
   confirmButtonText: 'Ok! I found what interests me.',
   html:
 		'<h5 style="margin-bottom: -5px;">Persona<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Create a representation of your users. The ones that will interact with your product.</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Create a representation of your users - the ones that will interact with your product.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">User Flow<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Describe the necessary steps the user has to take to finish a logical task. How does he/she get from point A to point B?</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Storyboards<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Draw a series of panels and describe the user`s experience (both in and out of the product) using rough sketches (stick figures, star people etc.).</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Journey Maps<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Explain the full journey the user has to take with your product. Both online and offline. Track down what makes them happy (don`t forget the pain points) and list the artefacts they encounter.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">User Stories<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">List what users want to do in order to achieve a certain outcome. For instance, I want to connect with Facebook because it is easy and I save time.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Acceptance Criteria<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Each user story must accomplish a series of criterias in order to be valid.</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Each user story must accomplish a series of criterias in order to be valid and have the desired outcome.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Questions, Options, Criteria (QOC)<h5>' +
@@ -189,7 +189,7 @@ document.getElementById('information').onclick = function(){
   confirmButtonText: 'Ok! I found what interests me.',
   html:
 		'<h5 style="margin-bottom: -5px;">Sitemap<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Sitemaps show the structure of your product/app/website. They can be represented both visual (diagrams) or text based (often using spreadsheets).</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Card Sorting<h5>' +
@@ -197,23 +197,23 @@ document.getElementById('information').onclick = function(){
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Content Audit<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Check all the information and evaluate it. It helps answer the following question: Is the current content any good?</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Content Inventory<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Store and log all the product`s content. It will help you track changes and it works in tandem with Content Audit. Inventory represents the "What", while audit is the "Why".</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Brainstorming<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Grab your team and start discussing ideas, but always keep in mind: no idea is left behind and no idea is bad. Everyone contributes.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
-    '<h5 style="margin-bottom: -5px; margin-top:20px;">Organisation Schemes<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Organization Schemes<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Organize your content, but also create relationships between each solid piece. /p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
-    '<h5 style="margin-bottom: -5px; margin-top:20px;">Organisation Structure<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Organization Structure<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">It takes two to tango. It takes more to organize. Structures help define how the content relationship is defined: hierarchical, sequential or matrix. </p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">DoGo Mapping<h5>' +
