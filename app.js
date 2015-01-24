@@ -23,29 +23,29 @@ document.getElementById('planning').onclick = function(){
 	swal({
   title: 'Planning',
   width: 700,
-  confirmButtonText: 'Ok! I found what interested me.',
+  confirmButtonText: 'Ok! I found what interests me.',
   html:
     '<h5 style="margin-bottom: -5px;">Expert Review<h5>' +
     '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
     '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
-    '<h5 style="margin-bottom: -5px; margin-top:20px;">Expert Review<h5>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Workshop<h5>' +
     '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
     '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
-    '<h5 style="margin-bottom: -5px; margin-top:20px;">Expert Review<h5>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Competitor Analysis<h5>' +
     '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
     '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
-    '<h5 style="margin-bottom: -5px; margin-top:20px;">Expert Review<h5>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Requirements Analysis<h5>' +
     '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
     '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
-    '<h5 style="margin-bottom: -5px; margin-top:20px;">Expert Review<h5>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Interview<h5>' +
     '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
     '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
-    '<h5 style="margin-bottom: -5px; margin-top:20px;">Expert Review<h5>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">(De)briefing<h5>' +
     '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
     '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' 
@@ -58,9 +58,54 @@ document.getElementById('research').onclick = function(){
   title: 'Research',
   width: 700,
   html:
-    'You can use <b>bold text</b>, ' +
-    ' <a href="//github.com">links</a> ' +
-    'and other HTML tags'
+    '<h5 style="margin-bottom: -5px;">Expert Review<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Workshop<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Competitor Analysis<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Requirements Analysis<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Interview<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">(De)briefing<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px;">Expert Review<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Workshop<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Competitor Analysis<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Requirements Analysis<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Interview<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">(De)briefing<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' 
 });
 };
 
@@ -69,9 +114,35 @@ document.getElementById('exploration').onclick = function(){
   title: 'Exploration',
   width: 700,
   html:
-    'You can use <b>bold text</b>, ' +
-    ' <a href="//github.com">links</a> ' +
-    'and other HTML tags'
+		'<h5 style="margin-bottom: -5px;">Expert Review<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Workshop<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Competitor Analysis<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Requirements Analysis<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Interview<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">(De)briefing<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5 style="margin-bottom: -5px;">Expert Review<h5>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>'
+    
 });
 };
 
