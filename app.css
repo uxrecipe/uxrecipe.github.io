@@ -386,9 +386,19 @@ a:hover > .label {
 	margin-top: 20px;
 }
 
+/* Print button */
 
-
-.overflow { 
-	height: 850px; 
-	overflow-y:scroll; 
+.print-me {
+	margin-left: 0px;
+	border-radius: 3px;
+	background: #4F3C48;
 }
+
+a.print-me:hover {
+	background: #4F3C48;
+}
+
+.fa-print {
+	margin-left: 0px;
+}
+
