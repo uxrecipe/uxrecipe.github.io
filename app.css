@@ -75,6 +75,8 @@ h5 em {
 /*setting up the background*/
 html, .container-fluid{
 	background: #F2F4F6;
+	background-image: url('img/pattern.png');
+	background-repeat: repeat-x;
 }
 
 /*center logo*/

@@ -6,23 +6,23 @@ document.getElementById('planning').onclick = function(){
   confirmButtonText: 'Ok! I found what interests me.',
   html:
     '<h5 style="margin-bottom: -5px;">Expert Review<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Review a site or an app by verifying it through a series of feature checkpoints.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Workshop<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Organise a meeting with the stakeholders involved. Lock yourself with them in a room and start understanding the product.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Competitor Analysis<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">You are not alone. There are competitors everywhere. Try to learn what makes them tick so you can be one step ahead.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Requirements Analysis<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Do not dare to open Photoshop and start designing. Try to know the product, the client, the user by hand.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Interview<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">As soon as possible try to ask questions and get answers from the major stakeholder involved.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">(De)briefing<h5>' +
@@ -164,11 +164,11 @@ document.getElementById('design').onclick = function(){
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Wireframes<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Go beyond sketches and start creating the skeleton of your product. Stay away as much as possible from `coloring` it. That is for another step.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Styleguide<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Description goes here</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Dress your site/product appropriately. In order to keep a proper level of consistency each asset/corner/stone must be designed.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Mockups<h5>' +
