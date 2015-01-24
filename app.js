@@ -24,9 +24,30 @@ document.getElementById('planning').onclick = function(){
   title: 'Planning',
   width: 700,
   html:
-    'You can use <b>bold text</b>, ' +
-    ' <a href="//github.com">links</a> ' +
-    'and other HTML tags'
+    '<h5>Expert Review<h5>' +
+    '<p style="margin-bottom: 10px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 10px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5>Expert Review<h5>' +
+    '<p style="margin-bottom: 10px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 10px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5>Expert Review<h5>' +
+    '<p style="margin-bottom: 10px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 10px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5>Expert Review<h5>' +
+    '<p style="margin-bottom: 10px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 10px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5>Expert Review<h5>' +
+    '<p style="margin-bottom: 10px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 10px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
+    '<h5>Expert Review<h5>' +
+    '<p style="margin-bottom: 10px; font-size: 12px">Description goes here</p>' +
+    '<p style="margin-bottom: 10px; font-size: 12px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' 
 });
 };
 
