@@ -42,6 +42,10 @@ h2, h3, h4, h5, h6, p, label, li {
 	font-family: Roboto;
 }
 
+/*modal h2 left */
+.sweet-alert h2 {
+	text-align: left;
+}
 
 /*separating the title blocks*/
 .titleRow div {
@@ -89,7 +93,7 @@ html, .container-fluid{
 }
 
 /*customize buttons*/
-#uxlogo a {
+#uxlogo a, button.confirm {
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 50px;
@@ -97,11 +101,16 @@ html, .container-fluid{
 	border: none;
 	border-radius: 3px;
 	font-size: 16px;
-	background: #4F3C48;
+	background: #4F3C48 !important;
 	color: rgba(255,255,255, .9);
 	   transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
+}
+
+button.confirm {
+	margin-left: 0px;
+	margin-bottom: 20px;
 }
 
 #uxlogo p {
@@ -138,11 +147,13 @@ p small {
 	margin-bottom: 0px;
 }
 
-#uxlogo a:hover, #uxlogo a:focus, #uxlogo a:visited{
+#uxlogo a:hover, #uxlogo a:focus, #uxlogo a:visited, button.confirm:hover{
 	background: #4F3C48;
 	color: #fff;
-	opacity: .8;
+	opacity: .8 !important;
 }
+
+
 
 a.btn-ux:hover, a.btn-ux:visited, a.btn-ux:focus {
 	background: #72686F;
