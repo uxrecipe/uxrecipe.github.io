@@ -18,7 +18,7 @@ document.getElementById('planning').onclick = function(){
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Requirements Analysis<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Do not dare to open Photoshop and start designing. Try to know the product, the client, the user by hand.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href="http://usabilitygeek.com/requirements-gathering-user-experience-pt1/" target="_blank"> Requirements Gathering: A Step By Step Approach For A Better User Experience </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful link: ' + '<a href="http://usabilitygeek.com/requirements-gathering-user-experience-pt1/" target="_blank"> Requirements Gathering: A Step By Step Approach For A Better User Experience </a>' +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Interview<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">As soon as possible try to ask questions and get answers from the major stakeholder involved.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.uxapprentice.com/resources/stakeholder-interview-template/"> UX Apprentice Interview Template </a>' + ' | ' +'<a target="_blank" href="http://www.userfocus.co.uk/articles/conducting-an-effective-stakeholder-interview.html"> Conducting an Effective Stakeholder Interview </a>' + ' | ' +'<a target="_blank" href="http://boxesandarrows.com/a-stakeholder-interview-checklist/"> A Stakeholder Interview Checklist </a>' +' </p>'+
@@ -126,14 +126,14 @@ document.getElementById('testing').onclick = function(){
   html:
     '<h5 style="margin-bottom: -5px;">A/B Testing<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">This is the client favorite especially when they do not know what to choose. </p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.smashingmagazine.com/2010/06/24/the-ultimate-guide-to-a-b-testing/"> The Ultimate Guide to A/B testing </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful link: ' + '<a target="_blank" href="http://www.smashingmagazine.com/2010/06/24/the-ultimate-guide-to-a-b-testing/"> The Ultimate Guide to A/B testing </a>' +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Guerilla Testing<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Grab your design, head over to a coffee shop and test your product there. Don`t forget to buy them a drink. </p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.uxbooth.com/articles/the-art-of-guerrilla-usability-testing/"> The Art of Guerrilla Usability Testing </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful link: ' + '<a target="_blank" href="http://www.uxbooth.com/articles/the-art-of-guerrilla-usability-testing/"> The Art of Guerrilla Usability Testing </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Lab Testing<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Lights! Camera! Action! Record and heatmap your user`s behvior in a controlled environment.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href="http://www.stakelon.com/2014/01/building-a-discount-user-testing-lab-part-1/"> Building A User Testing Lab, Part 1 (Remember, there are 3 parts in total) </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful link: ' + '<a href="http://www.stakelon.com/2014/01/building-a-discount-user-testing-lab-part-1/"> Building A User Testing Lab, Part 1 (Keep in mind,there are 3 parts in total) </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Remote testing<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Let other do the job jor you. Test your designs or prototypes using remote tools.</p>' +
@@ -149,20 +149,20 @@ document.getElementById('design').onclick = function(){
   html:
 		'<h5 style="margin-bottom: -5px;">Sketching<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Grab a pencil. Grab a piece of paper. Start doodling and no "I cannot draw" excuses. </p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.smashingmagazine.com/2011/12/13/the-messy-art-of-ux-sketching/"> The Messy Art of UX Sketching </a>' + ' | ' +'<a target="_blank" href="https://medium.com/@moonshinedesign/ux-sketching-4deda906c915"> UX Sketching - Why is it necessary? </a>' + ' | ' +'<a target="_blank" href="http://www.uxbooth.com/articles/tools-for-sketching-user-experiences/"> Tools for Sketching User Experiences </a>' + ' | ' +'<a target="_blank" href="http://www.uistencils.com/"> UI Stencils </a>' + ' | ' +'<a target="_blank" href="http://www.slideshare.net/mariusursache/marius-ursache-sketching-prototyping"> Sketching and Prototyping (Slideshare) </a>' +' </p>'+
     '<small>UX Recipe Template: ' + '<a href="http://pxdotpt.com/blog/2014/11/16/freebie-2-smartwatch-templates" target="_blank"> Try out my Moto360 and Apple Watch smart watch sketching templates</a>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Wireframes<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Go beyond sketches and start creating the skeleton of your product. Stay away as much as possible from `coloring` it. That is for another step.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.adobe.com/products/illustrator.html"> Adobe Illustrator </a>' + ' | ' +'<a target="_blank" href="http://www.axure.com/"> Axure RP </a>'+ ' | ' +'<a target="_blank" href="https://balsamiq.com/"> Balsamiq </a>' +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Styleguide<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Dress your site/product appropriately. In order to keep a proper level of consistency each asset/corner/stone must be designed.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://uxmag.com/articles/the-elements-of-a-style-guide"> The Elements of a Style Guide </a>' + ' | ' +'<a target="_blank" href="http://bradfrost.com/blog/post/atomic-web-design/"> Atomic Design </a>'  + ' | ' +'<a target="_blank" href="http://codeforamerica.clearleft.com/"> CodeForAmerica Style Guide by Clearleft </a>'+' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Mockups<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Create a visual representation of your product that it is close to the real thing.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.adobe.com/products/photoshop.html"> Adobe Photoshop </a>' + ' | ' +'<a target="_blank" href="http://bohemiancoding.com/sketch/"> Sketch </a>' +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Style Tiles<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Organise your product`s visual style into tiles. Focus on the main things that need to be styled (colors, typography, controls etc.).</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful link: ' + '<a href="http://styletil.es/"> styleti.es </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' 
 });
 };
@@ -214,17 +214,17 @@ document.getElementById('prototyping').onclick = function(){
   html:
     '<h5 style="margin-bottom: -5px;">Paper Prototyping<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Remember those sketches? Well, have you tried to tape them to a phone and interact with them.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href="http://alistapart.com/article/paperprototyping" target="_blank"> A List Apart Paper Prototyping </a>' + ' | ' +'<a href="https://popapp.in/" target="_blank"> POP App </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">HTML Demo<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Use your HTML/CSS skills to create something `tangible`. Link pages and present a flow. Add CSS3 animations/transitions and you are Man/Woman of the Day.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful link: ' + '<a href="http://capcloud.com/post/45915556334/the-best-framework-for-ux-prototyping-in-html" target="_blank"> Best Frameworks for UX Prototyping (Bootstrap, Foundation, Skeleton) </a>' + '</p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Interactive Design<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Bring your designs to life and create digital prototypes. Say goodbye to static approaches. </p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href="www.invisionapp.com" target="_blank"> Invision </a>' + ' | ' +'<a target="_blank" href="https://marvelapp.com"> Marvel App </a>'+ ' | ' +'<a target="_blank" href="https://www.flinto.com/"> Flinto </a>'+ ' | ' +'<a target="_blank" href="https://proto.io/"> Proto </a>'+' </p>'+
     '<h5 style="margin-bottom: -5px;">Mobile Showcase<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Either responsive or a standalone app, your product deserved to be the highlight of the day. Make it come alive.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful link: ' + '<a href="http://www.pixate.com/" target="_blank"> Pixate</a>'+', but also try InVision, Marvel etc. (see above)' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>'
 });
 };
