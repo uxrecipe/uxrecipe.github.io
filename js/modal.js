@@ -126,18 +126,18 @@ document.getElementById('testing').onclick = function(){
   html:
     '<h5 style="margin-bottom: -5px;">A/B Testing<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">This is the client favorite especially when they do not know what to choose. </p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.smashingmagazine.com/2010/06/24/the-ultimate-guide-to-a-b-testing/"> The Ultimate Guide to A/B testing </a>' +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Guerilla Testing<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Grab your design, head over to a coffee shop and test your product there. Don`t forget to buy them a drink. </p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.uxbooth.com/articles/the-art-of-guerrilla-usability-testing/"> The Art of Guerrilla Usability Testing </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Lab Testing<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Lights! Camera! Action! Record and heatmap your user`s behvior in a controlled environment.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href="http://www.stakelon.com/2014/01/building-a-discount-user-testing-lab-part-1/"> Building A User Testing Lab, Part 1 (Remember, there are 3 parts in total) </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Remote testing<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Let other do the job jor you. Test your designs or prototypes using remote tools.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.nngroup.com/articles/remote-usability-tests/"> Remote Usability Tests: Moderated and Unmoderated </a>' + ' | ' +'<a target="_blank" href="http://remoteresear.ch/tools/"> Remote Usability and UX Research Tools </a>' +' </p>'
 });
 };
 
