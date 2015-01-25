@@ -7,24 +7,24 @@ document.getElementById('planning').onclick = function(){
   html:
     '<h5 style="margin-bottom: -5px;">Expert Review<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Review a site or an app by verifying it through a series of feature checkpoints.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href="http://www.uxmatters.com/mt/archives/2014/01/conducting-expert-reviews-what-works-best.php" target="_blank"> Conducting Expert Reviews </a>' + ' | ' +'<a href="http://www.smashingmagazine.com/2011/12/16/a-guide-to-heuristic-website-reviews/" target="_blank"> A Guide to Heursitic Website Reviews </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Workshop<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Organise a meeting with the stakeholders involved. Lock yourself with them in a room and start understanding the product.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.uxmatters.com/mt/archives/2010/05/achieving-design-focus-an-approach-to-design-workshops.php"> Achieving Design Focus: An Approach to Design Workshops </a>' + ' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Competitor Analysis<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">You are not alone. There are competitors everywhere. Try to learn what makes them tick so you can be one step ahead.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.uxmatters.com/mt/archives/2009/04/differentiating-your-design-a-visual-approach-to-competitive-reviews.php"> A Visual Approach to Competitive Reviews </a>' + ' | ' +'<a href="http://danforthmedia.com/pages/2014/03/01/conducting-a-solid-ux-competitive-analysis/" target="_blank"> Conducting a solid UX Competitive Analysis </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Requirements Analysis<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Do not dare to open Photoshop and start designing. Try to know the product, the client, the user by hand.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href="http://usabilitygeek.com/requirements-gathering-user-experience-pt1/" target="_blank"> Requirements Gathering: A Step By Step Approach For A Better User Experience </a>' +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Stakeholder Interview<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">As soon as possible try to ask questions and get answers from the major stakeholder involved.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.uxapprentice.com/resources/stakeholder-interview-template/"> UX Apprentice Interview Template </a>' + ' | ' +'<a target="_blank" href="http://www.userfocus.co.uk/articles/conducting-an-effective-stakeholder-interview.html"> Conducting an Effective Stakeholder Interview </a>' + ' | ' +'<a target="_blank" href="http://boxesandarrows.com/a-stakeholder-interview-checklist/"> A Stakeholder Interview Checklist </a>' +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">(De)briefing<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">First disect the brief. If no such thing exists, create one with the client.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://library.iasummit.org/podcasts/the-user-experience-brief-what-why-and-how/"> The User Experience Brief: What, Why and How </a>' + ' | ' +'<a target="_blank" href="http://www.usabilitycounts.com/2011/07/06/a-day-in-the-life-of-a-ux-designer-part-ii-develop-a-design-brief/"> A Day in the Life of a UX Designer: Develop a Design Brief </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' 
 });
 };
@@ -81,7 +81,7 @@ document.getElementById('research').onclick = function(){
 };
 
 document.getElementById('exploration').onclick = function(){
-	swal({
+  swal({
   title: 'Exploration',
   width: 600,
   confirmButtonText: 'Ok! I found what interests me.',
@@ -173,7 +173,7 @@ document.getElementById('information').onclick = function(){
   width: 600,
   confirmButtonText: 'Ok! I found what interests me.',
   html:
-	'<h5 style="margin-bottom: -5px;">Sitemap<h5>' +
+	   '<h5 style="margin-bottom: -5px;">Sitemap<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Sitemaps show the structure of your product/app/website. They can be represented both visual (diagrams) or text based (often using spreadsheets).</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
