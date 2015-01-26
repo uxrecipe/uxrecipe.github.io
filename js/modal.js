@@ -38,44 +38,44 @@ document.getElementById('research').onclick = function(){
   html:
     '<h5 style="margin-bottom: -5px;">Ethnographic Research<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">You can tell a lot about a person based on his/her culture and social or group behavior. For example did you know that in Japan, purple is the color of wealth</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://methodsofdiscovery.net/?q=node/19"> Defining Ethnography and Culture </a>' +  '</p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Market Research<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Try to gain insight from your potential audience from the early start. You might get it right or be way ahead of your time.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://johnnyholland.org/2011/09/what-i-bring-to-ux-from-market-research/"> What I Bring to UX From … Market Research </a>'  +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Photo Ethnography<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">A picture is worth a 1000 words and it works very well if you want to understand more about the people and culture they belong to. Sometimes the eye can simply miss subtle details.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.qualitative-research.net/index.php/fqs/article/view/1310/2810"> Photo-ethnography by People Living in Poverty Near the Northern Border of Mexico </a>'  +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Visual Anthropology<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Visual Anthropology gathers more than you first think; it is the study of all visuals and representations (dancing, museums, arts, tattoo, sculptures etc.)</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://astro.temple.edu/~ruby/ruby/cultanthro.html"> Visual Anthropology (In Encyclopedia of Cultural Anthropology) </a>'  +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Demographics<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Age, sex, location and many more, please. Know your user, starting with the basic raw data.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.uie.com/articles/recruiting_participants/"> Avoiding Demographics When Recruiting Participants: An Interview with Dana Chisnell </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Focus Groups<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Gather around a small group of people and find out their opinions, perceptions, beliefs, feelings and attitudes towards your product. </p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.usability.gov/how-to-and-tools/methods/focus-groups.html"> Usability.gov Focus Groups </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Psychographics<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">You think demographics are enough? You can find much more if you describe the personality/lifestyle/atitude of your average to the power user. </p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://mashable.com/2011/06/30/psychographics-marketing/"> The End of Demographics: How Marketers Are Going Deeper With Personal Data </a>' +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Documentation<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Document and store all your work. It might help you spare you some headaches in the future.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="https://evernote.com/"> Evernote </a>' + ' | ' +'<a target="_blank" href="https://www.google.com/drive/"> Google Drive </a>' +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">SEO & Analytics<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">It is important to know how the user tracks down your product and how he/she spends their time with it.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="www.google.com/analytics"> Google Analytics </a>' +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Mobile Assesment<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Do you need to keep all desktop features on mobile? Well, choose which one stays and which one goes using this technique.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://alistapart.com/article/organizing-mobile/"> Organizing Mobile </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Observational Research<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Grab a pen and paper and start noting what the users are doing with your product.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.quirks.com/articles/a1997/19971208.aspx?searchID=625728"> Seven rules for observational research: how to watch people do stuff  </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Surveys<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Need to find opinions fast? Make a form, write the questions and share. Then you wait and wait and wait hoping to recieve answers.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://uxmastery.com/better-user-research-through-surveys/"> Better User Research Through Surveys </a>' + ' | ' +'<a target="_blank" href="https://blog.mozilla.org/ux/2012/10/writing-surveys-that-work/"> Writing Surveys That Work </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' 
 });
 };
