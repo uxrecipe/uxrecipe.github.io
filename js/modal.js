@@ -88,31 +88,31 @@ document.getElementById('exploration').onclick = function(){
   html:
 		'<h5 style="margin-bottom: -5px;">Persona<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Create a representation of your users - the ones that will interact with your product.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="www.smashingmagazine.com/2014/08/06/a-closer-look-at-personas-part-1/"> A closer look at Personas (this is only part 1)</a>' + ' | ' +'<a target="_blank" href="http://uxmag.com/articles/persona-grata"> Persona Grata: Welcoming users into the interaction design process </a>' + ' | ' +'<a target="_blank" href="http://blankdots.com/open/personas/"> Blankdots Persona Template </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">User Flow<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Describe the necessary steps the user has to take to finish a logical task. How does he/she get from point A to point B?</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows"> A Shorthand for Designing UI Flows </a>' + ' | ' +'<a target="_blank" href="http://www.smashingmagazine.com/2012/01/04/stop-designing-pages-start-designing-flows/"> Stop designing pages start designing flows </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Storyboards<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Draw a series of panels and describe the user`s experience (both in and out of the product) using rough sketches (stick figures, star people etc.).</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://johnnyholland.org/2011/10/storyboarding-ux-part-1-an-introduction/"> Storyboarding & UX (this is only part 1, find the rest) </a>' + ' | ' +'<a target="_blank" href="http://uxmag.com/articles/storyboarding-in-the-software-design-process"> Storyboarding in the Software Design Process </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Journey Maps<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Explain the full journey the user has to take with your product. Both online and offline. Track down what makes them happy (don`t forget the pain points) and list the artefacts they encounter.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.adaptivepath.com/ideas/the-anatomy-of-an-experience-map/"> The Anatomy of an Experience Map </a>' + ' | ' +'<a target="_blank" href="http://www.ux-lady.com/experience-maps-user-journey-and-more-exp-map-layout/"> Experience Maps, User Journey and more </a>'+ ' | ' + '<a target="_blank" href="http://sixrevisions.com/user-experience-ux/customer-journey-maps/"> Improving UX with Customer Journey Maps </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">User Stories<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">List what users want to do in order to achieve a certain outcome. For instance, I want to connect with Facebook because it is easy and I save time.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.usabilitycounts.com/2013/10/11/why-i-love-user-stories/"> Why I love User Stories </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Acceptance Criteria<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Each user story must accomplish a series of criterias in order to be valid and have the desired outcome.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.agilelearninglabs.com/2013/04/user-story-splitting-three/"> Splitting User Stories with Acceptance Criteria </a>' + ' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Questions, Options, Criteria (QOC)<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Need to make a design decision? Start asking questions, write possible options and write the criteria for each one.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.slideshare.net/koenvanturnhout/how-to-perform-a-qoc-analysis"> How to perform a QOC analysis </a>' + ' | ' +'<a target="_blank" href="http://www.sigchi.org/chi95/proceedings/papers/tcy_bdy.htm"> Design Space Analysis as "Training Wheels" in a Framework for Learning User Interface Design </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>'
 });
 };
@@ -175,32 +175,32 @@ document.getElementById('information').onclick = function(){
   html:
 	   '<h5 style="margin-bottom: -5px;">Sitemap<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Sitemaps show the structure of your product/app/website. They can be represented both visual (diagrams) or text based (often using spreadsheets).</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.jjg.net/ia/visvocab/"> A visual vocabulary for describing information architecture and interaction design </a>'  +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Card Sorting<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Organise your information using cards. Grouped them in order to achieve the right structure. </p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.smashingmagazine.com/2014/10/20/improving-information-architecture-card-sorting-beginners-guide/"> Improving Your Information Architecture With Card Sorting: A Beginner’s Guide </a>' + ' | ' +'<a target="_blank" href="https://www.interaction-design.org/encyclopedia/card_sorting.html"> IDF Card Sorting </a>' + ' | ' +'<a href="http://www.nngroup.com/articles/card-sorting-how-many-users-to-test/"> Card Sorting: How many users to test </a>' + ' | ' +'<a target="_blank" href="http://boxesandarrows.com/card-sorting-a-definitive-guide/"> Card Sorting: A definitive guide </a>' + ' | ' +'<a target="_blank" href="https://trello.com/"> Trello </a>' +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Content Audit<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Check all the information and evaluate it. It helps answer the following question: Is the current content any good?</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://uxmastery.com/how-to-conduct-a-content-audit/"> How to Conduct a Content Audit</a>'  +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Content Inventory<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Store and log all the product`s content. It will help you track changes and it works in tandem with Content Audit. Inventory represents the "What", while audit is the "Why".</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href="http://www.adaptivepath.com/ideas/doing-content-inventory/"> Doing a Content Inventory (Or, A Mind-Numbingly Detailed Odyssey Through Your Web Site) </a>' + ' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Brainstorming<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Grab your team and start discussing ideas, but always keep in mind: no idea is left behind and no idea is bad. Everyone contributes.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.inspireux.com/2013/07/18/tips-for-structuring-better-brainstorming-sessions/"> Tips for structuring better brainstorming sessions </a>' + ' | ' +'<a target="_blank" href="http://www.smashingmagazine.com/2013/12/16/using-brainwriting-for-rapid-idea-generation/"> Using Brainwriting for Rapid Idea Generation </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Organization Schemes<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Organize your content, but also create relationships between each solid piece. /p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.usability.gov/how-to-and-tools/methods/organization-schemes.html"> Usability.gov Organization Schemes </a>' + ' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Organization Structure<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">It takes two to tango. It takes more to organize. Structures help define how the content relationship is defined: hierarchical, sequential or matrix. </p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.usability.gov/how-to-and-tools/methods/organization-structures.html"> Usability.gov Organizational Structure </a>'  +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">DoGo Mapping<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">A more different approach from the classic map. To keep it short: DO something that makes you GO somewhere else.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href=""> Link1 </a>' + ' | ' +'<a href=""> Link1 </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://uxmag.com/articles/adapting-information-architecture-for-lean-and-agile-environments-with-dogo-mapping"> Adapting Information Architecture for Lean and Agile Environments with DoGo Mapping </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>'
    });
 };
