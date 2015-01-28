@@ -37,7 +37,7 @@ document.getElementById('research').onclick = function(){
   confirmButtonText: 'Ok! I found what interests me.',
   html:
     '<h5 style="margin-bottom: -5px;">Ethnographic Research<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">You can tell a lot about a person based on his/her culture and social or group behavior. For example did you know that in Japan, purple is the color of wealth</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">You can tell a lot about a person based on his/her culture and social or group behavior. For example did you know that in Japan, purple is the color of wealth?</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://methodsofdiscovery.net/?q=node/19"> Defining Ethnography and Culture </a>' +  '</p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Market Research<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Try to gain insight from your potential audience from the early start. You might get it right or be way ahead of your time.</p>' +
@@ -132,7 +132,7 @@ document.getElementById('testing').onclick = function(){
     '<p style="margin-bottom: 5px; font-size: 14px">Useful link: ' + '<a target="_blank" href="http://www.uxbooth.com/articles/the-art-of-guerrilla-usability-testing/"> The Art of Guerrilla Usability Testing </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Lab Testing<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Lights! Camera! Action! Record and heatmap your user`s behvior in a controlled environment.</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Lights! Camera! Action! Record and heatmap your user`s behavior in a controlled environment.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful link: ' + '<a href="http://www.stakelon.com/2014/01/building-a-discount-user-testing-lab-part-1/"> Building A User Testing Lab, Part 1 (Keep in mind,there are 3 parts in total) </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Remote testing<h5>' +
@@ -223,7 +223,7 @@ document.getElementById('prototyping').onclick = function(){
     '<p style="margin-bottom: 5px; font-size: 14px">Bring your designs to life and create digital prototypes. Say goodbye to static approaches. </p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href="www.invisionapp.com" target="_blank"> Invision </a>' + ' | ' +'<a target="_blank" href="https://marvelapp.com"> Marvel App </a>'+ ' | ' +'<a target="_blank" href="https://www.flinto.com/"> Flinto </a>'+ ' | ' +'<a target="_blank" href="https://proto.io/"> Proto </a>'+' </p>'+
     '<h5 style="margin-bottom: -5px;">Mobile Showcase<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Either responsive or a standalone app, your product deserved to be the highlight of the day. Make it come alive.</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">Either responsive or a standalone app, your product deserves to be the highlight of the day. Make it come alive.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful link: ' + '<a href="http://www.pixate.com/" target="_blank"> Pixate</a>'+', but also try InVision, Marvel etc. (see above)' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>'
 });
