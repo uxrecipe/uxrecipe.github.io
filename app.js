@@ -32,11 +32,11 @@ $(function () {
 $().ready(function(){
   window.setTimeout(function(){
   	$('#pop-planning').popover('show').fadeIn(1000);
-	}, 7000);
+	}, 10000);
     
   window.setTimeout(function(){
     $('#pop-planning').popover('hide');
-  }, 15000); 
+  }, 17000); 
 });
 
 
