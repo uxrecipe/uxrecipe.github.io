@@ -16,3 +16,30 @@ $('a').click(function(){
     }, 500);
     return false;
 });
+
+
+// popover initialization
+$(function () {
+  $('[data-toggle="popover"]').popover()
+
+})
+
+// $(function () { 
+//   $("#pop-planning").popover('show');
+// });
+
+
+$().ready(function(){
+  window.setTimeout(function(){
+  	$('#pop-planning').popover('show').fadeIn(1000);
+	}, 5000);
+    
+  window.setTimeout(function(){
+    $('#pop-planning').popover('hide');
+  }, 15000); 
+});
+
+
+
+
+

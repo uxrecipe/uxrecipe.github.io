@@ -414,3 +414,19 @@ a.print-me:hover {
 .fa-print {
 	margin-left: 0px;
 }
+
+
+/* popover */
+.fa-info-circle {
+	color: #A5B7BA;
+}
+
+.popover {
+	background:#BCC9CC;
+	color: #fff;
+	border: none;
+}
+
+.popover.right .arrow:after {
+  border-right-color: #BCC9CC;
+}
