@@ -1,6 +1,11 @@
 /*adding new font*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 
+/* OPEN MEDIA SCREEN */
+@media screen {
+
+
+
 /*modifying the icon size*/
 .fa {
 	font-size: 16px;
@@ -178,19 +183,7 @@ a.btn-ux:hover, a.btn-ux:visited, a.btn-ux:focus {
 	opacity: .8;
 }
 
-/*responsive logo fix*/
-@media screen and (min-width: 900px) {
-	#logo img{
-		width: 30%;
-	}
-} 
 
-@media screen and (max-width: 900px) {
-	.titleRow2 .col-md-3 {
-		display: block;
-		margin-top: 15px !important;
-	}
-}
 
 
 /*no spin buttons on number inputs*/
@@ -458,6 +451,7 @@ a.print-me:hover {
 }
 
 
+/* Modifications to calculator controls */
 .fa-calculator, .fa-power-off {
 	margin-left: 3px;
 }
@@ -466,3 +460,41 @@ a[href="#conclusion"] {
 	margin-left: 5px;
 }
 
+/* CLOSE MEDIA SCREEN */
+}
+
+/*responsive logo fix*/
+@media screen and (min-width: 900px) {
+	#logo img{
+		width: 30%;
+	}
+} 
+
+@media screen and (max-width: 900px) {
+	.titleRow2 .col-md-3 {
+		display: block;
+		margin-top: 15px !important;
+	}
+}
+
+
+@media print {
+	#uxlogo h3, #uxlogo h4, 
+	#uxlogo a, #uxlogo p, #getstarted, 
+	#acknowledgementspart1, #acknowledgementspart2,
+	.calculate-me, .btn-ux-danger, #hint, .print-me,
+	#ux-calculator h5 {
+		display:none;
+	}
+
+	#uxlogo img {
+		width: 40%;
+		text-align: center !important;
+		margin: 0 auto !important;
+	}
+
+	#footer {
+		margin-top: 50px;
+		text-align: center;
+	}
+}

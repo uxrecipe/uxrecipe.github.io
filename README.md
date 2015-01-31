@@ -2,7 +2,11 @@
 
 ## What's new 
 
-**Current version: 0.0.2**
+**Current version: 0.0.3**
+
++ Now when you print it only selects the calculations and **not** the entire page (I used @media print queries). Much more useful when budget decisions are needed to be made.  
+
+**Version: 0.0.2**
 
 + I added a popover for the hashtag, incentivizing users to discover more resources. It opens after 10 seconds delays (last 5 seconds) after the page loads, but can be opened manually at any time.
 + Now you can reset your selections. The checkboxes return 
