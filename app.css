@@ -427,6 +427,11 @@ a.print-me:hover {
 	border: none;
 }
 
-.popover.right .arrow:after {
-  border-right-color: #BCC9CC;
+.popover.top > .arrow {
+  border-top-color: #BCC9CC;
 }
+.popover.top > .arrow:after {
+
+  border-top-color: #BCC9CC;
+}
+

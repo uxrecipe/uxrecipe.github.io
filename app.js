@@ -32,7 +32,7 @@ $(function () {
 $().ready(function(){
   window.setTimeout(function(){
   	$('#pop-planning').popover('show').fadeIn(1000);
-	}, 5000);
+	}, 7000);
     
   window.setTimeout(function(){
     $('#pop-planning').popover('hide');
