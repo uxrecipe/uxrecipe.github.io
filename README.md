@@ -1,4 +1,14 @@
 # UX RECIPE
+
+## What's new 
+
+**Current version: 0.0.2**
+
++ I added a popover for the hashtag, incentivizing users to discover more resources. It opens after 10 seconds delays (last 5 seconds) after the page loads, but can be opened manually at any time.
++ Now you can reset your selections. The checkboxes return 
++ Small text modifications
+
+
 ## About the project
 
 This project is a personal manifesto against **the objectification of the term "UX"**. It's more than UI, it's more than a PSD file.

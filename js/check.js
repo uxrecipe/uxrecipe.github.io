@@ -546,3 +546,62 @@ $('input[value="Tiles"]').change(function () {
     }
 
 });
+
+
+// Reset/Uncheck the options
+
+ function uncheckem() 
+{
+    $('input:checkbox').removeAttr('checked');
+    $('#result1').remove();
+    $('#result2').remove();
+    $('#result3').remove();
+    $('#result4').remove();
+    $('#result5').remove();
+    $('#result6').remove();
+    $('#result7').remove();
+    $('#result8').remove();
+    $('#result9').remove();
+    $('#result10').remove();
+    $('#result11').remove();
+    $('#result12').remove();
+    $('#result13').remove();
+    $('#result14').remove();
+    $('#result15').remove();
+    $('#result16').remove();
+    $('#result17').remove();
+    $('#result18').remove();
+    $('#result19').remove();
+    $('#result20').remove();
+    $('#result21').remove();
+    $('#result22').remove();
+    $('#result23').remove();
+    $('#result24').remove();
+    $('#result25').remove();
+    $('#result26').remove();
+    $('#result27').remove();
+    $('#result28').remove();
+    $('#result29').remove();
+    $('#result30').remove();
+    $('#result31').remove();
+    $('#result32').remove();
+    $('#result33').remove();
+    $('#result34').remove();
+    $('#result35').remove();
+    $('#result36').remove();
+    $('#result37').remove();
+    $('#result38').remove();
+    $('#result39').remove();
+    $('#result40').remove();
+    $('#result41').remove();
+    $('#result42').remove();
+    $('#result43').remove();
+    $('#result44').remove();
+    $('#result45').remove();
+    $('#result46').remove();
+    $('#result47').remove();
+    $('#result48').remove();
+    $('#conclusion').hide();
+    
+        
+}
