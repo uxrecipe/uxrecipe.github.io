@@ -297,7 +297,7 @@ $('input[value="HTML"]').change(function () {
 $('input[value="Interactive"]').change(function () {
 
     if ($(this).prop('checked')) { 
-        $("#summary-table").append('<tr id="result27" class="result27"> <td class="col-md-4"> <h6>Interactive Design</h6> </td> <td> <input type="number" id="p27" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d27" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c27" value="0"  class="col-md-4 form-control"> </td> </tr>');
+        $("#summary-table").append('<tr id="result27" class="result27"> <td class="col-md-4"> <h6>IXD Prototyping</h6> </td> <td> <input type="number" id="p27" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   id="d27" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" id="c27" value="0"  class="col-md-4 form-control"> </td> </tr>');
 
     } else {
         $('#result27').remove();

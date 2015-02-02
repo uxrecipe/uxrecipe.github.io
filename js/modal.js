@@ -219,7 +219,7 @@ document.getElementById('prototyping').onclick = function(){
     '<h5 style="margin-bottom: -5px; margin-top:20px;">HTML Demo<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Use your HTML/CSS skills to create something `tangible`. Link pages and present a flow. Add CSS3 animations/transitions and you are Man/Woman of the Day.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful link: ' + '<a href="http://capcloud.com/post/45915556334/the-best-framework-for-ux-prototyping-in-html" target="_blank"> Best Frameworks for UX Prototyping (Bootstrap, Foundation, Skeleton) </a>' + '</p>'+
-    '<h5 style="margin-bottom: -5px; margin-top:20px;">Interactive Design<h5>' +
+    '<h5 style="margin-bottom: -5px; margin-top:20px;">IXD Prototyping<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Bring your designs to life and create digital prototypes. Say goodbye to static approaches. </p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href="www.invisionapp.com" target="_blank"> Invision </a>' + ' | ' +'<a target="_blank" href="https://marvelapp.com"> Marvel App </a>'+ ' | ' +'<a target="_blank" href="https://www.flinto.com/"> Flinto </a>'+ ' | ' +'<a target="_blank" href="https://proto.io/"> Proto </a>'+' </p>'+
     '<h5 style="margin-bottom: -5px;">Mobile Showcase<h5>' +
