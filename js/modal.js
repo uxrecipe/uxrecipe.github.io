@@ -221,7 +221,7 @@ document.getElementById('prototyping').onclick = function(){
     '<p style="margin-bottom: 5px; font-size: 14px">Useful link: ' + '<a href="http://capcloud.com/post/45915556334/the-best-framework-for-ux-prototyping-in-html" target="_blank"> Best Frameworks for UX Prototyping (Bootstrap, Foundation, Skeleton) </a>' + '</p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">IXD Prototyping<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Bring your designs to life and create digital prototypes. Say goodbye to static approaches. </p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href="www.invisionapp.com" target="_blank"> Invision </a>' + ' | ' +'<a target="_blank" href="https://marvelapp.com"> Marvel App </a>'+ ' | ' +'<a target="_blank" href="https://www.flinto.com/"> Flinto </a>'+ ' | ' +'<a target="_blank" href="https://proto.io/"> Proto </a>'+' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a href="http://www.invisionapp.com" target="_blank"> Invision </a>' + ' | ' +'<a target="_blank" href="https://marvelapp.com"> Marvel App </a>'+ ' | ' +'<a target="_blank" href="https://www.flinto.com/"> Flinto </a>'+ ' | ' +'<a target="_blank" href="https://proto.io/"> Proto </a>'+' </p>'+
     '<h5 style="margin-bottom: -5px;">Mobile Showcase<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Either responsive or a standalone app, your product deserves to be the highlight of the day. Make it come alive.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful link: ' + '<a href="http://www.pixate.com/" target="_blank"> Pixate</a>'+', but also try InVision, Marvel etc. (see above)' +' </p>'+
