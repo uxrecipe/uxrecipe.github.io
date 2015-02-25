@@ -1021,6 +1021,9 @@
 		
 		// $('input:checkbox').removeAttr('checked');
 		// $('#result4').remove();
-		document.getElementById("conclusion-content").innerHTML = "<span class='heading'>Dear Client</span>, <br/> If you want UX for the project, it will take the hard work of <span class='conclusion'>" + resultp + " people</span>," +  " a full " +" <span class='conclusion'>" + resultd + " days</span> and it will cost a total of <span class='conclusion'>" + resultc + "</span>.";
+		document.getElementById("conclusion-content").innerHTML = "<span class='heading'>Dear Client</span>, <br/> If you want UX for the project, it will take around <span class='conclusion'>" + resultp + " hours</span>" + " and it will cost a total of <span class='conclusion'>" + resultc + "</span> of your preferred currency.";
+
 }
+
+
 
