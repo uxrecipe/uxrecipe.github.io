@@ -2,7 +2,14 @@
 
 ## What's new 
 
-**Current version: 0.0.3**
+**Current version: 0.1.0**
+
++ The Estimation Calculator has been changed based on the feed I received. Now you add your
+numbers of hours. The subtotal is calculated automatically. 
+
++ I also merged pull requests (from contributors) and fixed other bugs.
+
+**Version: 0.0.3**
 
 + Now when you print it only selects the calculations and **not** the entire page (I used @media print queries). Much more useful when budget decisions are needed to be made.  
 
