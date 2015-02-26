@@ -4,6 +4,11 @@
 
 **Current version: 0.1.0**
 
++ Added a "Clear values" buttons - it will reset the inputs you typed.
+
+
+**Version 0.1.0**
+
 + The Estimation Calculator has been changed based on the feed I received. Now you add your
 numbers of hours. The subtotal is calculated automatically. 
 

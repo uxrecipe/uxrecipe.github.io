@@ -56,7 +56,7 @@
         <h3>Have you ever heard the phrase <em> just add some UX </em> like it was an ingredient?</h3>
         <h4>Time to serve'em a real UX <em>cooking</em>. </h4>
         <a href="#getstarted" class="btn btn-primary"> Let's bake some awesomeness</a>
-        <p><small> Prototype version - Version 0.1.0 </small></p>
+        <p><small> Prototype version - Version 0.1.1 </small></p>
       </div>
     </div>
 
@@ -308,14 +308,17 @@
         </table>
 
 
-        <a href="#conclusion" class="btn btn-primary btn-ux calculate-me" onclick="sum()"> <i class="fa fa-calculator"></i> Make calculations</a>
-        <a href="#getstarted" class="btn btn-danger btn-ux-danger" onclick="uncheckem()">  <i class="fa fa-power-off"></i> Reset</a>
+        <a href="#conclusion" class="btn btn-primary btn-ux calculate-me" onclick="sum()">  <i class="fa fa-calculator"></i> Make calculations</a>
+        <input type="reset" value="Clear values" class="btn btn-danger btn-ux-danger">
+        <a href="#getstarted" class="btn btn-danger btn-ux-reset" onclick="uncheckem()"><i class="fa fa-power-off"></i> Start all over again</a>
+
         <div class="row">
           <div class="col-md-12" id="conclusion">
             <p id="conclusion-content"> </p>
             <small id="hint"><strong>HINT:</strong> discover more about each technique accessing the <em><strong>#hashtags</strong></em>.</small>
             
             <a href="javascript:window.print()" class="btn btn-primary print-me btn-ux"><i class="fa fa-print"> </i> Print the estimations</a>
+
           </div>
         </div>
         </form>

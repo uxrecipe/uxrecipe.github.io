@@ -149,13 +149,35 @@ button.confirm {
 	border: none;
 	border-radius: 3px;
 	font-size: 12px;
-	background: #E91E63;
+	background: #FF9800;
 	color: #ffffff;
 	margin-left: 5px;
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
 }
+
+.btn-ux-danger:hover{
+	background: #F57C00;	
+}
+
+.btn-ux-reset {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	font-size: 12px;
+	background: #F44336;
+	color: #ffffff;
+	margin-left: 5px;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+
 p small {
 	font-size: 10px;
 	margin-top: -30px;
@@ -452,7 +474,7 @@ a.print-me:hover {
 
 
 /* Modifications to calculator controls */
-.fa-calculator, .fa-power-off {
+.fa-calculator, .fa-power-off, .fa-times {
 	margin-left: 3px;
 }
 
