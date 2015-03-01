@@ -17,3 +17,9 @@ $('.calculate-me').on('click', function(event) {
   $("#conclusion").fadeIn( 300, "linear" );
 
 });
+
+// Clear all input fields
+$('.btn-ux-danger').on('click', function(event) {
+	event.preventDefault();
+	$('input[type="number"]').val('');
+});
