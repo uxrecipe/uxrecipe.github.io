@@ -504,7 +504,7 @@ a[href="#conclusion"] {
 	#uxlogo h3, #uxlogo h4, 
 	#uxlogo a, #uxlogo p, #getstarted, 
 	#acknowledgementspart1, #acknowledgementspart2,
-	.calculate-me, .btn-ux-danger, #hint, .print-me,
+	.calculate-me, .btn-ux-danger, .btn-ux-reset, #hint, .print-me,
 	#ux-calculator h5 {
 		display:none;
 	}
