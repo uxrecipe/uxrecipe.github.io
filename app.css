@@ -499,6 +499,12 @@ a[href="#conclusion"] {
 	}
 }
 
+@media screen and (min-width: 992px) and (max-width: 1270px) {
+	.btn-ux-reset {
+		margin-top: -38px;
+	}
+}
+
 /* MEDIA PRINT QUERIES */
 @media print {
 	#uxlogo h3, #uxlogo h4, 
