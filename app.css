@@ -505,7 +505,7 @@ a[href="#conclusion"] {
 	}
 }
 
-@media screen and (max-width: 396px) {
+@media screen and (max-width: 425px) {
 	.btn-ux-reset {
 		margin-top: -38px;
 	}
