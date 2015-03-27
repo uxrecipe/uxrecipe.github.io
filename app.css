@@ -556,6 +556,6 @@ a[href="#conclusion"] {
 	float: left;
 }
 
-#mc-embedded-subscribe {
-	display: inline;
+#mc_embed_signup input.button {
+	display: inline !important;
 }
