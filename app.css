@@ -559,3 +559,7 @@ a[href="#conclusion"] {
 #mc_embed_signup input.button {
 	display: inline !important;
 }
+
+#mc_embed_signup input {
+	border-radius: 5px;
+}
