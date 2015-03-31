@@ -544,6 +544,10 @@ a[href="#conclusion"] {
 		margin-top: 50px;
 		text-align: center;
 	}
+
+	#subscribe {
+		display:none;
+	}
 }
 
 #mc_embed_signup {
