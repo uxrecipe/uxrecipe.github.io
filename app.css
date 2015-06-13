@@ -448,9 +448,10 @@ a.print-me:hover {
 	background: #4F3C48;
 }
 
-.fa-print {
+.fa-print, .fa-file-image-o {
 	margin-left: 0px;
 }
+
 
 
 /* popover */
