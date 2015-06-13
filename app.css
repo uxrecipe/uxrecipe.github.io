@@ -510,6 +510,15 @@ a[href="#conclusion"] {
 	.btn-ux-reset {
 		margin-top: -38px;
 	}
+		.repair-btn{
+		margin-left: 0px !important;
+	}
+}
+
+@media screen and (max-width: 399px) {
+	.repair-btn{
+		margin-top: -40px !important;
+	}
 }
 
 /* MEDIA PRINT QUERIES */
@@ -549,6 +558,7 @@ a[href="#conclusion"] {
 	#subscribe {
 		display:none;
 	}
+
 }
 
 #mc_embed_signup {
