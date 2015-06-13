@@ -64,7 +64,7 @@ document.getElementById('research').onclick = function(){
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="https://evernote.com/"> Evernote </a>' + ' | ' +'<a target="_blank" href="https://www.google.com/drive/"> Google Drive </a>' +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">SEO & Analytics<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">It is important to know how the user tracks down your product and how he/she spends their time with it.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="www.google.com/analytics"> Google Analytics </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.google.com/analytics"> Google Analytics </a>' +' </p>'+
     '<h5 style="margin-bottom: -5px; margin-top:20px;">Mobile Assesment<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Do you need to keep all desktop features on mobile? Well, choose which one stays and which one goes using this technique.</p>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://alistapart.com/article/organizing-mobile/"> Organizing Mobile </a>' +' </p>'+
@@ -88,7 +88,7 @@ document.getElementById('exploration').onclick = function(){
   html:
 		'<h5 style="margin-bottom: -5px;">Persona<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Create a representation of your users - the ones that will interact with your product.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="www.smashingmagazine.com/2014/08/06/a-closer-look-at-personas-part-1/"> A closer look at Personas (this is only part 1)</a>' + ' | ' +'<a target="_blank" href="http://uxmag.com/articles/persona-grata"> Persona Grata: Welcoming users into the interaction design process </a>' + ' | ' +'<a target="_blank" href="http://blankdots.com/open/personas/"> Blankdots Persona Template </a>' +' </p>'+
+    '<p style="margin-bottom: 5px; font-size: 14px">Useful links: ' + '<a target="_blank" href="http://www.smashingmagazine.com/2014/08/06/a-closer-look-at-personas-part-1/"> A closer look at Personas (this is only part 1)</a>' + ' | ' +'<a target="_blank" href="http://uxmag.com/articles/persona-grata"> Persona Grata: Welcoming users into the interaction design process </a>' + ' | ' +'<a target="_blank" href="http://blankdots.com/open/personas/"> Blankdots Persona Template </a>' +' </p>'+
     '<small>UX Recipe Template:' + '<em>coming soon</em>'+ '</small>' +
     '<h5 style="margin-bottom: -5px; margin-top:20px;">User Flow<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">Describe the necessary steps the user has to take to finish a logical task. How does he/she get from point A to point B?</p>' +

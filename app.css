@@ -568,3 +568,32 @@ a[href="#conclusion"] {
 #mc_embed_signup input {
 	border-radius: 5px;
 }
+
+/* thanks */
+#thanks {
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.supporters {
+	text-align: center;
+}
+
+.supporters img {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+	opacity: .5;
+	transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.supporters img:hover {
+	-webkit-filter: grayscale(0%); 
+	filter: grayscale(0%);
+	opacity: 1;	
+}

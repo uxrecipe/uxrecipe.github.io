@@ -2,7 +2,14 @@
 
 ## What's new 
 
-**Current version: 0.1.0**
+**Current version: 0.1.2**
+
++ You can now save the calculation in
+.png format using html2canvas.
+
++ Added new "supporters" section - all major blogs, websites or newsletter that shared UX Recipe.
+
+**Version: 0.1.1**
 
 + Added a "Clear values" buttons - it will reset the inputs you typed.
 
