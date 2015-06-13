@@ -21,6 +21,21 @@ $(document).ready(function(){
      });
 });
 
+//html2canvas
+function htmlcanvas() {
+  $( '.toggle-visible' ).css( 'visibility', 'hidden' );
+  html2canvas($('.save-as-image'), {
+    
+    onrendered: function(canvas) {
+      $( '.toggle-visible' ).css( 'visibility', 'visible' );
+    
+      var img = canvas.toDataURL()
+      
+      window.open(img);
+    
+      }
+  });
+}
 
 
 

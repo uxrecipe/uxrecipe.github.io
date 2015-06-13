@@ -23,3 +23,4 @@ $('.btn-ux-danger').on('click', function(event) {
 	event.preventDefault();
 	$('input[type="number"]').val('');
 });
+

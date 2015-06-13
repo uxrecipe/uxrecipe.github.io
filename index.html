@@ -56,7 +56,7 @@
         <h3>Have you ever heard the phrase <em> just add some UX </em> like it was an ingredient?</h3>
         <h4>Time to serve 'em a real UX <em>cooking</em>. </h4>
         <a href="#getstarted" class="btn btn-primary"> Let's bake some awesomeness</a>
-        <p><small> Prototype version ‐ Version 0.1.1 </small></p>
+        <p><small> Prototype version ‐ Version 0.1.2 </small></p>
       </div>
     </div>
 
@@ -284,7 +284,7 @@
 
       </div>
 
-      <div class="col-md-4" id="ux-calculator">
+      <div class="col-md-4  save-as-image" id="ux-calculator">
         <form id="newCalculation" method='post' action=''>
         <h3>II. Estimate the cooking.</h3>
         <h5 class="estimate">Add your own values and calculate the total required.</h5>
@@ -308,16 +308,17 @@
         </table>
 
 
-        <a href="#conclusion" class="btn btn-primary btn-ux calculate-me">  <i class="fa fa-calculator"></i> Make calculations</a>
-        <a href="#ux-calculator" class="btn btn-danger btn-ux-danger">Clear values</a>
-        <a href="#getstarted" class="btn btn-danger btn-ux-reset" onclick="uncheckem()"><i class="fa fa-power-off"></i> Start all over again</a>
+        <a href="#conclusion" class="btn btn-primary btn-ux calculate-me toggle-visible">  <i class="fa fa-calculator"></i> Make calculations</a>
+        <a href="#ux-calculator" class="btn btn-danger btn-ux-danger toggle-visible">Clear values</a>
+        <a href="#getstarted" class="btn btn-danger btn-ux-reset toggle-visible" onclick="uncheckem()"><i class="fa fa-power-off"></i> Start all over again</a>
 
         <div class="row">
           <div class="col-md-12" id="conclusion">
             <p id="conclusion-content"><span class='heading'>Dear Client</span>, <br/> If you want UX for the project, it will take around <span class='conclusion'><em class="hours"></em> hours</span> and it will cost a total amount of <span class='conclusion'><em class="cost"></em></span>. </p>
-            <small id="hint"><strong>HINT:</strong> discover more about each technique accessing the <em><strong>#hashtags</strong></em>.</small>
+            <small id="hint" class="toggle-visible"><strong>HINT:</strong> discover more about each technique accessing the <em><strong>#hashtags</strong></em>.</small>
 
-            <a href="javascript:window.print()" class="btn btn-primary print-me btn-ux"><i class="fa fa-print"> </i> Print the estimations</a>
+            <a href="javascript:window.print()" class="btn btn-primary print-me btn-ux toggle-visible"><i class="fa fa-print"> </i> Print the estimations</a>
+           <a href="#" class="btn btn-primary print-me btn-ux toggle-visible" onclick="htmlcanvas()"><i class="fa fa-print"> </i> Save as image</a>
 
           </div>
         </div>
@@ -363,7 +364,7 @@
           </div>
           <div class="col-md-9">
             <p>Feel free to contribute to the project in any way possible. You can find it on <a target="_blank"alt="Fork me!"href="https://github.com/uxrecipe/uxrecipe.github.io">Github</a>. For any feedback (like corrections, suggestions, new structure or features etc.) you can use my blog's <a target="_blank" alt="contact me" href="http://pxdotpt.com/contact/">contact form</a>.</p>
-            <p> I can't wait to see how we can improve it together. Feel free to fork. The code I written is licensed under <a href="LICENSE.txt">MIT Licence</a> and let's keep it that way (it's only fair as it relies on projects under the same or are free to use: e.g. Bootstrap, Fontawesome, Labelauty, Sweet Alert 2). </p>
+            <p> I can't wait to see how we can improve it together. Feel free to fork. The code I written is licensed under <a href="LICENSE.txt">MIT Licence</a> and let's keep it that way (it's only fair as it relies on projects under the same or are free to use: e.g. Bootstrap, Fontawesome, Labelauty, Sweet Alert 2, html2canvas). </p>
           </div>
         </div>
       </div>
@@ -388,6 +389,7 @@
             <a target="_blank"  href="http://fntneves.github.io/jquery-labelauty/" alt="Labelauty"><span class="label label-info">Labelauty</span></a>
             <a target="_blank"  href="https://limonte.github.io/sweetalert2/" alt="Sweet Alert 2"><span class="label label-info">Sweet Alert 2</span></a>
             <a target="_blank"  href="http://fontawesome.io/" alt="Fontawesome"><span class="label label-info">Fontawesome</span></a>
+            <a target="_blank"  href="http://html2canvas.hertzen.com/examples.html" alt="html2canvas"><span class="label label-info">html2canvas</span></a>
             <p><small>PS: this project is not intended to be a coding masterpiece. I have still a lot of work to do under the hood: refinements, optimizations, reorganization etc. It's a prototype, but I will continue working and making it better (I'm fully aware the Javascript is a mess).</small></p>
           </div>
         </div>
@@ -452,6 +454,8 @@
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="bower_components/labelauty/source/jquery-labelauty.js"></script>
   <script src="bower_components/sweetalert2/dist/sweetalert2.min.js"></script>
+  <script src="bower_components/html2canvas/build/html2canvas.js"></script>
+  <script src="bower_components/html2canvas/build/html2canvas-min.js"></script>
   <script src="app.js"></script>
   <script src="js/sum.js"></script>
   <script src="js/check.js"></script>
