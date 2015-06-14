@@ -24,10 +24,12 @@ $(document).ready(function(){
 //html2canvas
 function htmlcanvas() {
   $( '.toggle-visible' ).css( 'visibility', 'hidden' );
+  $( '#conclusion' ).css( 'margin-top', '-110px' );
   html2canvas($('.save-as-image'), {
     
     onrendered: function(canvas) {
       $( '.toggle-visible' ).css( 'visibility', 'visible' );
+      $( '#conclusion' ).css( 'margin-top', '-40px' );
     
       var img = canvas.toDataURL()
       
