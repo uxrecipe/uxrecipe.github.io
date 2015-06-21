@@ -402,7 +402,7 @@ $('input[value="Paper"]').change(function () {
 $('input[value="HTML"]').change(function () {
 
     if ($(this).prop('checked')) { 
-        $("#summary-table").append('<tr id="result26" class="result26"> <td class="col-md-4"> <h6>HTML Demo</h6> </td> <td> <input type="number" id="p26"  name="p26" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   name="d26"  id="d26" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number"  name="c26" id="c26" value="0" disabled class="col-md-4 form-control"> </td> </tr>');
+        $("#summary-table").append('<tr id="result26" class="result26"> <td class="col-md-4"> <h6>Low Fidelity Prototype</h6> </td> <td> <input type="number" id="p26"  name="p26" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   name="d26"  id="d26" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number"  name="c26" id="c26" value="0" disabled class="col-md-4 form-control"> </td> </tr>');
         //START ONBLUR
         $('input').blur(function(){
         $('input[name=c26]').val( +($('input[name=p26]').val()) *(+ $('input[name=d26]').val()) );
@@ -417,7 +417,7 @@ $('input[value="HTML"]').change(function () {
 $('input[value="Interactive"]').change(function () {
 
     if ($(this).prop('checked')) { 
-        $("#summary-table").append('<tr id="result27" class="result27"> <td class="col-md-4"> <h6>IXD Prototyping</h6> </td> <td> <input type="number"  name="p27" id="p27" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   name="d27"  id="d27" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" name="c27"  id="c27" value="0" disabled class="col-md-4 form-control"> </td> </tr>');
+        $("#summary-table").append('<tr id="result27" class="result27"> <td class="col-md-4"> <h6>High Fidelity Prototype</h6> </td> <td> <input type="number"  name="p27" id="p27" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   name="d27"  id="d27" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number" name="c27"  id="c27" value="0" disabled class="col-md-4 form-control"> </td> </tr>');
         //START ONBLUR
         $('input').blur(function(){
         $('input[name=c27]').val( +($('input[name=p27]').val()) *(+ $('input[name=d27]').val()) );
@@ -432,7 +432,7 @@ $('input[value="Interactive"]').change(function () {
 $('input[value="Showcase"]').change(function () {
 
     if ($(this).prop('checked')) { 
-        $("#summary-table").append('<tr id="result28" class="result28"> <td class="col-md-4"> <h6>Mobile Showcase</h6> </td> <td> <input type="number"  name="p28" id="p28" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   name="d28"  id="d28" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number"  name="c28" id="c28" value="0" disabled class="col-md-4 form-control"> </td> </tr>');
+        $("#summary-table").append('<tr id="result28" class="result28"> <td class="col-md-4"> <h6>Video Prototype</h6> </td> <td> <input type="number"  name="p28" id="p28" value="0" class="col-md-2 form-control"> </td> <td> <input type="number"   name="d28"  id="d28" value="0"  class="col-md-2 form-control"> </td> <td> <input type="number"  name="c28" id="c28" value="0" disabled class="col-md-4 form-control"> </td> </tr>');
         //START ONBLUR
         $('input').blur(function(){
         $('input[name=c28]').val( +($('input[name=p28]').val()) *(+ $('input[name=d28]').val()) );
