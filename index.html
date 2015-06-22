@@ -1,539 +1,547 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <title>UX Recipe - a checklist where you discover, choose and estimate your next UX project tools & techniques.</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <!-- social media cards -->
-  <!-- Facebook -->
-  <meta property="og:title" content="UX Recipe " />
-  <meta property="og:url" content="http://uxrecipe.github.io" />
-  <meta property="og:type" content="website" />
-  <meta property="og:description" content="Discover, choose and estimate your next ux project tools & techniques." />
-  <meta property="og:image" content="http://uxrecipe.github.io/img/uxrecipe-logo.png" />
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="UX Recipe" />
-  <meta name="twitter:description" content="Discover, choose and estimate your next ux project tools & techniques." />
-  <meta name="twitter:url" content="http://uxrecipe.github.io" />
-  <meta name="twitter:image" content="http://uxrecipe.github.io/img/uxrecipe-logo.png" />
-
-  <link rel="icon" type="image/ico" href="img/uxrecipeico.ico"/>
-  <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
-  <link rel="stylesheet" type="text/css" href="bower_components/labelauty/source/jquery-labelauty.css">
-  <link rel="stylesheet" type="text/css" href="bower_components/sweetalert2/dist/sweetalert2.css">
-  <link rel="stylesheet" type="text/css" href="app.css">
-
-  <!-- For Chrome for Android: -->
-  <link rel="icon" sizes="192x192" href="img/touch/uxrecipe-192.png">
-  <!-- For iPhone 6 Plus with @3× display: -->
-  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/touch/uxrecipe-180.png">
-  <!-- For iPad with @2× display running iOS ≥ 7: -->
-  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/touch/uxrecipe-152.png">
-  <!-- For iPad with @2× display running iOS ≤ 6: -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/uxrecipe-144.png">
-  <!-- For iPhone with @2× display running iOS ≥ 7: -->
-  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/touch/uxrecipe-120.png">
-  <!-- For iPhone with @2× display running iOS ≤ 6: -->
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/uxrecipe-114.png">
-  <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
-  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/touch/uxrecipe-76.png">
-  <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/uxrecipe-72.png">
-  <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-  <link rel="apple-touch-icon-precomposed" href="img/touch/uxrecipe-57.png"><!-- 57×57px -->
-
-</head>
-
-<body>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-4 col-md-offset-4" id="uxlogo">
-        <img class="img-responsive" src="img/uxrecipe-logo.png" alt="ux recipe logo"/>
-        <h3>Have you ever heard the phrase <em> just add some UX </em> like it was an ingredient?</h3>
-        <h4>Time to serve 'em a real UX <em>cooking</em>. </h4>
-        <a href="#getstarted" class="btn btn-primary"> Let's bake some awesomeness</a>
-        <p><small> Prototype version ‐ Version 0.1.2 </small></p>
-      </div>
-    </div>
-
-
-    <div class="row">
-      <div class="col-md-8" id="getstarted">
-        <h3> I. Select the ingredients of your UX baking process. </h3>
-
-        <div class="row">
-            <div class="col-md-12"><h5>Preparation is the key. <a href="#" id="planning"><em> #planning</em></a> <a tabindex="0" id="pop-planning" data-placement="top"role="button" data-toggle="popover" data-trigger="focus" title="Curious about these #hashtags?" data-content="Click on them to explore useful resources for each section. Personalized templates will be available soon, so stay tuned."><i class="fa fa-info-circle"></i></a></h5></div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3">
-            <input type="checkbox" value="Expert" data-labelauty="<i class='fa fa-mortar-board'></i><span class='labelautyLabel'> Expert Review </span>|<i class='fa fa-mortar-board'></i><span class='labelautyLabel'> Expert Review </span>"/>
-          </div>
-          <div class="col-md-3">
-            <input type="checkbox" value="Client" data-labelauty="<i class='fa fa-briefcase'></i><span class='labelautyLabel'> Stakeholder Workshop </span>|<i class='fa fa-briefcase'></i><span class='labelautyLabel'> Stakeholder Workshop </span>"/>
-          </div>
-          <div class="col-md-3">
-            <input type="checkbox" value="Competitor" data-labelauty="<i class='fa fa-trophy'></i><span class='labelautyLabel'> Competitor Analysis </span>|<i class='fa fa-trophy'></i><span class='labelautyLabel'> Competitor Analysis </span>"/>
-          </div>
-          <div class="col-md-3">
-            <input type="checkbox" value="Requirements" data-labelauty="<i class='fa fa-area-chart'></i><span class='labelautyLabel'> Requirements Analysis </span>|<i class='fa fa-area-chart'></i><span class='labelautyLabel'> Requirements Analysis </span>"/>
-          </div>
-        </div>
-
-        <div class="row titleRow2">
-          <div class="col-md-3">
-            <input type="checkbox" value="Interview" data-labelauty="<i class='fa fa-microphone'></i><span class='labelautyLabel'> Stakeholder Interview </span>|<i class='fa fa-microphone'></i><span class='labelautyLabel'> Stakeholder Interview </span>"/>
-          </div>
-          <div class="col-md-3">
-            <input type="checkbox" value="Debriefing" data-labelauty="<i class='fa fa-file-o'></i><span class='labelautyLabel'> (De)briefing </span>|<i class='fa fa-file-o'></i><span class='labelautyLabel'> (De)briefing </span>"/>
-          </div>
-        </div>
-
-
-        <div class="row titleRow">
-            <div class="col-md-12"><h5>Study the recipes. <a href="#" id="research"><em>#research</em></a></h5></div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-md-3 blueColored">
-            <input type="checkbox" value="Ethnographic" data-labelauty="<i class='fa fa-globe'></i><span class='labelautyLabel'> Ethnographic Research </span>|<i class='fa fa-globe'></i><span class='labelautyLabel'> Ethnographic Research </span>"/>
-          </div>
-          <div class="col-md-3 blueColored">
-            <input type="checkbox" value="Market" data-labelauty="<i class='fa fa-line-chart'></i><span class='labelautyLabel'> Market Research </span>|<i class='fa fa-line-chart'></i><span class='labelautyLabel'> Market Research </span>"/>
-          </div>
-          <div class="col-md-3 blueColored">
-            <input type="checkbox" value="Photo" data-labelauty="<i class='fa fa-camera-retro'></i><span class='labelautyLabel'> Photo Ethnography </span>|<i class='fa fa-camera-retro'></i><span class='labelautyLabel'> Photo Ethnography </span>"/>
-          </div>
-          <div class="col-md-3 blueColored">
-            <input type="checkbox" value="Anthropology" data-labelauty="<i class='fa fa-eye'></i><span class='labelautyLabel'> Visual Anthropology </span>|<i class='fa fa-eye'></i><span class='labelautyLabel'> Visual Anthropology </span>"/>
-          </div>
-        </div>
-
-
-        <div class="row titleRow2">
-          <div class="col-md-3 blueColored">
-            <input type="checkbox" value="Demographics" data-labelauty="<i class='fa fa-pie-chart'></i><span class='labelautyLabel'> Demographics </span>|<i class='fa fa-pie-chart'></i><span class='labelautyLabel'> Demographics </span>"/>
-          </div>
-          <div class="col-md-3 blueColored">
-            <input type="checkbox" value="Focus" data-labelauty="<i class='fa fa-users'></i><span class='labelautyLabel'> Focus Groups </span>|<i class='fa fa fa-users'></i><span class='labelautyLabel'> Focus Groups </span>"/>
-          </div>
-          <div class="col-md-3 blueColored">
-            <input type="checkbox" value="Psychographics" data-labelauty="<i class='fa fa-bullhorn'></i><span class='labelautyLabel'> Psychographics </span>|<i class='fa fa-bullhorn'></i><span class='labelautyLabel'> Psychographics </span>"/>
-          </div>
-          <div class="col-md-3 blueColored">
-            <input type="checkbox" value="Documentation" data-labelauty="<i class='fa fa-book'></i><span class='labelautyLabel'> Documentation </span>|<i class='fa fa-book'></i><span class='labelautyLabel'> Documentation </span>"/>
-          </div>
-        </div>
-
-        <div class="row titleRow2">
-          <div class="col-md-3 blueColored">
-            <input type="checkbox" value="SEO" data-labelauty="<i class='fa fa-google'></i><span class='labelautyLabel'> SEO & Analytics </span>|<i class='fa fa-google'></i><span class='labelautyLabel'> SEO & Analytics </span>"/>
-          </div>
-          <div class="col-md-3 blueColored">
-            <input type="checkbox" value="Mobile" data-labelauty="<i class='fa fa-mobile-phone'></i><span class='labelautyLabel'> Mobile Assesment </span>|<i class='fa fa-mobile-phone'></i><span class='labelautyLabel'> Mobile Assesment </span>"/>
-          </div>
-          <div class="col-md-3 blueColored">
-            <input type="checkbox" value="Contextual" data-labelauty="<i class='fa fa-search'></i><span class='labelautyLabel'> Observational Research </span>|<i class='fa fa-search'></i><span class='labelautyLabel'> Observational Research </span>"/>
-          </div>
-          <div class="col-md-3 blueColored">
-            <input type="checkbox" value="Surveys" data-labelauty="<i class='fa fa-file-text-o'></i><span class='labelautyLabel'> Surveys </span>|<i class='fa fa-file-text-o'></i><span class='labelautyLabel'> Surveys </span>"/>
-          </div>
-        </div>
-
-        <div class="row titleRow">
-            <div class="col-md-12"><h5>Know your hungry people. <a href="#" id="exploration"><em>#exploration</em></a></h5></div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-md-3 greenColored">
-            <input type="checkbox" value="Personas" data-labelauty="<i class='fa fa-user'></i><span class='labelautyLabel'> Persona </span>|<i class='fa fa-user'></i><span class='labelautyLabel'> Persona </span>"/>
-          </div>
-          <div class="col-md-3 greenColored">
-            <input type="checkbox" value="User" data-labelauty="<i class='fa fa-random'></i><span class='labelautyLabel'> User Flow </span>|<i class='fa fa-random'></i><span class='labelautyLabel'> User Flow </span>"/>
-          </div>
-          <div class="col-md-3 greenColored">
-            <input type="checkbox" value="Storyboards" data-labelauty="<i class='fa fa-comment-o'></i><span class='labelautyLabel'> Storyboards </span>|<i class='fa fa-comment-o'></i><span class='labelautyLabel'> Storyboards </span>"/>
-          </div>
-          <div class="col-md-3 greenColored">
-            <input type="checkbox" value="Journey" data-labelauty="<i class='fa fa-location-arrow'></i><span class='labelautyLabel'> Journey Maps </span>|<i class='fa fa-location-arrow'></i><span class='labelautyLabel'> Journey Maps </span>"/>
-          </div>
-        </div>
-
-        <div class="row titleRow2">
-          <div class="col-md-3 greenColored">
-            <input type="checkbox" value="Stories" data-labelauty="<i class='fa fa-smile-o'></i><span class='labelautyLabel'> User Stories </span>|<i class='fa fa-smile-o'></i><span class='labelautyLabel'> User Stories </span>"/>
-          </div>
-          <div class="col-md-3 greenColored">
-            <input type="checkbox" value="Acceptance" data-labelauty="<i class='fa fa-list'></i><span class='labelautyLabel'> Acceptance criteria </span>|<i class='fa fa-list'></i><span class='labelautyLabel'> Acceptance criteria </span>"/>
-          </div>
-          <div class="col-md-3 greenColored">
-            <input type="checkbox" value="QOC" data-labelauty="<i class='fa fa-list-ol'></i><span class='labelautyLabel'> QOC </span>|<i class='fa fa-list-ol'></i><span class='labelautyLabel'> QOC </span>"/>
-          </div>
-        </div>
-
-
-
-       <div class="row titleRow">
-            <div class="col-md-12"><h5>There's order even in a messy kitchen. <a href="#" id="information"><em>#information architecture</em></a></h5></div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-md-3 orangeColored">
-            <input type="checkbox" value="Sitemap" data-labelauty="<i class='fa fa-sitemap'></i><span class='labelautyLabel'> Sitemap </span>|<i class='fa fa-sitemap'></i><span class='labelautyLabel'> Sitemap </span>"/>
-          </div>
-          <div class="col-md-3 orangeColored">
-            <input type="checkbox" value="Card Sorting" data-labelauty="<i class='fa fa-trello'></i><span class='labelautyLabel'> Card Sorting </span>|<i class='fa fa-trello'></i><span class='labelautyLabel'> Card Sorting </span>"/>
-          </div>
-          <div class="col-md-3 orangeColored">
-            <input type="checkbox" value="Audit" data-labelauty="<i class='fa fa-clipboard'></i><span class='labelautyLabel'> Content Audit </span>|<i class='fa fa-clipboard'></i><span class='labelautyLabel'> Content Audit </span>"/>
-          </div>
-          <div class="col-md-3 orangeColored">
-            <input type="checkbox" value="Inventory" data-labelauty="<i class='fa fa-archive'></i><span class='labelautyLabel'> Content Inventory </span>|<i class='fa fa-archive'></i><span class='labelautyLabel'> Content Inventory </span>"/>
-          </div>
-        </div>
-
-        <div class="row titleRow2">
-          <div class="col-md-3 orangeColored">
-            <input type="checkbox" value="Brainstorming" data-labelauty="<i class='fa fa-comments-o'></i><span class='labelautyLabel'> Brainstorming </span>|<i class='fa fa-comments-o'></i><span class='labelautyLabel'> Brainstorming </span>"/>
-          </div>
-          <div class="col-md-3 orangeColored">
-            <input type="checkbox" value="OrgSchemes" data-labelauty="<i class='fa fa-list-alt'></i><span class='labelautyLabel'> Organization Schemes </span>|<i class='fa fa-list-alt'></i><span class='labelautyLabel'> Organization Schemes </span>"/>
-          </div>
-          <div class="col-md-3 orangeColored">
-            <input type="checkbox" value="OrgStructure" data-labelauty="<i class='fa fa-university'></i><span class='labelautyLabel'> Organization Structure </span>|<i class='fa fa-university'></i><span class='labelautyLabel'> Organization Structure </span>"/>
-          </div>
-          <div class="col-md-3 orangeColored">
-            <input type="checkbox" value="DoGo" data-labelauty="<i class='fa fa-level-up'></i><span class='labelautyLabel'> DoGo Mapping </span>|<i class='fa fa-level-up'></i><span class='labelautyLabel'> DoGo Mapping </span>"/>
-          </div>
-        </div>
-
-
-       <div class="row titleRow">
-            <div class="col-md-12"><h5>If you bake it, they will come <a href="#" id="design"><em>#design</em></a></h5></div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3 purpleColored">
-            <input type="checkbox" value="Sketching" data-labelauty="<i class='fa fa-pencil'></i><span class='labelautyLabel'> Sketching </span>|<i class='fa fa-pencil'></i><span class='labelautyLabel'> Sketching </span>"/>
-          </div>
-          <div class="col-md-3 purpleColored">
-            <input type="checkbox" value="Wireframes" data-labelauty="<i class='fa fa-newspaper-o'></i><span class='labelautyLabel'> Wireframes </span>|<i class='fa fa-newspaper-o'></i><span class='labelautyLabel'> Wireframes </span>"/>
-          </div>
-          <div class="col-md-3 purpleColored">
-            <input type="checkbox" value="Styleguide" data-labelauty="<i class='fa fa-paint-brush'></i><span class='labelautyLabel'> Styleguide </span>|<i class='fa fa-paint-brush'></i><span class='labelautyLabel'> Styleguide </span>"/>
-          </div>
-          <div class="col-md-3 purpleColored">
-            <input type="checkbox" value="Mockups" data-labelauty="<i class='fa fa-picture-o'></i><span class='labelautyLabel'> Mockups </span>|<i class='fa fa-picture-o'></i><span class='labelautyLabel'> Mockups </span>"/>
-          </div>
-        </div>
-
-        <div class="row titleRow2">
-          <div class="col-md-3 purpleColored">
-            <input type="checkbox" value="Tiles" data-labelauty="<i class='fa fa-th-large'></i><span class='labelautyLabel'> Style Tiles </span>|<i class='fa fa-th-large'></i><span class='labelautyLabel'> Style Tiles </span>"/>
-          </div>
-        </div>
-
-
-       <div class="row titleRow">
-            <div class="col-md-12"><h5>There's no harm in a little experimenting. <a href="#" id="prototyping"><em>#prototyping</em></a></h5></div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3 tealColored">
-            <input type="checkbox" value="Paper" data-labelauty="<i class='fa fa-paper-plane-o'></i><span class='labelautyLabel'> Paper Prototyping </span>|<i class='fa fa-paper-plane-o'></i><span class='labelautyLabel'> Paper Prototyping </span>"/>
-          </div>
-          <div class="col-md-3 tealColored">
-            <input type="checkbox" value="HTML" data-labelauty="<i class='fa fa-code'></i><span class='labelautyLabel'> HTML Demo </span>|<i class='fa fa-code'></i><span class='labelautyLabel'> HTML Demo </span>"/>
-          </div>
-          <div class="col-md-3 tealColored">
-            <input type="checkbox" value="Interactive" data-labelauty="<i class='fa fa-fighter-jet'></i><span class='labelautyLabel'> IXD Prototyping </span>|<i class='fa fa-fighter-jet'></i><span class='labelautyLabel'> IXD Prototyping </span>"/>
-          </div>
-          <div class="col-md-3 tealColored">
-            <input type="checkbox" value="Showcase" data-labelauty="<i class='fa fa-mobile'></i><span class='labelautyLabel'> Mobile Showcase </span>|<i class='fa fa-mobile'></i><span class='labelautyLabel'> Mobile Showcase </span>"/>
-          </div>
-        </div>
-
-       <div class="row titleRow">
-            <div class="col-md-12"><h5>Taste before serving. <a href="#" id="testing"><em>#testing</em></a></h5></div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-md-3 goldColored">
-            <input type="checkbox" value="AB" data-labelauty="<i class='fa fa-desktop'></i><span class='labelautyLabel'> A/B Testing </span>|<i class='fa fa-desktop'></i><span class='labelautyLabel'> A/B Testing </span>"/>
-          </div>
-          <div class="col-md-3 goldColored">
-            <input type="checkbox" value="Guerilla" data-labelauty="<i class='fa fa-coffee'></i><span class='labelautyLabel'> Guerilla Testing </span>|<i class='fa fa-coffee'></i><span class='labelautyLabel'> Guerilla Testing </span>"/>
-          </div>
-          <div class="col-md-3 goldColored">
-            <input type="checkbox" value="Lab" data-labelauty="<i class='fa fa-flask'></i><span class='labelautyLabel'> Lab Testing </span>|<i class='fa fa-flask'></i><span class='labelautyLabel'> Lab Testing </span>"/>
-          </div>
-          <div class="col-md-3 goldColored">
-            <input type="checkbox" value="Remote" data-labelauty="<i class='fa fa-building-o'></i><span class='labelautyLabel'> Remote Testing </span>|<i class='fa fa-building-o'></i><span class='labelautyLabel'> Remote Testing </span>"/>
-          </div>
-        </div>
-
-
-
-      </div>
-
-      <div class="col-md-4  save-as-image" id="ux-calculator">
-        <form id="newCalculation" method='post' action=''>
-        <h3>II. Estimate the cooking.</h3>
-        <h5 class="estimate">Add your own values and calculate the total required.</h5>
-        <table id="summary-table" class="table table-hover">
-          <thead>
-            <tr>
-              <th class="col-md-4">
-                <h6>Ingredient name</h6>
-              </th>
-              <th class="col-md-2">
-                <h6>Hours</h6>
-              </th>
-              <th class="col-md-2">
-                <h6>Cost/Hr</h6>
-              </th>
-              <th class="col-md-4">
-                <h6 class="coin">Subtotal</h6>
-              </th>
-            </tr>
-          </thead>
-        </table>
-
-
-        <a href="#conclusion" class="btn btn-primary btn-ux calculate-me toggle-visible">  <i class="fa fa-calculator"></i> Make calculations</a>
-        <a href="#ux-calculator" class="btn btn-danger btn-ux-danger toggle-visible">Clear values</a>
-        <a href="#getstarted" class="btn btn-danger btn-ux-reset toggle-visible" onclick="uncheckem()"><i class="fa fa-power-off"></i> Start all over again</a>
-
-        <div class="row">
-          <div class="col-md-12" id="conclusion">
-            <p id="conclusion-content"><span class='heading'>Dear Client</span>, <br/> If you want UX for the project, it will take around <span class='conclusion'><em class="hours"></em> hours</span> and it will cost a total amount of <span class='conclusion'><em class="cost"></em></span>. </p>
-            <small id="hint" class="toggle-visible"><strong>HINT:</strong> discover more about each technique accessing the <em><strong>#hashtags</strong></em>.</small>
-
-            <a href="javascript:window.print()" class="btn btn-primary print-me btn-ux toggle-visible"><i class="fa fa-print"> </i> Print the estimations</a>
-           <a href="#conclusion" class="btn btn-primary print-me btn-ux toggle-visible repair-btn" onclick="htmlcanvas()"><i class="fa fa-file-image-o"> </i> Save as image (experimental)</a>
-
-          </div>
-        </div>
-        </form>
-      </div>
-    </div>
-
-    <div class="row" id="acknowledgementspart1">
-      <div class="col-md-4 acknow">
-        <h3> About the project</h3>
-        <div class="row">
-          <div class="col-md-12">
-            <p>This project is a personal manifesto against the objectification of the term "UX". It's more than UI, it's more than a PSD file.</p>
-            <p>You can use the project in <strong>three ways</strong>:</p>
-            <ul>
-            <li><strong>select</strong> the ux tools and techniques for your next project;</li>
-            <li><strong>estimate</strong> (people, days, costs) for each and calculate the total;</li>
-            <li>click on the <em>#hashtags</em> to discover <strong>recommendations & templates</strong> for each (if you have suggestions, with no restrains, do contact me to update the list);</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 acknow">
-        <h3> Inspiration</h3>
-        <div class="row">
-          <div class="col-md-12">
-            <p>I created this based on my experience and inspiration such as:</p>
-            <a target="_blank"  href="http://www.amazon.com/Project-Guide-Design-experience-designers/dp/0321815386/ref=sr_1_1?s=books&ie=UTF8&qid=1421790551&sr=1-1&keywords=A+Project+Guide+to+UX+Design" alt="Project UX Design"><span class="label label-info">Project Guide to UX Design</span></a>
-            <a target="_blank"  href="http://www.amazon.com/Smashing-Design-Foundations-Designing-Experiences/dp/0470666854/ref=sr_1_1?s=books&ie=UTF8&qid=1421790589&sr=1-1&keywords=smashing+ux+design" alt="Smashing UX Design"><span class="label label-info">Smashing UX Design</span></a>
-            <a target="_blank"  href="http://www.amazon.com/Designers-Research-Manual-Succeed-Knowing/dp/1592535577/ref=sr_1_1?s=books&ie=UTF8&qid=1421790645&sr=1-1&keywords=designer+research" alt="Designer Research"><span class="label label-info">A Designer's Research Manual</span></a>
-            <p>Other checklists you can explore:</p>
-            <a target="_blank"  href="http://uxchecklist.github.io/" alt="UX Checklist"><span class="label label-info">UX Checklist</span></a>
-            <a target="_blank"  href="http://ixdchecklist.com/" alt="IXD Checklist"><span class="label label-info">IXD Checklist</span></a>
-            <a target="_blank"  href="http://webdesignerschecklist.com/" alt="Designer Research"><span class="label label-info">Web Designers Checklist</span></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 acknow">
-        <h3> Contribute</h3>
-        <div class="row">
-          <div class="col-md-3">
-            <img src="img/octocat.png" class="img-responsive" alt="Fork me!">
-          </div>
-          <div class="col-md-9">
-            <p>Feel free to contribute to the project in any way possible. You can find it on <a target="_blank"alt="Fork me!"href="https://github.com/uxrecipe/uxrecipe.github.io">Github</a>. For any feedback (like corrections, suggestions, new structure or features etc.) you can use my blog's <a target="_blank" alt="contact me" href="http://pxdotpt.com/contact/">contact form</a>.</p>
-            <p> I can't wait to see how we can improve it together. Feel free to fork. The code I written is licensed under <a href="LICENSE.txt">MIT Licence</a> and let's keep it that way (it's only fair as it relies on projects under the same or are free to use: e.g. Bootstrap, Fontawesome, Labelauty, Sweet Alert 2, html2canvas). </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row" id="acknowledgementspart2">
-      <div class="col-md-4 acknow">
-        <h3> Spread the love</h3>
-        <div class="row">
-          <div class="col-md-12">
-            <p>If you find it useful, don't hesitate to share it with others who might need it. Thanks for your support. You rock! </p>
-            <div class="addthis_sharing_toolbox"></div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 acknow">
-        <h3> Tools used</h3>
-        <div class="row">
-          <div class="col-md-12">
-            <p>For coding this project I used the following:</p>
-            <a target="_blank" href="http://getbootstrap.com/" alt="Bootstrap"><span class="label label-info">Bootstrap 3.3.2</span></a>
-            <a target="_blank"  href="http://fntneves.github.io/jquery-labelauty/" alt="Labelauty"><span class="label label-info">Labelauty</span></a>
-            <a target="_blank"  href="https://limonte.github.io/sweetalert2/" alt="Sweet Alert 2"><span class="label label-info">Sweet Alert 2</span></a>
-            <a target="_blank"  href="http://fontawesome.io/" alt="Fontawesome"><span class="label label-info">Fontawesome</span></a>
-            <a target="_blank"  href="http://html2canvas.hertzen.com/examples.html" alt="html2canvas"><span class="label label-info">html2canvas</span></a>
-            <p><small>PS: this project is not intended to be a coding masterpiece. I have still a lot of work to do under the hood: refinements, optimizations, reorganization etc. It's a prototype, but I will continue working and making it better (I'm fully aware the Javascript is a mess).</small></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 acknow">
-        <h3> Who am I?</h3>
-        <div class="row">
-          <div class="col-md-3">
-            <img src="img/alecsandru.png" class="img-responsive" alt="Alecsandru">
-          </div>
-          <div class="col-md-9">
-            <p>My name is Alecsandru Grigoriu and I am a Designer from Romania (currently working as <em>Design Lead</em> at <a target="_blank" alt="Grapefruit" href="http://grapefruit.ro">Grapefruit</a>, a User Experience Design agency with tradition).</p>
-            <p>I often write on my blog, <em><a href="http://pxdotpt.com">Pixels, dots and points of view</a></em> and share design stuff on <a target="_blank" alt="Twitter" href="http://twitter.com/alecsandru">Twitter</a>. </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="row" id="footer">
-      <div class="col-md-12">
-        <p>Created by <a target="_blank" href="http://pxdotpt.com/about" target="_blank" alt="alecsandru">Alecsandru Grigoriu</a></p>
-      </div>
-    </div>
-
-
-    <div class="row" id="subscribe">
-      <div class="col-md-12">
-        <p>I'm working to make the best of it.  Sign up to receive the latest updates.</p>
-
-<!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:320px;}
-  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="//pxdotpt.us9.list-manage.com/subscribe/post?u=91e9dd5310e0c28ec6dfa8b9d&amp;id=13baea2fc2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-  
-  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;"><input type="text" name="b_91e9dd5310e0c28ec6dfa8b9d_13baea2fc2" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
-
-
-      </div>
-    </div>
-
-
-
-  <div class="row" id="thanks">
-    <div class="col-md-12">
-      <h5>
-        Thank you for all the highlights!
-      </h5>
-    </div>
-  </div>
-  <div class="row supporters">
-    <div class="col-md-2">
-     <a href="http://www.producthunt.com/posts/ux-recipe" target="_blank" alt="Product Hunt"><img src="img/supporters/producthunt.png" alt="Product Hunt" class="img-responsive"></a>
-    </div>  
-    <div class="col-md-2">
-     <a href="http://tympanus.net/codrops/collective/collective-153/" target="_blank" alt="Codrops, Collective "><img src="img/supporters/codrops.png" alt="Codrops, Collective" class="img-responsive"></a>
-    </div>
-    <div class="col-md-2">
-     <a href="http://www.cssauthor.com/weekly-web-development-resources-tools-92/" target="_blank" alt="CSS Author"><img src="img/supporters/cssauthor.png" alt="CSS Author" class="img-responsive"></a>
-    </div>
-    <div class="col-md-2">
-     <a href="https://www.designernews.co/stories/43064-ux-recipe" target="_blank" alt="Designer News"><img src="img/supporters/designernews.png" alt="Designer nNews" class="img-responsive"></a>
-    </div>
-    <div class="col-md-2">
-     <a href="http://speckyboy.com/2015/02/03/weekly-news-designers-n-270/" target="_blank" alt="Speckyboy"><img src="img/supporters/speckyboy.png" alt="speckyboy" class="img-responsive"></a>
-    </div>
-    <div class="col-md-2">
-     <a href="http://heydesigner.com/?s=ux+recipe" target="_blank" alt="HeyDesigner"><img src="img/supporters/heydesigner.png" alt="Hey Designer" class="img-responsive"></a>
-    </div>
-  </div>
-
-  <div class="row supporters">
-    <div class="col-md-2">
-     <a href="http://etapes.com/un-oeil-sur-la-toile-lundi-2-fevrier" target="_blank" alt="Etapes"><img src="img/supporters/etapes.png" alt="etapes" class="img-responsive"></a>
-    </div>
-    <div class="col-md-2">
-     <a href="http://saijogeorge.com/best-marketing-tools/" target="_blank" alt="Saijo George"><img src="img/supporters/saijogeorge.png" alt="" class="img-responsive"></a>
-    </div>
-    <div class="col-md-2">
-     <a href="http://uwebdesign.ru/weekly-30/" target="_blank" alt="uWebDesign"><img src="img/supporters/uwebdesign.png" alt="uWeDdesign" class="img-responsive"></a>
-    </div>
-    <div class="col-md-2">
-     <a href="http://uxdesign.cc/how-to-keep-up-do-date-on-ux-design/" target="_blank" alt="UXDESIGNCC"><img src="img/supporters/uxdesigncc.png" alt="UXDESIGNCC" class="img-responsive"></a>
-    </div>
-    <div class="col-md-2">
-     <a href="http://uxundtollerei.com/issue/6" target="_blank" alt="UX und Tollerei"><img src="img/supporters/uxundtollerei.png" alt="UX und Tollerei" class="img-responsive"></a>
-    </div>
-    <div class="col-md-2">
-     <a href="http://www.webdesignertrends.com/2015/04/experience-utilisateur-ux/" target="_blank" alt="Webdesigner Trends"><img src="img/supporters/webdesignertrends.png" alt="Webdesigner Trends" class="img-responsive"></a>
-    </div>
-  </div>
-
-  <div class="row supporters">
-    <div class="col-md-2">
-     <a href="http://coliss.com/articles/build-websites/operation/work/user-experience-checklist-uxrecipe.html" target="_blank" alt="Coliss"><img src="img/supporters/coliss.png" alt="Coliss" class="img-responsive"></a>
-    </div>
-    <div class="col-md-2">
-     <a href="http://www.inpixelitrust.fr/blog/la-semaine-en-pixels-30-janvier-2015/" target="_blank" alt="Stephanie Walter"><img src="img/supporters/stephanie.png" alt="Stephanie Walter" class="img-responsive"></a>
-    </div>
-  </div>
-
-
-  <!-- Go to www.addthis.com/dashboard to customize your tools -->
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54bebc235792640d" async="async"></script>
-  <script src="bower_components/jquery/dist/jquery.js"></script>
-  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="bower_components/labelauty/source/jquery-labelauty.js"></script>
-  <script src="bower_components/sweetalert2/dist/sweetalert2.min.js"></script>
-  <script src="bower_components/html2canvas/build/html2canvas.js"></script>
-  <script src="bower_components/html2canvas/build/html2canvas-min.js"></script>
-  <script src="app.js"></script>
-  <script src="js/sum.js"></script>
-  <script src="js/check.js"></script>
-  <script src="js/modal.js"></script>
-
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54bebc235792640d" async="async"></script>
-
-
-  <!-- analytics -->
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-58631019-1', 'auto');
-  ga('send', 'pageview');
-
-  </script>
-
-
-</body>
+    <head>
+        <title>UX Recipe - a checklist where you discover, choose and estimate your next UX project tools & techniques.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- social media cards -->
+        <!-- Facebook -->
+        <meta property="og:title" content="UX Recipe " />
+        <meta property="og:url" content="http://uxrecipe.github.io" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Discover, choose and estimate your next ux project tools & techniques." />
+        <meta property="og:image" content="http://uxrecipe.github.io/img/uxrecipe-logo.png" />
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="UX Recipe" />
+        <meta name="twitter:description" content="Discover, choose and estimate your next ux project tools & techniques." />
+        <meta name="twitter:url" content="http://uxrecipe.github.io" />
+        <meta name="twitter:image" content="http://uxrecipe.github.io/img/uxrecipe-logo.png" />
+
+        <link rel="icon" type="image/ico" href="img/uxrecipeico.ico"/>
+        <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="bower_components/labelauty/source/jquery-labelauty.css">
+        <link rel="stylesheet" type="text/css" href="bower_components/sweetalert2/dist/sweetalert2.css">
+        <link rel="stylesheet" type="text/css" href="app.css">
+
+        <!-- For Chrome for Android: -->
+        <link rel="icon" sizes="192x192" href="img/touch/uxrecipe-192.png">
+        <!-- For iPhone 6 Plus with @3× display: -->
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="img/touch/uxrecipe-180.png">
+        <!-- For iPad with @2× display running iOS ≥ 7: -->
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/touch/uxrecipe-152.png">
+        <!-- For iPad with @2× display running iOS ≤ 6: -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/uxrecipe-144.png">
+        <!-- For iPhone with @2× display running iOS ≥ 7: -->
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/touch/uxrecipe-120.png">
+        <!-- For iPhone with @2× display running iOS ≤ 6: -->
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/uxrecipe-114.png">
+        <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/touch/uxrecipe-76.png">
+        <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/uxrecipe-72.png">
+        <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+        <link rel="apple-touch-icon-precomposed" href="img/touch/uxrecipe-57.png"><!-- 57×57px -->
+
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4" id="uxlogo">
+                    <img class="img-responsive" src="img/uxrecipe-logo.png" alt="ux recipe logo"/>
+                    <h3>Have you ever heard the phrase <em> just add some UX </em> like it was an ingredient?</h3>
+                    <h4>Time to serve 'em a real UX <em>cooking</em>. </h4>
+                    <a href="#getstarted" class="btn btn-primary"> Let's bake some awesomeness</a>
+                    <p><small> Prototype version ‐ Version 0.1.2 </small></p>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-8" id="getstarted">
+                    <h3> I. Select the ingredients of your UX baking process. </h3>
+
+                    <div class="row">
+                        <div class="col-md-12"><h5>Preparation is the key. <a href="#" id="planning"><em> #planning</em></a> <a tabindex="0" id="pop-planning" data-placement="top"role="button" data-toggle="popover" data-trigger="focus" title="Curious about these #hashtags?" data-content="Click on them to explore useful resources for each section. Personalized templates will be available soon, so stay tuned."><i class="fa fa-info-circle"></i></a></h5></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <input type="checkbox" value="Expert" data-labelauty="<i class='fa fa-mortar-board'></i><span class='labelautyLabel'> Expert Review </span>|<i class='fa fa-mortar-board'></i><span class='labelautyLabel'> Expert Review </span>"/>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="checkbox" value="Client" data-labelauty="<i class='fa fa-briefcase'></i><span class='labelautyLabel'> Stakeholder Workshop </span>|<i class='fa fa-briefcase'></i><span class='labelautyLabel'> Stakeholder Workshop </span>"/>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="checkbox" value="Competitor" data-labelauty="<i class='fa fa-trophy'></i><span class='labelautyLabel'> Competitor Analysis </span>|<i class='fa fa-trophy'></i><span class='labelautyLabel'> Competitor Analysis </span>"/>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="checkbox" value="Requirements" data-labelauty="<i class='fa fa-area-chart'></i><span class='labelautyLabel'> Requirements Analysis </span>|<i class='fa fa-area-chart'></i><span class='labelautyLabel'> Requirements Analysis </span>"/>
+                        </div>
+                    </div>
+
+                    <div class="row titleRow2">
+                        <div class="col-md-3">
+                            <input type="checkbox" value="Interview" data-labelauty="<i class='fa fa-microphone'></i><span class='labelautyLabel'> Stakeholder Interview </span>|<i class='fa fa-microphone'></i><span class='labelautyLabel'> Stakeholder Interview </span>"/>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="checkbox" value="Debriefing" data-labelauty="<i class='fa fa-file-o'></i><span class='labelautyLabel'> (De)briefing </span>|<i class='fa fa-file-o'></i><span class='labelautyLabel'> (De)briefing </span>"/>
+                        </div>
+                    </div>
+
+
+                    <div class="row titleRow">
+                        <div class="col-md-12"><h5>Study the recipes. <a href="#" id="research"><em>#research</em></a></h5></div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-3 blueColored">
+                            <input type="checkbox" value="Ethnographic" data-labelauty="<i class='fa fa-globe'></i><span class='labelautyLabel'> Ethnographic Research </span>|<i class='fa fa-globe'></i><span class='labelautyLabel'> Ethnographic Research </span>"/>
+                        </div>
+                        <div class="col-md-3 blueColored">
+                            <input type="checkbox" value="Market" data-labelauty="<i class='fa fa-line-chart'></i><span class='labelautyLabel'> Market Research </span>|<i class='fa fa-line-chart'></i><span class='labelautyLabel'> Market Research </span>"/>
+                        </div>
+                        <div class="col-md-3 blueColored">
+                            <input type="checkbox" value="Photo" data-labelauty="<i class='fa fa-camera-retro'></i><span class='labelautyLabel'> Photo Ethnography </span>|<i class='fa fa-camera-retro'></i><span class='labelautyLabel'> Photo Ethnography </span>"/>
+                        </div>
+                        <div class="col-md-3 blueColored">
+                            <input type="checkbox" value="Anthropology" data-labelauty="<i class='fa fa-eye'></i><span class='labelautyLabel'> Visual Anthropology </span>|<i class='fa fa-eye'></i><span class='labelautyLabel'> Visual Anthropology </span>"/>
+                        </div>
+                    </div>
+
+
+                    <div class="row titleRow2">
+                        <div class="col-md-3 blueColored">
+                            <input type="checkbox" value="Demographics" data-labelauty="<i class='fa fa-pie-chart'></i><span class='labelautyLabel'> Demographics </span>|<i class='fa fa-pie-chart'></i><span class='labelautyLabel'> Demographics </span>"/>
+                        </div>
+                        <div class="col-md-3 blueColored">
+                            <input type="checkbox" value="Focus" data-labelauty="<i class='fa fa-users'></i><span class='labelautyLabel'> Focus Groups </span>|<i class='fa fa fa-users'></i><span class='labelautyLabel'> Focus Groups </span>"/>
+                        </div>
+                        <div class="col-md-3 blueColored">
+                            <input type="checkbox" value="Psychographics" data-labelauty="<i class='fa fa-bullhorn'></i><span class='labelautyLabel'> Psychographics </span>|<i class='fa fa-bullhorn'></i><span class='labelautyLabel'> Psychographics </span>"/>
+                        </div>
+                        <div class="col-md-3 blueColored">
+                            <input type="checkbox" value="Documentation" data-labelauty="<i class='fa fa-book'></i><span class='labelautyLabel'> Documentation </span>|<i class='fa fa-book'></i><span class='labelautyLabel'> Documentation </span>"/>
+                        </div>
+                    </div>
+
+                    <div class="row titleRow2">
+                        <div class="col-md-3 blueColored">
+                            <input type="checkbox" value="SEO" data-labelauty="<i class='fa fa-google'></i><span class='labelautyLabel'> SEO & Analytics </span>|<i class='fa fa-google'></i><span class='labelautyLabel'> SEO & Analytics </span>"/>
+                        </div>
+                        <div class="col-md-3 blueColored">
+                            <input type="checkbox" value="Mobile" data-labelauty="<i class='fa fa-mobile-phone'></i><span class='labelautyLabel'> Mobile Assesment </span>|<i class='fa fa-mobile-phone'></i><span class='labelautyLabel'> Mobile Assesment </span>"/>
+                        </div>
+                        <div class="col-md-3 blueColored">
+                            <input type="checkbox" value="Contextual" data-labelauty="<i class='fa fa-search'></i><span class='labelautyLabel'> Observational Research </span>|<i class='fa fa-search'></i><span class='labelautyLabel'> Observational Research </span>"/>
+                        </div>
+                        <div class="col-md-3 blueColored">
+                            <input type="checkbox" value="Surveys" data-labelauty="<i class='fa fa-file-text-o'></i><span class='labelautyLabel'> Surveys </span>|<i class='fa fa-file-text-o'></i><span class='labelautyLabel'> Surveys </span>"/>
+                        </div>
+                    </div>
+
+                    <div class="row titleRow">
+                        <div class="col-md-12"><h5>Know your hungry people. <a href="#" id="exploration"><em>#exploration</em></a></h5></div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-3 greenColored">
+                            <input type="checkbox" value="Personas" data-labelauty="<i class='fa fa-user'></i><span class='labelautyLabel'> Persona </span>|<i class='fa fa-user'></i><span class='labelautyLabel'> Persona </span>"/>
+                        </div>
+                        <div class="col-md-3 greenColored">
+                            <input type="checkbox" value="User" data-labelauty="<i class='fa fa-random'></i><span class='labelautyLabel'> User Flow </span>|<i class='fa fa-random'></i><span class='labelautyLabel'> User Flow </span>"/>
+                        </div>
+                        <div class="col-md-3 greenColored">
+                            <input type="checkbox" value="Storyboards" data-labelauty="<i class='fa fa-comment-o'></i><span class='labelautyLabel'> Storyboards </span>|<i class='fa fa-comment-o'></i><span class='labelautyLabel'> Storyboards </span>"/>
+                        </div>
+                        <div class="col-md-3 greenColored">
+                            <input type="checkbox" value="Journey" data-labelauty="<i class='fa fa-location-arrow'></i><span class='labelautyLabel'> Journey Maps </span>|<i class='fa fa-location-arrow'></i><span class='labelautyLabel'> Journey Maps </span>"/>
+                        </div>
+                    </div>
+
+                    <div class="row titleRow2">
+                        <div class="col-md-3 greenColored">
+                            <input type="checkbox" value="Stories" data-labelauty="<i class='fa fa-smile-o'></i><span class='labelautyLabel'> User Stories </span>|<i class='fa fa-smile-o'></i><span class='labelautyLabel'> User Stories </span>"/>
+                        </div>
+                        <div class="col-md-3 greenColored">
+                            <input type="checkbox" value="Acceptance" data-labelauty="<i class='fa fa-list'></i><span class='labelautyLabel'> Acceptance criteria </span>|<i class='fa fa-list'></i><span class='labelautyLabel'> Acceptance criteria </span>"/>
+                        </div>
+                        <div class="col-md-3 greenColored">
+                            <input type="checkbox" value="QOC" data-labelauty="<i class='fa fa-list-ol'></i><span class='labelautyLabel'> QOC </span>|<i class='fa fa-list-ol'></i><span class='labelautyLabel'> QOC </span>"/>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row titleRow">
+                        <div class="col-md-12"><h5>There's order even in a messy kitchen. <a href="#" id="information"><em>#information architecture</em></a></h5></div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-3 orangeColored">
+                            <input type="checkbox" value="Sitemap" data-labelauty="<i class='fa fa-sitemap'></i><span class='labelautyLabel'> Sitemap </span>|<i class='fa fa-sitemap'></i><span class='labelautyLabel'> Sitemap </span>"/>
+                        </div>
+                        <div class="col-md-3 orangeColored">
+                            <input type="checkbox" value="Card Sorting" data-labelauty="<i class='fa fa-trello'></i><span class='labelautyLabel'> Card Sorting </span>|<i class='fa fa-trello'></i><span class='labelautyLabel'> Card Sorting </span>"/>
+                        </div>
+                        <div class="col-md-3 orangeColored">
+                            <input type="checkbox" value="Audit" data-labelauty="<i class='fa fa-clipboard'></i><span class='labelautyLabel'> Content Audit </span>|<i class='fa fa-clipboard'></i><span class='labelautyLabel'> Content Audit </span>"/>
+                        </div>
+                        <div class="col-md-3 orangeColored">
+                            <input type="checkbox" value="Inventory" data-labelauty="<i class='fa fa-archive'></i><span class='labelautyLabel'> Content Inventory </span>|<i class='fa fa-archive'></i><span class='labelautyLabel'> Content Inventory </span>"/>
+                        </div>
+                    </div>
+
+                    <div class="row titleRow2">
+                        <div class="col-md-3 orangeColored">
+                            <input type="checkbox" value="Brainstorming" data-labelauty="<i class='fa fa-comments-o'></i><span class='labelautyLabel'> Brainstorming </span>|<i class='fa fa-comments-o'></i><span class='labelautyLabel'> Brainstorming </span>"/>
+                        </div>
+                        <div class="col-md-3 orangeColored">
+                            <input type="checkbox" value="OrgSchemes" data-labelauty="<i class='fa fa-list-alt'></i><span class='labelautyLabel'> Organization Schemes </span>|<i class='fa fa-list-alt'></i><span class='labelautyLabel'> Organization Schemes </span>"/>
+                        </div>
+                        <div class="col-md-3 orangeColored">
+                            <input type="checkbox" value="OrgStructure" data-labelauty="<i class='fa fa-university'></i><span class='labelautyLabel'> Organization Structure </span>|<i class='fa fa-university'></i><span class='labelautyLabel'> Organization Structure </span>"/>
+                        </div>
+                        <div class="col-md-3 orangeColored">
+                            <input type="checkbox" value="DoGo" data-labelauty="<i class='fa fa-level-up'></i><span class='labelautyLabel'> DoGo Mapping </span>|<i class='fa fa-level-up'></i><span class='labelautyLabel'> DoGo Mapping </span>"/>
+                        </div>
+                    </div>
+
+
+                    <div class="row titleRow">
+                        <div class="col-md-12"><h5>If you bake it, they will come <a href="#" id="design"><em>#design</em></a></h5></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3 purpleColored">
+                            <input type="checkbox" value="Sketching" data-labelauty="<i class='fa fa-pencil'></i><span class='labelautyLabel'> Sketching </span>|<i class='fa fa-pencil'></i><span class='labelautyLabel'> Sketching </span>"/>
+                        </div>
+                        <div class="col-md-3 purpleColored">
+                            <input type="checkbox" value="Wireframes" data-labelauty="<i class='fa fa-newspaper-o'></i><span class='labelautyLabel'> Wireframes </span>|<i class='fa fa-newspaper-o'></i><span class='labelautyLabel'> Wireframes </span>"/>
+                        </div>
+                        <div class="col-md-3 purpleColored">
+                            <input type="checkbox" value="Styleguide" data-labelauty="<i class='fa fa-paint-brush'></i><span class='labelautyLabel'> Styleguide </span>|<i class='fa fa-paint-brush'></i><span class='labelautyLabel'> Styleguide </span>"/>
+                        </div>
+                        <div class="col-md-3 purpleColored">
+                            <input type="checkbox" value="Mockups" data-labelauty="<i class='fa fa-picture-o'></i><span class='labelautyLabel'> Mockups </span>|<i class='fa fa-picture-o'></i><span class='labelautyLabel'> Mockups </span>"/>
+                        </div>
+                    </div>
+
+                    <div class="row titleRow2">
+                        <div class="col-md-3 purpleColored">
+                            <input type="checkbox" value="Tiles" data-labelauty="<i class='fa fa-th-large'></i><span class='labelautyLabel'> Style Tiles </span>|<i class='fa fa-th-large'></i><span class='labelautyLabel'> Style Tiles </span>"/>
+                        </div>
+                    </div>
+
+
+                    <div class="row titleRow">
+                        <div class="col-md-12"><h5>There's no harm in a little experimenting. <a href="#" id="prototyping"><em>#prototyping</em></a></h5></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3 tealColored">
+                            <input type="checkbox" value="Paper" data-labelauty="<i class='fa fa-paper-plane-o'></i><span class='labelautyLabel'> Paper Prototyping </span>|<i class='fa fa-paper-plane-o'></i><span class='labelautyLabel'> Paper Prototyping </span>"/>
+                        </div>
+                        <div class="col-md-3 tealColored">
+                            <input type="checkbox" value="HTML" data-labelauty="<i class='fa fa-code'></i><span class='labelautyLabel'> HTML Demo </span>|<i class='fa fa-code'></i><span class='labelautyLabel'> HTML Demo </span>"/>
+                        </div>
+                        <div class="col-md-3 tealColored">
+                            <input type="checkbox" value="Interactive" data-labelauty="<i class='fa fa-fighter-jet'></i><span class='labelautyLabel'> IXD Prototyping </span>|<i class='fa fa-fighter-jet'></i><span class='labelautyLabel'> IXD Prototyping </span>"/>
+                        </div>
+                        <div class="col-md-3 tealColored">
+                            <input type="checkbox" value="Showcase" data-labelauty="<i class='fa fa-mobile'></i><span class='labelautyLabel'> Mobile Showcase </span>|<i class='fa fa-mobile'></i><span class='labelautyLabel'> Mobile Showcase </span>"/>
+                        </div>
+                    </div>
+
+                    <div class="row titleRow">
+                        <div class="col-md-12"><h5>Taste before serving. <a href="#" id="testing"><em>#testing</em></a></h5></div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-3 goldColored">
+                            <input type="checkbox" value="AB" data-labelauty="<i class='fa fa-desktop'></i><span class='labelautyLabel'> A/B Testing </span>|<i class='fa fa-desktop'></i><span class='labelautyLabel'> A/B Testing </span>"/>
+                        </div>
+                        <div class="col-md-3 goldColored">
+                            <input type="checkbox" value="Guerilla" data-labelauty="<i class='fa fa-coffee'></i><span class='labelautyLabel'> Guerilla Testing </span>|<i class='fa fa-coffee'></i><span class='labelautyLabel'> Guerilla Testing </span>"/>
+                        </div>
+                        <div class="col-md-3 goldColored">
+                            <input type="checkbox" value="Lab" data-labelauty="<i class='fa fa-flask'></i><span class='labelautyLabel'> Lab Testing </span>|<i class='fa fa-flask'></i><span class='labelautyLabel'> Lab Testing </span>"/>
+                        </div>
+                        <div class="col-md-3 goldColored">
+                            <input type="checkbox" value="Remote" data-labelauty="<i class='fa fa-building-o'></i><span class='labelautyLabel'> Remote Testing </span>|<i class='fa fa-building-o'></i><span class='labelautyLabel'> Remote Testing </span>"/>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-md-4  save-as-image" id="ux-calculator">
+                    <form id="newCalculation" method='post' action=''>
+                        <h3>II. Estimate the cooking.</h3>
+                        <h5 class="estimate">Add your own values and calculate the total required.</h5>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="col-md-4">
+                            <h6>Ingredient name</h6>
+                            </th>
+                            <th class="col-md-2">
+                            <h6>Hours</h6>
+                            </th>
+                            <th class="col-md-2">
+                            <h6>Cost/Hr</h6>
+                            </th>
+                            <th class="col-md-4">
+                            <h6 class="coin">Subtotal</h6>
+                            </th>
+                            </tr>
+                            </thead>
+                            <tbody id="summary-table"></tbody>
+                        </table>
+
+
+                        <a href="#conclusion" class="btn btn-primary btn-ux calculate-me toggle-visible">  <i class="fa fa-calculator"></i> Make calculations</a>
+                        <a href="#ux-calculator" class="btn btn-danger btn-ux-danger toggle-visible">Clear values</a>
+                        <a href="#getstarted" class="btn btn-danger btn-ux-reset toggle-visible" onclick="uncheckem()"><i class="fa fa-power-off"></i> Start all over again</a>
+
+                        <div class="row">
+                            <div class="col-md-12" id="conclusion">
+                                <p id="conclusion-content"><span class='heading'>Dear Client</span>, <br/> If you want UX for the project, it will take around <span class='conclusion'><em class="hours"></em> hours</span> and it will cost a total amount of <span class='conclusion'><em class="cost"></em></span>. </p>
+                                <small id="hint" class="toggle-visible"><strong>HINT:</strong> discover more about each technique accessing the <em><strong>#hashtags</strong></em>.</small>
+
+                                <a href="javascript:window.print()" class="btn btn-primary print-me btn-ux toggle-visible"><i class="fa fa-print"> </i> Print the estimations</a>
+                                <a href="#conclusion" class="btn btn-primary print-me btn-ux toggle-visible repair-btn" onclick="htmlcanvas()"><i class="fa fa-file-image-o"> </i> Save as image (experimental)</a>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row" id="acknowledgementspart1">
+                <div class="col-md-4 acknow">
+                    <h3> About the project</h3>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>This project is a personal manifesto against the objectification of the term "UX". It's more than UI, it's more than a PSD file.</p>
+                            <p>You can use the project in <strong>three ways</strong>:</p>
+                            <ul>
+                                <li><strong>select</strong> the ux tools and techniques for your next project;</li>
+                                <li><strong>estimate</strong> (people, days, costs) for each and calculate the total;</li>
+                                <li>click on the <em>#hashtags</em> to discover <strong>recommendations & templates</strong> for each (if you have suggestions, with no restrains, do contact me to update the list);</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 acknow">
+                    <h3> Inspiration</h3>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>I created this based on my experience and inspiration such as:</p>
+                            <a target="_blank"  href="http://www.amazon.com/Project-Guide-Design-experience-designers/dp/0321815386/ref=sr_1_1?s=books&ie=UTF8&qid=1421790551&sr=1-1&keywords=A+Project+Guide+to+UX+Design" alt="Project UX Design"><span class="label label-info">Project Guide to UX Design</span></a>
+                            <a target="_blank"  href="http://www.amazon.com/Smashing-Design-Foundations-Designing-Experiences/dp/0470666854/ref=sr_1_1?s=books&ie=UTF8&qid=1421790589&sr=1-1&keywords=smashing+ux+design" alt="Smashing UX Design"><span class="label label-info">Smashing UX Design</span></a>
+                            <a target="_blank"  href="http://www.amazon.com/Designers-Research-Manual-Succeed-Knowing/dp/1592535577/ref=sr_1_1?s=books&ie=UTF8&qid=1421790645&sr=1-1&keywords=designer+research" alt="Designer Research"><span class="label label-info">A Designer's Research Manual</span></a>
+                            <p>Other checklists you can explore:</p>
+                            <a target="_blank"  href="http://uxchecklist.github.io/" alt="UX Checklist"><span class="label label-info">UX Checklist</span></a>
+                            <a target="_blank"  href="http://ixdchecklist.com/" alt="IXD Checklist"><span class="label label-info">IXD Checklist</span></a>
+                            <a target="_blank"  href="http://webdesignerschecklist.com/" alt="Designer Research"><span class="label label-info">Web Designers Checklist</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 acknow">
+                    <h3> Contribute</h3>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/octocat.png" class="img-responsive" alt="Fork me!">
+                        </div>
+                        <div class="col-md-9">
+                            <p>Feel free to contribute to the project in any way possible. You can find it on <a target="_blank"alt="Fork me!"href="https://github.com/uxrecipe/uxrecipe.github.io">Github</a>. For any feedback (like corrections, suggestions, new structure or features etc.) you can use my blog's <a target="_blank" alt="contact me" href="http://pxdotpt.com/contact/">contact form</a>.</p>
+                            <p> I can't wait to see how we can improve it together. Feel free to fork. The code I written is licensed under <a href="LICENSE.txt">MIT Licence</a> and let's keep it that way (it's only fair as it relies on projects under the same or are free to use: e.g. Bootstrap, Fontawesome, Labelauty, Sweet Alert 2, html2canvas). </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="acknowledgementspart2">
+                <div class="col-md-4 acknow">
+                    <h3> Spread the love</h3>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>If you find it useful, don't hesitate to share it with others who might need it. Thanks for your support. You rock! </p>
+                            <div class="addthis_sharing_toolbox"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 acknow">
+                    <h3> Tools used</h3>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>For coding this project I used the following:</p>
+                            <a target="_blank" href="http://getbootstrap.com/" alt="Bootstrap"><span class="label label-info">Bootstrap 3.3.2</span></a>
+                            <a target="_blank"  href="http://fntneves.github.io/jquery-labelauty/" alt="Labelauty"><span class="label label-info">Labelauty</span></a>
+                            <a target="_blank"  href="https://limonte.github.io/sweetalert2/" alt="Sweet Alert 2"><span class="label label-info">Sweet Alert 2</span></a>
+                            <a target="_blank"  href="http://fontawesome.io/" alt="Fontawesome"><span class="label label-info">Fontawesome</span></a>
+                            <a target="_blank"  href="http://html2canvas.hertzen.com/examples.html" alt="html2canvas"><span class="label label-info">html2canvas</span></a>
+                            <p><small>PS: this project is not intended to be a coding masterpiece. I have still a lot of work to do under the hood: refinements, optimizations, reorganization etc. It's a prototype, but I will continue working and making it better (I'm fully aware the Javascript is a mess).</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 acknow">
+                    <h3> Who am I?</h3>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/alecsandru.png" class="img-responsive" alt="Alecsandru">
+                        </div>
+                        <div class="col-md-9">
+                            <p>My name is Alecsandru Grigoriu and I am a Designer from Romania (currently working as <em>Design Lead</em> at <a target="_blank" alt="Grapefruit" href="http://grapefruit.ro">Grapefruit</a>, a User Experience Design agency with tradition).</p>
+                            <p>I often write on my blog, <em><a href="http://pxdotpt.com">Pixels, dots and points of view</a></em> and share design stuff on <a target="_blank" alt="Twitter" href="http://twitter.com/alecsandru">Twitter</a>. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row" id="footer">
+                <div class="col-md-12">
+                    <p>Created by <a target="_blank" href="http://pxdotpt.com/about" target="_blank" alt="alecsandru">Alecsandru Grigoriu</a></p>
+                </div>
+            </div>
+
+
+            <div class="row" id="subscribe">
+                <div class="col-md-12">
+                    <p>I'm working to make the best of it.  Sign up to receive the latest updates.</p>
+
+                    <!-- Begin MailChimp Signup Form -->
+                    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+                    <style type="text/css">
+                        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:320px;}
+                        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup">
+                        <form action="//pxdotpt.us9.list-manage.com/subscribe/post?u=91e9dd5310e0c28ec6dfa8b9d&amp;id=13baea2fc2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+
+                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;"><input type="text" name="b_91e9dd5310e0c28ec6dfa8b9d_13baea2fc2" tabindex="-1" value=""></div>
+                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!--End mc_embed_signup-->
+
+
+                </div>
+            </div>
+
+
+
+            <div class="row" id="thanks">
+                <div class="col-md-12">
+                    <h5>
+                        Thank you for all the highlights!
+                    </h5>
+                </div>
+            </div>
+            <div class="row supporters">
+                <div class="col-md-2">
+                    <a href="http://www.producthunt.com/posts/ux-recipe" target="_blank" alt="Product Hunt"><img src="img/supporters/producthunt.png" alt="Product Hunt" class="img-responsive"></a>
+                </div>  
+                <div class="col-md-2">
+                    <a href="http://tympanus.net/codrops/collective/collective-153/" target="_blank" alt="Codrops, Collective "><img src="img/supporters/codrops.png" alt="Codrops, Collective" class="img-responsive"></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="http://www.cssauthor.com/weekly-web-development-resources-tools-92/" target="_blank" alt="CSS Author"><img src="img/supporters/cssauthor.png" alt="CSS Author" class="img-responsive"></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="https://www.designernews.co/stories/43064-ux-recipe" target="_blank" alt="Designer News"><img src="img/supporters/designernews.png" alt="Designer nNews" class="img-responsive"></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="http://speckyboy.com/2015/02/03/weekly-news-designers-n-270/" target="_blank" alt="Speckyboy"><img src="img/supporters/speckyboy.png" alt="speckyboy" class="img-responsive"></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="http://heydesigner.com/?s=ux+recipe" target="_blank" alt="HeyDesigner"><img src="img/supporters/heydesigner.png" alt="Hey Designer" class="img-responsive"></a>
+                </div>
+            </div>
+
+            <div class="row supporters">
+                <div class="col-md-2">
+                    <a href="http://etapes.com/un-oeil-sur-la-toile-lundi-2-fevrier" target="_blank" alt="Etapes"><img src="img/supporters/etapes.png" alt="etapes" class="img-responsive"></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="http://saijogeorge.com/best-marketing-tools/" target="_blank" alt="Saijo George"><img src="img/supporters/saijogeorge.png" alt="" class="img-responsive"></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="http://uwebdesign.ru/weekly-30/" target="_blank" alt="uWebDesign"><img src="img/supporters/uwebdesign.png" alt="uWeDdesign" class="img-responsive"></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="http://uxdesign.cc/how-to-keep-up-do-date-on-ux-design/" target="_blank" alt="UXDESIGNCC"><img src="img/supporters/uxdesigncc.png" alt="UXDESIGNCC" class="img-responsive"></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="http://uxundtollerei.com/issue/6" target="_blank" alt="UX und Tollerei"><img src="img/supporters/uxundtollerei.png" alt="UX und Tollerei" class="img-responsive"></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="http://www.webdesignertrends.com/2015/04/experience-utilisateur-ux/" target="_blank" alt="Webdesigner Trends"><img src="img/supporters/webdesignertrends.png" alt="Webdesigner Trends" class="img-responsive"></a>
+                </div>
+            </div>
+
+            <div class="row supporters">
+                <div class="col-md-2">
+                    <a href="http://coliss.com/articles/build-websites/operation/work/user-experience-checklist-uxrecipe.html" target="_blank" alt="Coliss"><img src="img/supporters/coliss.png" alt="Coliss" class="img-responsive"></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="http://www.inpixelitrust.fr/blog/la-semaine-en-pixels-30-janvier-2015/" target="_blank" alt="Stephanie Walter"><img src="img/supporters/stephanie.png" alt="Stephanie Walter" class="img-responsive"></a>
+                </div>
+            </div>
+
+
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54bebc235792640d" async="async"></script>
+            <script src="bower_components/jquery/dist/jquery.js"></script>
+            <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+            <script src="bower_components/labelauty/source/jquery-labelauty.js"></script>
+            <script src="bower_components/sweetalert2/dist/sweetalert2.min.js"></script>
+            <script src="bower_components/html2canvas/build/html2canvas.js"></script>
+            <script src="bower_components/html2canvas/build/html2canvas-min.js"></script>
+            <script src="app.js"></script>
+            <script src="js/sum.js"></script>
+            <script src="js/check.js"></script>
+            <script src="js/modal.js"></script>
+
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54bebc235792640d" async="async"></script>
+
+
+            <!-- analytics -->
+            <script>
+                                    (function (i, s, o, g, r, a, m) {
+                                        i['GoogleAnalyticsObject'] = r;
+                                        i[r] = i[r] || function () {
+                                            (i[r].q = i[r].q || []).push(arguments)
+                                        }, i[r].l = 1 * new Date();
+                                        a = s.createElement(o),
+                                                m = s.getElementsByTagName(o)[0];
+                                        a.async = 1;
+                                        a.src = g;
+                                        m.parentNode.insertBefore(a, m)
+                                    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+                                    ga('create', 'UA-58631019-1', 'auto');
+                                    ga('send', 'pageview');
+
+            </script>
+
+
+    </body>
 </html>
