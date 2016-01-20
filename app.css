@@ -569,7 +569,7 @@ a[href="#conclusion"] {
 #mce-EMAIL {
 	display: inline;
 	float: left;
-	width: 100px;
+	width: 100px !important;
 }
 
 #mc_embed_signup input.button {
