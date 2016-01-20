@@ -564,7 +564,7 @@ a[href="#conclusion"] {
 #mc_embed_signup {
 	margin: 0 auto;
 	background: none !important;
-	width: 50% !important;
+	/*width: 50% !important;*/
 }
 
 #mce-EMAIL {
