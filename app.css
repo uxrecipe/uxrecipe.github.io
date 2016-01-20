@@ -569,6 +569,7 @@ a[href="#conclusion"] {
 #mce-EMAIL {
 	display: inline;
 	float: left;
+	width: 100px;
 }
 
 #mc_embed_signup input.button {
