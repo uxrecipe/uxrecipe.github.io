@@ -1,0 +1,92 @@
+/* Base */
+
+#awwwards{
+	position: absolute;
+	top: 20px;
+	width: 90px;
+	height: 135px;
+	text-indent: -666em;
+	overflow: hidden;
+	z-index: 999;
+
+	-webkit-transition: all 1s ease;
+    transition: all 1s ease; 
+}
+#awwwards.top{
+	top: 20px;
+}
+#awwwards.left{
+	left: 0;
+}
+#awwwards.right{
+	right: 0;
+}
+
+#awwwards a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 90px;
+	height: 135px;
+	background-repeat: no-repeat;
+	background-size: 90px 135px;
+}
+
+/* NOMINEE */
+
+#awwwards.nominee.black.left a{
+	background-image: url(ribbons/awwwards_nominee_black_left.png);
+}
+#awwwards.nominee.black.right a{
+	background-image: url(ribbons/awwwards_nominee_black_right.png);
+}
+#awwwards.nominee.silver.left a{
+	background-image: url(ribbons/awwwards_nominee_silver_left.png);
+}
+#awwwards.nominee.silver.right a{
+	background-image: url(ribbons/awwwards_nominee_silver_right.png);
+}
+#awwwards.nominee.white.left a{
+	background-image: url(ribbons/awwwards_nominee_white_left.png);
+}
+#awwwards.nominee.white.right a{
+	background-image: url(ribbons/awwwards_nominee_white_right.png);
+}
+#awwwards.nominee.green.left a{
+	background-image: url(ribbons/awwwards_nominee_green_left.png);
+}
+#awwwards.nominee.green.right a{
+	background-image: url(ribbons/awwwards_nominee_green_right.png);
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2),	only screen and (min-device-pixel-ratio: 1.5) {
+
+	/* NOMINEE */
+
+	#awwwards.nominee.black.left a{
+		background-image: url(ribbons/awwwards_nominee_black_left@2x.png);
+	}
+	#awwwards.nominee.black.right a{
+		background-image: url(ribbons/awwwards_nominee_black_right@2x.png);
+	}
+	#awwwards.nominee.silver.left a{
+		background-image: url(ribbons/awwwards_nominee_silver_left@2x.png);
+	}
+	#awwwards.nominee.silver.right a{
+		background-image: url(ribbons/awwwards_nominee_silver_right@2x.png);
+	}
+	#awwwards.nominee.white.left a{
+		background-image: url(ribbons/awwwards_nominee_white_left@2x.png);
+	}
+	#awwwards.nominee.white.right a{
+		background-image: url(ribbons/awwwards_nominee_white_right@2x.png);
+	}
+	#awwwards.nominee.green.left a{
+		background-image: url(ribbons/awwwards_nominee_green_left@2x.png);
+	}
+	#awwwards.nominee.green.right a{
+		background-image: url(ribbons/awwwards_nominee_green_right@2x.png);
+	}
+
+}
