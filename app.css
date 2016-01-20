@@ -573,11 +573,14 @@ a[href="#conclusion"] {
 
 #mc_embed_signup input.button {
 	display: inline !important;
+	width: auto !important;
 }
 
 #mc_embed_signup input {
 	border-radius: 5px;
 }
+
+
 
 /* thanks */
 #thanks {
