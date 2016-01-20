@@ -562,8 +562,11 @@ a[href="#conclusion"] {
 }
 
 #mc_embed_signup {
+	display: block;
 	margin: 0 auto;
 	background: none !important;
+
+	width: 300px !important;
 }
 
 #mce-EMAIL {
@@ -573,7 +576,6 @@ a[href="#conclusion"] {
 
 #mc_embed_signup input.button {
 	display: inline !important;
-	font-size: 12px;
 }
 
 #mc_embed_signup input {
