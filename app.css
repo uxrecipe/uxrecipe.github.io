@@ -573,7 +573,7 @@ a[href="#conclusion"] {
 
 #mc_embed_signup input.button {
 	display: inline !important;
-	width: auto !important;
+	font-size: 12px;
 }
 
 #mc_embed_signup input {
