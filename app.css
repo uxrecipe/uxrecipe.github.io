@@ -577,9 +577,11 @@ a[href="#conclusion"] {
 
 #mc_embed_signup input {
 	border-radius: 5px;
-	width: 40%;
 }
 
+#mc_embed_signup {
+    width: 290px !important;
+}
 /* thanks */
 #thanks {
 	margin-top: 50px;
