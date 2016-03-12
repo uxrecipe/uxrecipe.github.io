@@ -115,6 +115,35 @@ html, .container-fluid{
    -webkit-transition: opacity .25s ease-in-out;
 }
 
+.sweet-alert button.cancel {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	padding: 15px;
+	border: none;
+	border-radius: 3px;
+	font-size: 16px;
+	background: #FF9800 !important;
+	color: rgba(255,255,255, .9);
+	   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.sweet-alert p {
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+
+.sweet-alert h2 {
+	line-height: 36px;
+}
+
+.sweet-alert .icon {
+	width: 180px;
+	height: 180px;
+}
+
 button.confirm {
 	margin-left: 0px;
 	margin-bottom: 20px;
