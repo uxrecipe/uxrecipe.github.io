@@ -30,7 +30,7 @@ $(document).ready(function(){
       confirmButtonColor: '#3085d6',
       cancelButtonColor: '#d33',
       cancelButtonText: 'Stay on site',
-      confirmButtonText: 'Download iOS app (Free)',
+      confirmButtonText: 'Get iOS app (Free)',
       closeOnConfirm: false
     },
     function(){
