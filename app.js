@@ -21,21 +21,21 @@ $(document).ready(function(){
      });
 
 
-    swal({
-      title: 'UX Recipe app is now available on the Apple Store for free!',
-      text: 'We have been working hard to bring the app to life and that time has arrived: the iOS version is live. It has already been featured on Product Hunt and it passed over 1700 downloads.',
-      imageUrl: 'img/iosapp.jpg',
-      animation: false,
-      showCancelButton: true,
-      confirmButtonColor: '#3085d6',
-      cancelButtonColor: '#d33',
-      cancelButtonText: 'Stay on site',
-      confirmButtonText: 'Download iOS app',
-      closeOnConfirm: false
-    },
-    function(){
-      window.location.href = 'https://itunes.apple.com/us/app/ux-recipe/id1078077486?ls=1&mt=8';
-    })
+    // swal({
+    //   title: 'UX Recipe app is now available on the Apple Store for free!',
+    //   text: 'We have been working hard to bring the app to life and that time has arrived: the iOS version is live. It has already been featured on Product Hunt and it passed over 1700 downloads.',
+    //   imageUrl: 'img/iosapp.jpg',
+    //   animation: false,
+    //   showCancelButton: true,
+    //   confirmButtonColor: '#3085d6',
+    //   cancelButtonColor: '#d33',
+    //   cancelButtonText: 'Stay on site',
+    //   confirmButtonText: 'Download iOS app',
+    //   closeOnConfirm: false
+    // },
+    // function(){
+    //   window.location.href = 'https://itunes.apple.com/us/app/ux-recipe/id1078077486?ls=1&mt=8';
+    // })
 
 //     $(document).ready(function() {
 // swal({ 

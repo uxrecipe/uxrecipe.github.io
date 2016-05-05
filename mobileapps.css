@@ -1,6 +1,6 @@
 /* Base */
 
-#awwwards{
+#mobileapps{
 	position: absolute;
 	top: 20px;
 	width: 90px;
@@ -12,17 +12,17 @@
 	-webkit-transition: all 1s ease;
     transition: all 1s ease; 
 }
-#awwwards.top{
+#mobileapps.top{
 	top: 20px;
 }
-#awwwards.left{
+#mobileapps.left{
 	left: 0;
 }
-#awwwards.right{
+#mobileapps.right{
 	right: 0;
 }
 
-#awwwards a{
+#mobileapps a{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -35,28 +35,28 @@
 
 /* NOMINEE */
 
-#awwwards.nominee.black.left a{
+#mobileapps.nominee.black.left a{
 	background-image: url(ribbons/awwwards_nominee_black_left.png);
 }
-#awwwards.nominee.black.right a{
-	background-image: url(ribbons/awwwards_nominee_black_right.png);
+#mobileapps.nominee.black.right a{
+	background-image: url(ribbons/ios.png);
 }
-#awwwards.nominee.silver.left a{
+#mobileapps.nominee.silver.left a{
 	background-image: url(ribbons/awwwards_nominee_silver_left.png);
 }
-#awwwards.nominee.silver.right a{
+#mobileapps.nominee.silver.right a{
 	background-image: url(ribbons/awwwards_nominee_silver_right.png);
 }
-#awwwards.nominee.white.left a{
+#mobileapps.nominee.white.left a{
 	background-image: url(ribbons/awwwards_nominee_white_left.png);
 }
-#awwwards.nominee.white.right a{
+#mobileapps.nominee.white.right a{
 	background-image: url(ribbons/awwwards_nominee_white_right.png);
 }
-#awwwards.nominee.green.left a{
+#mobileapps.nominee.green.left a{
 	background-image: url(ribbons/awwwards_nominee_green_left.png);
 }
-#awwwards.nominee.green.right a{
+#mobileapps.nominee.green.right a{
 	background-image: url(ribbons/awwwards_nominee_green_right.png);
 }
 
@@ -64,28 +64,28 @@
 
 	/* NOMINEE */
 
-	#awwwards.nominee.black.left a{
+	#mobileapps.nominee.black.left a{
 		background-image: url(ribbons/awwwards_nominee_black_left@2x.png);
 	}
-	#awwwards.nominee.black.right a{
-		background-image: url(ribbons/awwwards_nominee_black_right@2x.png);
+	#mobileapps.nominee.black.right a{
+		background-image: url(ribbons/ios@2x.png);
 	}
-	#awwwards.nominee.silver.left a{
+	#mobileapps.nominee.silver.left a{
 		background-image: url(ribbons/awwwards_nominee_silver_left@2x.png);
 	}
-	#awwwards.nominee.silver.right a{
+	#mobileapps.nominee.silver.right a{
 		background-image: url(ribbons/awwwards_nominee_silver_right@2x.png);
 	}
-	#awwwards.nominee.white.left a{
+	#mobileapps.nominee.white.left a{
 		background-image: url(ribbons/awwwards_nominee_white_left@2x.png);
 	}
-	#awwwards.nominee.white.right a{
+	#mobileapps.nominee.white.right a{
 		background-image: url(ribbons/awwwards_nominee_white_right@2x.png);
 	}
-	#awwwards.nominee.green.left a{
+	#mobileapps.nominee.green.left a{
 		background-image: url(ribbons/awwwards_nominee_green_left@2x.png);
 	}
-	#awwwards.nominee.green.right a{
+	#mobileapps.nominee.green.right a{
 		background-image: url(ribbons/awwwards_nominee_green_right@2x.png);
 	}
 
