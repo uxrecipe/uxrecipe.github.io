@@ -356,8 +356,8 @@ h3 em {
 	text-align: left;
 	font-size: 14px;
 	line-height: 16px;
-	color: #fff;
-	background: #4CAF50;
+	color: #A7A9AC;
+	background: #FBFBFB;
 	display: block;
 	padding:10px;
 	padding-top: 20px;
@@ -375,6 +375,7 @@ h3 em {
 .heading {
 	font-size: 18px;
 	line-height: 32px;
+	color: #4CAF50;
 }
 
 
@@ -660,3 +661,16 @@ a[href="#conclusion"] {
 	text-shadow: 0 0px 0 rgba(0,0,0,.2);
 	border-radius: 0;
 }*/
+
+.select-style {
+    padding: 0;
+    padding-left: 3px;
+    margin: 0;
+    margin-top: 5px;
+    border: 1px solid #F3F3F3;
+    width: 80px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    display:inline; 
+}
