@@ -647,10 +647,16 @@ a[href="#conclusion"] {
 	margin-top: 150px !important;
 }
 
-.btn-group {
+/*.btn-group {
 	margin-top: 20px;
+	font-family: Roboto;
+
 }
 
 .btn-group a{
 	background: #fff;
-}
+	color: #A7A9AC;
+	border: none !important;
+	text-shadow: 0 0px 0 rgba(0,0,0,.2);
+	border-radius: 0;
+}*/
