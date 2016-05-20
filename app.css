@@ -24,9 +24,6 @@ label, .labelauty-unchecked, .labeluaty-checked {
 	width: 100% !important;
 }
 
-.labelauty-unchecked {
-	color: #A7A9AC;
-}
 
 /*hiding the table*/
 .toggled-off {
