@@ -2,10 +2,16 @@
 
 ## What's new 
 
-**Current version: 0.1.2**
+**Current version: 0.2**
 
-+ You can now save the calculation in
-.png format using html2canvas (still in experimental phase).
++ Updated the design to match the new logo.
+
++ Added list of currencies to select from when you calculate the final sum.
+
+
+**Version 0.1.2**
+
++ You can now save the calculation in PNG format using html2canvas (still in experimental phase).
 
 + Added new "supporters" section - all major blogs, websites or newsletter that shared UX Recipe.
 
