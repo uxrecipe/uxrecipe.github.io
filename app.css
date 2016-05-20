@@ -24,6 +24,9 @@ label, .labelauty-unchecked, .labeluaty-checked {
 	width: 100% !important;
 }
 
+.labelauty-unchecked {
+	color: #A7A9AC;
+}
 
 /*hiding the table*/
 .toggled-off {
@@ -79,7 +82,7 @@ h5 em {
 
 /*setting up the background*/
 html, .container-fluid{
-	background: #F2F4F6;
+	background: #ffffff;
 	background-image: url('img/pattern.png');
 	background-repeat: repeat-x;
 }
@@ -344,7 +347,7 @@ h3 em {
 }
 
 
-/*customizing the conclusin*/
+/*customizing the conclusion*/
 #conclusion {
 	padding: 20px;
 	display: none;
