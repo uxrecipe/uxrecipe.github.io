@@ -646,3 +646,11 @@ a[href="#conclusion"] {
 .ribbon-down {
 	margin-top: 150px !important;
 }
+
+.btn-group {
+	margin-top: 20px;
+}
+
+.btn-group a{
+	background: #fff;
+}
