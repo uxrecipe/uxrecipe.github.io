@@ -57,7 +57,7 @@ function htmlcanvas() {
     
     onrendered: function(canvas) {
       $( '.toggle-visible' ).css( 'visibility', 'visible' );
-      $( '#conclusion' ).css( 'margin-top', '-40px' );
+      $( '#conclusion' ).css( 'margin-top', '0px' );
     
       var img = canvas.toDataURL()
       

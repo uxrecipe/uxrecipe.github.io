@@ -557,7 +557,7 @@ a[href="#conclusion"] {
 	#uxlogo a, #uxlogo p, #getstarted, 
 	#acknowledgementspart1, #acknowledgementspart2,
 	.calculate-me, .btn-ux-danger, .btn-ux-reset, #hint, .supporters, #thanks, #awwwards, .print-me,
-	#ux-calculator h5, #mobileapps {
+	#ux-calculator h5, #mobileapps, #rates, #rates-paragraph {
 		display:none;
 	}
 
