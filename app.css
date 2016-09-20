@@ -348,7 +348,7 @@ h3 em {
 #conclusion {
 	padding: 20px;
 	display: none;
-	margin-top: -40px;
+	margin-top: 0px;
 
 }
 
@@ -673,4 +673,22 @@ a[href="#conclusion"] {
     overflow: hidden;
     background-color: #fff;
     display:inline; 
+}
+
+#rates-paragraph {
+	text-align: left;
+	margin-top: -30px;
+}
+
+#rates {
+	color: #FF443A;
+	font-size: 14px;
+	font-weight: 300;
+	text-decoration: underline;
+
+}
+
+#rates:hover, #rates:visited, #rates:focus {
+	color: #FF443A;
+	opacity: .7;
 }
