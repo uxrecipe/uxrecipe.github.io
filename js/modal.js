@@ -275,7 +275,7 @@ document.getElementById('rates').onclick = function(){
     '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 20 and 30 american dollars.</p>' +
     '<hr/>' +
     '<h5 style="margin-bottom: -5px;">Netherlands<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 10 and 65 (lowest) american dollars.</p>' +
+    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 10 and 65 american dollars.</p>' +
     '<hr/>' + 
     '<h5 style="margin-bottom: -5px;">Spain<h5>' +
     '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>EUR: </strong>' + 'between 25 and 30 (lowest), between 50 and 90 euros (highest).</p>' +
