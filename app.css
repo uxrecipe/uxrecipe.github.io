@@ -700,4 +700,9 @@ a[href="#conclusion"] {
 
 .country {
 	font-size: 21px;
+	margin-bottom: 15px !important;
+}
+
+.currencies {
+	font-size: 16px !important;
 }

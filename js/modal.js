@@ -236,74 +236,74 @@ document.getElementById('rates').onclick = function(){
   width: 600,
   confirmButtonText: 'OK! Thanks for the tips!',
   html:
-    '<h4 class="country" style="margin-bottom: -5px; text-align: left;">What`s with these hour rates?<h4>' +
+    '<h4 class="country" style="margin-bottom: -5px; text-align: left;">What`s with these hour rates?</h4>' +
     '<p style="margin-bottom: 5px; font-size: 14px; margin-top: 20px;">'
     +'Using <a href="http://hotjar.com/" target="_blank">Hotjar</a>' +' (analytics tool) I analyzed over 2600 recordings and extracted hour rate patterns. Here are the current findings. (Note: based on new data the rates might change. If you want to help out and refine the rates for each country, feel free to ' + '<a href="http://pxdotpt.com/contact/" target="_blank">reach me out</a>).</p>' +
     '<hr/>' +
-    '<h5 class="country" style="margin-bottom: -5px;">United States of America<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 15 and 50 (lowest), between 100 and 150 dollars (highest).</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">United States of America</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 15 and 50 (lowest), between 100 and 150 dollars (highest).</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">Australia<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>AUD: </strong>' + 'between 15 and 80 australian dollars.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Australia</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>AUD: </strong>' + 'between 15 and 80 australian dollars.</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">France<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>EUR: </strong>' + 'between 35 and 75 euros.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">France</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>EUR: </strong>' + 'between 35 and 75 euros.</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">Poland<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 20 and 30 american dollars.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>PLN: </strong>' + 'between 30 and 80 zlotys.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Poland</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 20 and 30 american dollars.</p>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>PLN: </strong>' + 'between 30 and 80 zlotys.</p>' +
     '<hr/>' 
     // + 
     // '<h5 style="margin-bottom: -5px;">India<h5>' +
     // '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 15 and 50 (lowest), between 100 and 150 (highest).</p>' +
     // '<hr/>' 
     +
-    '<h5 class="country" style="margin-bottom: -5px;">Brazil<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 60 and 80 american dollars.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>BRL: </strong>' + 'between 15 and 20 reals.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Brazil</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 60 and 80 american dollars.</p>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>BRL: </strong>' + 'between 15 and 20 reals.</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">Canada<h5>' +
-    '<p class="country" style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 50 and 80 american dollars.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Canada</h5>' +
+    '<p class="currencies" class="country" style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 50 and 80 american dollars.</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">Italy<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>EUR: </strong>' + 'between 35 and 45 euros.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Italy</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>EUR: </strong>' + 'between 35 and 45 euros.</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">Argentina<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 20 and 60 american dollars.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Argentina</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 20 and 60 american dollars.</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">Kyrgystan<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 20 and 30 american dollars.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Kyrgystan</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 20 and 30 american dollars.</p>' +
     '<hr/>' +
-    '<h5 class="country" style="margin-bottom: -5px;">Netherlands<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 10 and 65 american dollars.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Netherlands</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 10 and 65 american dollars.</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">Spain<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>EUR: </strong>' + 'between 25 and 30 (lowest), between 50 and 90 euros (highest).</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Spain</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>EUR: </strong>' + 'between 25 and 30 (lowest), between 50 and 90 euros (highest).</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">United Arab Emirates<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>AED: </strong>' + 'between 200 and 300 dirhams.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">United Arab Emirates</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>AED: </strong>' + 'between 200 and 300 dirhams.</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">Belgium<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>EUR: </strong>' + 'between 75 and 90 euros.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Belgium</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>EUR: </strong>' + 'between 75 and 90 euros.</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">Russia<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 10 and 20 american dollars.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Russia</h5>' +
+    '<p class="currencies" class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 10 and 20 american dollars.</p>' +
     '<hr/>' +
-    '<h5 class="country" style="margin-bottom: -5px;">United Kingdom<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>GBP: </strong>' + 'between 20 and 100 pounds.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">United Kingdom</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>GBP: </strong>' + 'between 20 and 100 pounds.</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">Philipines<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 10 and 25 american dollars.</p>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>PHP: </strong>' + 'between 200 and 300 pesos.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Philipines</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 10 and 25 american dollars.</p>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>PHP: </strong>' + 'between 200 and 300 pesos.</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">Morocco<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 50 and 60 american dollars.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Morocco</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 50 and 60 american dollars.</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">Saudi Arabia<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 10 and 50 american dollars.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Saudi Arabia</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 10 and 50 american dollars.</p>' +
     '<hr/>' + 
-    '<h5 class="country" style="margin-bottom: -5px;">Portugal<h5>' +
-    '<p style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 20 and 30 american dollars.</p>' +
+    '<h5 class="country" style="margin-bottom: -5px;">Portugal</h5>' +
+    '<p class="currencies" style="margin-bottom: 5px; font-size: 14px">' + '<strong>USD: </strong>' + 'between 20 and 30 american dollars.</p>' +
     '<hr/>'
 });
 };
