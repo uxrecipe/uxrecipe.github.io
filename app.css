@@ -692,3 +692,8 @@ a[href="#conclusion"] {
 	color: #FF443A;
 	opacity: .7;
 }
+
+.badge {
+	background: #F44336;
+	margin-right: 5px;
+}
